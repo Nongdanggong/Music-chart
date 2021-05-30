@@ -6,6 +6,8 @@ import subprocess
 from flask import Flask, jsonify
 from flask import render_template
 from flask import request
+from pkg.crawling import *
+
 
 app = Flask(__name__)
 

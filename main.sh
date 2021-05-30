@@ -8,7 +8,4 @@ chmod +x app.py
 
 firefox http://127.0.0.1:8999/
 
-#chmod +x kor_init.py
-#./kor_init.py
-
 
