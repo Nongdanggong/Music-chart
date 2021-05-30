@@ -1,2 +1,2 @@
-# korean-initiating
+# music chart
 OSP4
