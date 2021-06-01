@@ -8,6 +8,7 @@ from flask import Flask, render_template
 from pkg.crawling import *
 from pkg.list_sort import *
 from pkg.similar import *
+from pkg.tf_idf import *
 
 all_music = {}
 
@@ -17,7 +18,10 @@ all_music, genie_list = genie(all_music)
 #위 10개까지만 장르가 등록됩니다. (test용)
 #all_music = genre(all_music, 100)
 all_musics = list_sort(all_music)
-all_music = genre(all_music, 100)
+all_musics = genre(all_music, 100)
+
+#melon_genre = genre(melon_list,100)
+#print(melon_genre)
 
 for i in all_musics.values():
 	print(i)
@@ -34,3 +38,5 @@ genie_simil=cos_similarity(all_musics,genie_list,100)
 print("melon similarity = > ",melon_simil)
 print("bugs  similarity = > ",bugs_simil)
 print("genie similarity = > ",genie_simil)
+
+#TF_IDF(all_musics)
