@@ -1,8 +1,9 @@
-#!/usr/bin/python3
+#usr/bin/python3
 #-*- coding: utf-8 -*-
 
 import re
 import requests
+import numpy
 from bs4 import BeautifulSoup
 from flask import Flask, render_template
 
@@ -13,7 +14,7 @@ def melon():
 	melon={}
 	
 #우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 string으로 나타낸것
-	melon_list=' '
+	melon_list=[]
 
 	url = u'https://www.melon.com/chart/index.htm'
 	header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
@@ -30,12 +31,12 @@ def melon():
 
 	for i in range(100):
 		title = html_title[i].text.strip()
-		melon_list = melon_list + title + ' / '
+		melon_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
 		img = html_image[i].get('src')
 		
-		melon[title] = [i+1, artist, img, url_youtube]
+		melon[title] = [i+1, 1, artist, img, url_youtube]
 
 	return melon, melon_list
 
@@ -47,7 +48,7 @@ def bugs(all_music):
 #	all_music = {}
 #우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 string으로 나타낸것
 
-	bugs_list=' '
+	bugs_list=[]
 
 	url = u'https://music.bugs.co.kr/chart'
 	header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
@@ -63,15 +64,16 @@ def bugs(all_music):
 
 	for i in range(100):
 		title = html_title[i].text.strip()
-		bugs_list = bugs_list + title + ' / '
+		bugs_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
 		img = html_image[i].get('src')
 
 		if (title in all_music):
 			all_music[title][0] += i+1
+			all_music[title][1] += 1
 		else:
-			all_music[title] = [i+1, artist, img, url_youtube]
+			all_music[title] = [i+1, 1, artist, img, url_youtube]
 
 	return all_music, bugs_list
 
@@ -82,7 +84,7 @@ def genie(all_music):
 
 #	all_music = {}
 	
-	genie_list=' '
+	genie_list=[]
 
 	url = u'https://www.genie.co.kr/chart/top200'
 	header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
@@ -98,15 +100,16 @@ def genie(all_music):
 
 	for i in range(50):
 		title = html_title[i].text.strip()
-		genie_list = genie_list + title + ' / '
+		genie_list.append(title)
 		artist = html_artist[i].text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
 		img = html_image[i].get('src')
 
 		if (title in all_music):
 			all_music[title][0] += i+1
+			all_music[title][1] += 1 
 		else:
-			all_music[title] = [i+1, artist, img, url_youtube]
+			all_music[title] = [i+1, 1, artist, img, url_youtube]
 
 #2번째 페이지 (51~100)	
 	url = u'https://www.genie.co.kr/chart/top200?ditc=D&ymd=20210531&hh=01&rtm=Y&pg=2'
@@ -123,15 +126,16 @@ def genie(all_music):
 
 	for i in range(50):
 		title = html_title[i].text.strip()
-		genie_list = genie_list + title + ' / '
+		genie_list.append(title)
 		artist = html_artist[i].text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
 		img = html_image[i].get('src')
 
 		if (title in all_music):
 			all_music[title][0] += i+51
+			all_music[title][1] += 1
 		else:
-			all_music[title] = [i+51, artist, img, url_youtube]
+			all_music[title] = [i+51, 1, artist, img, url_youtube]
 
 #	print(all_music)
 
@@ -176,8 +180,44 @@ def genre(all_music, num):
 
 	return all_music
 
+def list_sort(all_music):
+	for key in all_music.keys():
+		if(all_music[key][1]!=1):
+			all_music[key][0] = (all_music[key][0]/all_music[key][1])
+	
+	list={}
+	i = 1
+	for key, value in sorted(all_music.items(), key=lambda x:x[1]):
+		list[key] = value
+		list[key][1] = i
+		i += 1
+			
+	return list
 
 
+def cos_similarity(all_list,one_list,number):
 
+	v_one=[]
+	v_all=[]
+	all = 1
+	i = 1
 
+	for key in all_list.keys():
+		v_all.append(all)
 
+		value = 0
+		for one_key in one_list:
+			if (key==one_key):
+				value = 1
+		v_one.append(value)
+		i += 1
+		if (i==101): 
+			break
+
+	#print(v_all)
+	#print(v_one)
+
+	x = numpy.dot(v_all,v_one)
+	result = x / (numpy.linalg.norm(v_all) * numpy.linalg.norm(v_one))
+	
+	return result
