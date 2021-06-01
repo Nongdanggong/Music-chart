@@ -6,6 +6,7 @@ import requests
 import numpy
 from bs4 import BeautifulSoup
 from flask import Flask, render_template
+from nltk import word_tokenize
 
 def melon():
 #if __name__ == '__main__':
@@ -148,17 +149,20 @@ def genie(all_music):
 def genre(all_music, num):
 	
 	repeat = 0
-
+	list =[]
 	for key in all_music.keys():
 		
 		repeat += 1
 
-		url = u'https://www.melon.com/search/song/index.htm?q=%s&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form' % key 
+		#url = u'https://www.melon.com/search/song/index.htm?q=%s&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form' % key 
+		url = u'https://www.melon.com/search/total/index.htm?q=%s&section=&linkOrText=T&ipath=srch_form' % key	
 
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
 		html = BeautifulSoup(req.content, "html.parser")
 		html_chart = html.find('tbody')
+		#if(html_chart == None):
+		#	continue
 
 		html_idnum = html_chart.find("div", attrs={'class':'wrap pd_none'})
 		idnum_string = html_idnum.find("button").get("onclick")
@@ -171,13 +175,19 @@ def genre(all_music, num):
 		html = BeautifulSoup(req_genre.content, "html.parser")
 		html_info = html.find("div", attrs={'class':'section_info'})
 		if(html_info == None):
+			all_music[key].append('0')
 			continue
 		html_dl = html_info.find("dl")
-		genre = html_dl.text.replace("\n"," ")
+		genre1 = html_dl.text.replace("\n"," ")
+		genre2 = word_tokenize(genre1)
+		for i in range(len(genre2)):
+			if(genre2[i]=='장르'):
+				genre = genre2[i+1]
+				break
 
 		all_music[key].append(genre)
 
-		if (repeat == num):
+		if (repeat >= num):
 			break
 
 	return all_music
