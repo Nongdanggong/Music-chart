@@ -153,7 +153,7 @@ def genre(all_music, num):
 		
 		repeat += 1
 
-		url = u'https://www.melon.com/search/total/index.htm?q=%s&section=&linkOrText=T&ipath=srch_form' % key 
+		url = u'https://www.melon.com/search/song/index.htm?q=%s&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form' % key 
 
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
@@ -170,6 +170,8 @@ def genre(all_music, num):
 
 		html = BeautifulSoup(req_genre.content, "html.parser")
 		html_info = html.find("div", attrs={'class':'section_info'})
+		if(html_info == None):
+			continue
 		html_dl = html_info.find("dl")
 		genre = html_dl.text.replace("\n"," ")
 
@@ -180,44 +182,3 @@ def genre(all_music, num):
 
 	return all_music
 
-def list_sort(all_music):
-	for key in all_music.keys():
-		if(all_music[key][1]!=1):
-			all_music[key][0] = (all_music[key][0]/all_music[key][1])
-	
-	list={}
-	i = 1
-	for key, value in sorted(all_music.items(), key=lambda x:x[1]):
-		list[key] = value
-		list[key][1] = i
-		i += 1
-			
-	return list
-
-
-def cos_similarity(all_list,one_list,number):
-
-	v_one=[]
-	v_all=[]
-	all = 1
-	i = 1
-
-	for key in all_list.keys():
-		v_all.append(all)
-
-		value = 0
-		for one_key in one_list:
-			if (key==one_key):
-				value = 1
-		v_one.append(value)
-		i += 1
-		if (i==101): 
-			break
-
-	#print(v_all)
-	#print(v_one)
-
-	x = numpy.dot(v_all,v_one)
-	result = x / (numpy.linalg.norm(v_all) * numpy.linalg.norm(v_one))
-	
-	return result
