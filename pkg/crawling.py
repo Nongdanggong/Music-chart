@@ -146,11 +146,11 @@ def genie(all_music):
 #시간이 오래걸리므로 테스트할때는 실행하지 않는 것 추천
 #이 과정을 시행하다가 중간에 멈추면 오류메세지가 뜸. 끝까지 수행할 때는 뜨지 않으니 안심할것
 
-def genre(all_music, num):
+def genre(site_list,num):
 	
 	repeat = 0
 	list =[]
-	for key in all_music.keys():
+	for key in site_list:
 		
 		repeat += 1
 
@@ -175,7 +175,7 @@ def genre(all_music, num):
 		html = BeautifulSoup(req_genre.content, "html.parser")
 		html_info = html.find("div", attrs={'class':'section_info'})
 		if(html_info == None):
-			all_music[key].append('0')
+			list.append('0')
 			continue
 		html_dl = html_info.find("dl")
 		genre1 = html_dl.text.replace("\n"," ")
@@ -185,10 +185,9 @@ def genre(all_music, num):
 				genre = genre2[i+1]
 				break
 
-		all_music[key].append(genre)
+		list.append(genre)
 
 		if (repeat >= num):
 			break
 
-	return all_music
-
+	return list 
