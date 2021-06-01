@@ -155,7 +155,7 @@ def genre(all_music, num):
 		repeat += 1
 
 		#url = u'https://www.melon.com/search/song/index.htm?q=%s&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form' % key 
-		url = u'https://www.melon.com/search/total/index.htm?q=%s&section=&linkOrText=T&ipath=srch_form' % key	
+		url = u'https://www.genie.co.kr/search/searchSong?query=%s&Coll=' % key
 
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
@@ -164,21 +164,21 @@ def genre(all_music, num):
 		#if(html_chart == None):
 		#	continue
 
-		html_idnum = html_chart.find("div", attrs={'class':'wrap pd_none'})
-		idnum_string = html_idnum.find("button").get("onclick")
+		html_idnum = html_chart.find("td", attrs={'class':'link'})
+		idnum_string = html_idnum.find("a").get("onclick")
 
 		numbers = re.findall("\d+", idnum_string)
 
-		url_genre = 'https://www.melon.com/song/detail.htm?songId='+numbers[0]
+		url_genre = 'https://www.genie.co.kr/detail/songInfo?xgnm=92749703='+numbers[0]
 		req_genre = requests.get(url_genre, headers = header) 
 
 		html = BeautifulSoup(req_genre.content, "html.parser")
-		html_info = html.find("div", attrs={'class':'section_info'})
+		html_info = html.find("div", attrs={'class':'info-zone'})
 		if(html_info == None):
 			all_music[key].append('0')
 			continue
-		html_dl = html_info.find("dl")
-		genre1 = html_dl.text.replace("\n"," ")
+		html_attr = html_info.find("span", attrs={'class':'attr'})
+		genre1 = html_attr.text.replace("\n"," ")
 		genre2 = word_tokenize(genre1)
 		for i in range(len(genre2)):
 			if(genre2[i]=='장르'):
