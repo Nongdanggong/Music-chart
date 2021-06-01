@@ -13,11 +13,22 @@ all_music, melon_list = melon()
 all_music, bugs_list = bugs(all_music)
 all_music, genie_list = genie(all_music)
 #위 10개까지만 장르가 등록됩니다. (test용)
-all_music = genre(all_music, 10)
+#all_music = genre(all_music, 100)
+all_musics = list_sort(all_music)
+all_music = genre(all_music, 100)
 
+for i in all_musics.values():
+	print(i)
+#print(all_musics,'\n\n')
+#print(melon_list,'\n\n')
+#print(bugs_list, '\n\n')
+#print(genie_list, '\n\n')
 
-
-print(all_music,'\n\n')
-print(melon_list,'\n\n')
-print(bugs_list, '\n\n')
-print(genie_list, '\n\n')
+# 순위(number=100) 100까지 유사도 분석
+melon_simil=cos_similarity(all_musics,melon_list,100)
+bugs_simil=cos_similarity(all_musics,bugs_list,100)
+genie_simil=cos_similarity(all_musics,genie_list,100)
+	
+print("melon similarity = > ",melon_simil)
+print("bugs  similarity = > ",bugs_simil)
+print("genie similarity = > ",genie_simil)
