@@ -169,7 +169,16 @@ def genre(all_music, num):
 
 		numbers = re.findall("\d+", idnum_string)
 
-		url_genre = 'https://www.genie.co.kr/detail/songInfo?xgnm=92749703='+numbers[0]
+#               제목에 숫자가 있는 경우 idnum을 잘못 인식하여 에러가 나는 것을 방지
+    
+                for i in numbers:
+                        inti = int(i)
+                        if (inti > 100000):
+                                idnum = i 
+                                break
+
+                url_genre = 'https://www.melon.com/song/detail.htm?songId='+idnum
+
 		req_genre = requests.get(url_genre, headers = header) 
 
 		html = BeautifulSoup(req_genre.content, "html.parser")
