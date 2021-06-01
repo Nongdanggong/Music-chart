@@ -6,6 +6,8 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, render_template
 from pkg.crawling import *
+from pkg.list_sort import *
+from pkg.similar import *
 
 all_music = {}
 
