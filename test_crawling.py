@@ -19,13 +19,7 @@ all_music, bugs_list = bugs(all_music)
 all_music, genie_list = genie(all_music)
 #위 10개까지만 장르가 등록됩니다. (test용)
 all_musics = list_sort(all_music)
-
-#melon_genre = genre(melon_list,100)
-#print(melon_genre)
-#bugs_genre = genre(bugs_list,100)
-#print(bugs_genre)
-genie_genre = genre(genie_list,100)
-print(genie_genre)
+all_musics = genre(all_musics,100)
 
 #for i in all_musics.values():
 #	print(i)
@@ -35,15 +29,17 @@ print(genie_genre)
 #print(genie_list,'\n\n')
 
 # 순위(number=100) 100까지 유사도 분석
-melon_simil=cos_similarity(all_musics,melon_list,100)
-bugs_simil=cos_similarity(all_musics,bugs_list,100)
-genie_simil=cos_similarity(all_musics,genie_list,100)
+melon_simil=cos_similarity(all_musics,melon_list,50)
+bugs_simil=cos_similarity(all_musics,bugs_list,50)
+genie_simil=cos_similarity(all_musics,genie_list,50)
 	
 print("melon similarity = > ",melon_simil)
 print("bugs  similarity = > ",bugs_simil)
 print("genie similarity = > ",genie_simil)
 
-#TF_IDF(all_musics)
+# TF_IDF(all_musics)
+all_tf = tf_idf(all_musics, 100)
+print(all_tf) 
 
 #전체 자료 dictionary화 (elasticsearch를 위한 자료 구조화)
 all_music = struct_all_music(all_music, #tf_idf)
@@ -58,6 +54,3 @@ print(genie)
 
 # elasticsearch 자료 생성
 el_create(all_music, melon, bugs, genie)
-
-
-
