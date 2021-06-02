@@ -19,5 +19,5 @@ def tf_idf(all_list, number):
 
 	g_lists = sorted(g_list.items(), key=lambda x:x[1], reverse=True)
 
-	return g_list
+	return g_lists
 
