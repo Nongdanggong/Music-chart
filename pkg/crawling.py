@@ -165,6 +165,11 @@ def genre(site_list,num):
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
 		html = BeautifulSoup(req.content, "html.parser")
+
+#		genre 함수 실행시 html_idnum 에서 오류 발생 -> 밑의 코드 주석 해제후 실행 해보기 -> "페이지를 찾을 수 없습니다" 뜰 시 멜론에서 ip가 차단당한것, 다른 ip로 접속하여 (휴대폰 핫스팟 등) 실행 시 실행 가능 할 것 (이 때는 다시 주석 처리 해주기)
+#		print(html.text)
+
+
 		html_chart = html.find('tbody')
 
 		html_idnum = html_chart.find("div", attrs={'class':'wrap pd_none'})
