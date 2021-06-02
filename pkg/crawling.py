@@ -113,7 +113,7 @@ def genie(all_music):
 			all_music[title] = [i+1, 1, artist, img, url_youtube]
 
 #2번째 페이지 (51~100)	
-	url = u'https://www.genie.co.kr/chart/top200?ditc=D&ymd=20210531&hh=01&rtm=Y&pg=2'
+	url = u'https://www.genie.co.kr/chart/top200?ditc=D&ymd=20210602&hh=13&rtm=Y&pg=2'
 	header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 	req = requests.get(url, headers = header) 
 
@@ -146,28 +146,31 @@ def genie(all_music):
 #시간이 오래걸리므로 테스트할때는 실행하지 않는 것 추천
 #이 과정을 시행하다가 중간에 멈추면 오류메세지가 뜸. 끝까지 수행할 때는 뜨지 않으니 안심할것
 
-def genre(all_music, num):
+def genre(site_list,num):
 	
 	repeat = 0
 	list =[]
-	for key in all_music.keys():
+	for key in site_list:
 		
 		repeat += 1
 
-		#url = u'https://www.melon.com/search/song/index.htm?q=%s&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form' % key 
-		url = u'https://www.melon.com/search/total/index.htm?q=%s&section=&linkOrText=T&ipath=srch_form' % key	
-
+		url = u'https://www.melon.com/search/total/index.htm?q=%s&section=&linkOrText=T&ipath=srch_form' % key
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
 		html = BeautifulSoup(req.content, "html.parser")
 		html_chart = html.find('tbody')
-		#if(html_chart == None):
-		#	continue
 
 		html_idnum = html_chart.find("div", attrs={'class':'wrap pd_none'})
 		idnum_string = html_idnum.find("button").get("onclick")
 
 		numbers = re.findall("\d+", idnum_string)
+
+		# 제목에 숫자가 있는 경우 idnum을 잘못 인식하여 에러가 나는 것을 방지
+		for i in numbers:
+			inti = int(i)
+			if (inti > 100000):
+				idnum = i 
+				break
 
 		url_genre = 'https://www.melon.com/song/detail.htm?songId='+numbers[0]
 		req_genre = requests.get(url_genre, headers = header) 
@@ -175,7 +178,7 @@ def genre(all_music, num):
 		html = BeautifulSoup(req_genre.content, "html.parser")
 		html_info = html.find("div", attrs={'class':'section_info'})
 		if(html_info == None):
-			all_music[key].append('0')
+			list.append('기타')
 			continue
 		html_dl = html_info.find("dl")
 		genre1 = html_dl.text.replace("\n"," ")
@@ -185,10 +188,9 @@ def genre(all_music, num):
 				genre = genre2[i+1]
 				break
 
-		all_music[key].append(genre)
+		list.append(genre)
 
 		if (repeat >= num):
 			break
 
-	return all_music
-
+	return list 
