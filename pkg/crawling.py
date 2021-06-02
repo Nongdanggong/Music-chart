@@ -11,7 +11,7 @@ from nltk import word_tokenize
 def melon():
 #if __name__ == '__main__':
 
-#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url / 장르(tf-idf하기 위한 string)]} 형태임.
+#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url]} 형태임.
 	melon={}
 	
 #우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 string으로 나타낸것
