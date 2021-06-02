@@ -42,15 +42,16 @@ all_tf = tf_idf(all_musics, 100)
 print(all_tf) 
 
 #전체 자료 dictionary화 (elasticsearch를 위한 자료 구조화)
-all_music = struct_all_music(all_music, #tf_idf)
-melon = struct_melon(melon_list, melon_genre, melon_simil)
-bugs = struct_bugs(bugs_list, bugs_genre, bugs_simil)
-genie = struct_genie(genie_list, genie_genre, bugs_simli)
+all_musics = struct_all_music(all_musics, all_tf)
+melon = struct_melon(melon_list, melon_simil)
+bugs = struct_bugs(bugs_list, bugs_simil)
+genie = struct_genie(genie_list, genie_simil)
 
-print(all_music)
+
+print(all_musics)
 print(melon)
 print(bugs)
 print(genie)
 
 # elasticsearch 자료 생성
-el_create(all_music, melon, bugs, genie)
+el_create(all_musics, melon, bugs, genie)
