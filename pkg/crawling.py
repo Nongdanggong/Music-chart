@@ -113,12 +113,18 @@ def genie(all_music):
 			all_music[title] = [i+1, 1, artist, img, url_youtube]
 
 #2번째 페이지 (51~100)	
-	url = u'https://www.genie.co.kr/chart/top200?ditc=D&ymd=20210602&hh=13&rtm=Y&pg=2'
+	#url = u'https://www.genie.co.kr/chart/top200?ditc=D&ymd=20210603&hh=00&rtm=Y&pg=2'
+	html_add_url = html.find("div", attrs={'class':'page-nav rank-page-nav'})
+
+	add_url = html_add_url.find_all('a')[1].get("href")
+
+	next_url = u'https://www.genie.co.kr/chart/top200'+add_url
+
 	header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
-	req = requests.get(url, headers = header) 
+	req = requests.get(next_url, headers = header) 
 
 	html = BeautifulSoup(req.content, "html.parser")
-
+	
 	html_chart = html.find('tbody')
 
 	html_title = html_chart.find_all("a", attrs={'class':'title ellipsis'})
@@ -146,11 +152,11 @@ def genie(all_music):
 #시간이 오래걸리므로 테스트할때는 실행하지 않는 것 추천
 #이 과정을 시행하다가 중간에 멈추면 오류메세지가 뜸. 끝까지 수행할 때는 뜨지 않으니 안심할것
 
-def genre(site_list,num):
+def genre(all_list,num):
 	
 	repeat = 0
 	list =[]
-	for key in site_list:
+	for key in all_list.keys():
 		
 		repeat += 1
 
@@ -158,6 +164,10 @@ def genre(site_list,num):
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
 		html = BeautifulSoup(req.content, "html.parser")
+	
+		# genre
+		print(html.text)
+ 	
 		html_chart = html.find('tbody')
 
 		html_idnum = html_chart.find("div", attrs={'class':'wrap pd_none'})
@@ -172,13 +182,13 @@ def genre(site_list,num):
 				idnum = i 
 				break
 
-		url_genre = 'https://www.melon.com/song/detail.htm?songId='+numbers[0]
+		url_genre = 'https://www.melon.com/song/detail.htm?songId='+idnum
 		req_genre = requests.get(url_genre, headers = header) 
 
 		html = BeautifulSoup(req_genre.content, "html.parser")
 		html_info = html.find("div", attrs={'class':'section_info'})
 		if(html_info == None):
-			list.append('기타')
+			all_list[key].append('기타')
 			continue
 		html_dl = html_info.find("dl")
 		genre1 = html_dl.text.replace("\n"," ")
@@ -188,9 +198,9 @@ def genre(site_list,num):
 				genre = genre2[i+1]
 				break
 
-		list.append(genre)
+		all_list[key].append(genre)
 
 		if (repeat >= num):
 			break
 
-	return list 
+	return all_list
