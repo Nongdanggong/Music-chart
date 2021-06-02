@@ -113,9 +113,16 @@ def genie(all_music):
 			all_music[title] = [i+1, 1, artist, img, url_youtube]
 
 #2번째 페이지 (51~100)	
-	url = u'https://www.genie.co.kr/chart/top200?ditc=D&ymd=20210602&hh=13&rtm=Y&pg=2'
+# url에 날짜가 반영되므로 첫 지니 crawling시 다음 페이지 url을 html태그에서 따로 받아옴
+
+	html_add_url = html.find("div", attrs={'class':'page-nav rank-page-nav'})
+
+	add_url = html_add_url.find_all('a')[1].get("href")
+
+	next_url = u'https://www.genie.co.kr/chart/top200'+add_url
+			
 	header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
-	req = requests.get(url, headers = header) 
+	req = requests.get(next_url, headers = header) 
 
 	html = BeautifulSoup(req.content, "html.parser")
 
@@ -172,7 +179,7 @@ def genre(site_list,num):
 				idnum = i 
 				break
 
-		url_genre = 'https://www.melon.com/song/detail.htm?songId='+numbers[0]
+		url_genre = 'https://www.melon.com/song/detail.htm?songId='+idnum
 		req_genre = requests.get(url_genre, headers = header) 
 
 		html = BeautifulSoup(req_genre.content, "html.parser")
