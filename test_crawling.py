@@ -8,7 +8,7 @@ from flask import Flask, render_template
 from pkg.crawling import *
 from pkg.list_sort import *
 from pkg.similar import *
-#from pkg.tf_idf import *
+from pkg.tf_idf import *
 from pkg.el_create import *
 
 
