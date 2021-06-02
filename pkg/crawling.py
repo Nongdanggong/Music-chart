@@ -11,7 +11,7 @@ from nltk import word_tokenize
 def melon():
 #if __name__ == '__main__':
 
-#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url / 장르(tf-idf하기 위한 string)]} 형태임.
+#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url]} 형태임.
 	melon={}
 	
 #우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 string으로 나타낸것
@@ -113,9 +113,16 @@ def genie(all_music):
 			all_music[title] = [i+1, 1, artist, img, url_youtube]
 
 #2번째 페이지 (51~100)	
-	url = u'https://www.genie.co.kr/chart/top200?ditc=D&ymd=20210602&hh=13&rtm=Y&pg=2'
+# url에 날짜가 반영되므로 첫 지니 crawling시 다음 페이지 url을 html태그에서 따로 받아옴
+
+	html_add_url = html.find("div", attrs={'class':'page-nav rank-page-nav'})
+
+	add_url = html_add_url.find_all('a')[1].get("href")
+
+	next_url = u'https://www.genie.co.kr/chart/top200'+add_url
+			
 	header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
-	req = requests.get(url, headers = header) 
+	req = requests.get(next_url, headers = header) 
 
 	html = BeautifulSoup(req.content, "html.parser")
 
@@ -158,6 +165,11 @@ def genre(site_list,num):
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
 		html = BeautifulSoup(req.content, "html.parser")
+
+#		genre 함수 실행시 html_idnum 에서 오류 발생 -> 밑의 코드 주석 해제후 실행 해보기 -> "페이지를 찾을 수 없습니다" 뜰 시 멜론에서 ip가 차단당한것, 다른 ip로 접속하여 (휴대폰 핫스팟 등) 실행 시 실행 가능 할 것 (이 때는 다시 주석 처리 해주기)
+#		print(html.text)
+
+
 		html_chart = html.find('tbody')
 
 		html_idnum = html_chart.find("div", attrs={'class':'wrap pd_none'})
@@ -172,7 +184,7 @@ def genre(site_list,num):
 				idnum = i 
 				break
 
-		url_genre = 'https://www.melon.com/song/detail.htm?songId='+numbers[0]
+		url_genre = 'https://www.melon.com/song/detail.htm?songId='+idnum
 		req_genre = requests.get(url_genre, headers = header) 
 
 		html = BeautifulSoup(req_genre.content, "html.parser")
