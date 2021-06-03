@@ -23,7 +23,7 @@ all_musics = genre(all_musics,10)
 
 #for i in all_musics.values():
 #	print(i)
-#print(all_musics,'\n\n')
+print(all_musics,'\n\n')
 #print(melon_list,'\n\n')
 #print(bugs_list, '\n\n')
 #print(genie_list,'\n\n')
@@ -48,10 +48,10 @@ bugs = struct_bugs(bugs_list, bugs_simil)
 genie = struct_genie(genie_list, genie_simil)
 
 
-print(all_musics)
-print(melon)
-print(bugs)
-print(genie)
+#print(all_musics)
+#print(melon)
+#print(bugs)
+#print(genie)
 
 # elasticsearch 자료 생성
 el_create(all_musics, melon, bugs, genie)
