@@ -11,7 +11,7 @@ from nltk import word_tokenize
 def melon():
 #if __name__ == '__main__':
 
-#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url]} 형태임.
+#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url / 장르]} 형태임.
 	melon={}
 	
 #우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 나타낸것
@@ -30,15 +30,24 @@ def melon():
 	html_image = html_chart.find_all("img")
 	html_genre = html_chart.find_all("tr")
 
+#	numsong = 0
+
 	for i in range(100):
-#엘라스틱 서치에서 데이터가 숫자로 시작하면 text가 아닌 long으로 인식, 에러가 나는 것을 방지하기위해 str()함수 사용
 		title = html_title[i].text.strip()
+
+#		if (len(re.findall("\d", title)) != 0):
+#			numsong += 1
+#			continue
+
 		melon_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
 		img = html_image[i].get('src')
 		
 		melon[title] = [i+1, 1, artist, img, url_youtube]
+
+#		print(i)
+#		print(numsong)
 
 	return melon, melon_list
 
@@ -66,6 +75,11 @@ def bugs(all_music):
 
 	for i in range(100):
 		title = html_title[i].text.strip()
+
+#		if (len(re.findall("\d", title)) != 0):
+#			numsong += 1
+#			continue
+
 		bugs_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
@@ -102,6 +116,11 @@ def genie(all_music):
 
 	for i in range(50):
 		title = html_title[i].text.strip()
+
+#		if (len(re.findall("\d", title)) != 0):
+#			numsong += 1
+#			continue
+
 		genie_list.append(title)
 		artist = html_artist[i].text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
@@ -135,6 +154,11 @@ def genie(all_music):
 
 	for i in range(50):
 		title = html_title[i].text.strip()
+
+#		if (len(re.findall("\d", title)) != 0):
+#			numsong += 1
+#			continue
+
 		genie_list.append(title)
 		artist = html_artist[i].text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
