@@ -27,28 +27,32 @@ def struct_bugs(bugs_list, bugs_simil):
 def struct_genie(genie_list, genie_simil):
 	genie = {}
 	genie["list"] = genie_list
-	genie["melon_simil"] = genie_simil
+	genie["genie_simil"] = genie_simil
 	return genie
 
-def el_create(all_music, melon, bugs, genie):
+def el_create(all_musics, melon, bugs, genie):
 	es_host="127.0.0.1"
 	es_port="9200"
 
 	es = Elasticsearch([{'host':es_host, 'port':es_port}])
 
+	es.create(index='music_chart', doc_type='all_music', id=1, body=all_musics, ignore=400)
+	es.create(index='music_chart', doc_type='melon', id=2, body=melon, ignore=400)
+	es.create(index='music_chart', doc_type='bugs', id=3, body=bugs, ignore=400)
+	es.create(index='music_chart', doc_type='genie', id=4, body=genie, ignore=400)
 
-	res = es.get(index='music_chart', doc_type='all_music', id=1, body=all_music)
+"""
+	res = es.get(index='music_chart', id=1, ignore=400)
 
 	if not res['found']:
-		es.index(index='music_chart', doc_type='all_music', id=1, body=all_music)
+		es.index(index='music_chart', doc_type='all_music', id=1, body=all_musics)
 		es.index(index='music_chart', doc_type='melon', id=2, body=melon)
 		es.index(index='music_chart', doc_type='bugs', id=3, body=bugs)
 		es.index(index='music_chart', doc_type='genie', id=4, body=genie)
 	else:
-		es.update(index='music_chart', doc_type='all_music', id=1, body=all_music)
+		es.update(index='music_chart', doc_type='all_music', id=1, body=all_musics)
 		es.update(index='music_chart', doc_type='melon', id=2, body=melon)
 		es.update(index='music_chart', doc_type='bugs', id=3, body=bugs)
 		es.update(index='music_chart', doc_type='genie', id=4, body=genie)
 
-
-	return
+	return"""
