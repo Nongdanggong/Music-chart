@@ -36,10 +36,10 @@ def el_create(all_musics, melon, bugs, genie):
 
 	es = Elasticsearch([{'host':es_host, 'port':es_port}])
 
-	es.create(index='music_chart', doc_type='all_music', id=1, body=all_musics, ignore=400)
-	es.create(index='music_chart', doc_type='melon', id=2, body=melon, ignore=400)
-	es.create(index='music_chart', doc_type='bugs', id=3, body=bugs, ignore=400)
-	es.create(index='music_chart', doc_type='genie', id=4, body=genie, ignore=400)
+	es.create(index='music_chart', doc_type='all_music', id=1, body=all_musics)
+	es.create(index='music_chart', doc_type='melon', id=2, body=melon)
+	es.create(index='music_chart', doc_type='bugs', id=3, body=bugs)
+	es.create(index='music_chart', doc_type='genie', id=4, body=genie)
 
 """
 	res = es.get(index='music_chart', id=1, ignore=400)

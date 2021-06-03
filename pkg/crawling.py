@@ -14,7 +14,7 @@ def melon():
 #기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url]} 형태임.
 	melon={}
 	
-#우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 string으로 나타낸것
+#우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 나타낸것
 	melon_list=[]
 
 	url = u'https://www.melon.com/chart/index.htm'
@@ -31,6 +31,7 @@ def melon():
 	html_genre = html_chart.find_all("tr")
 
 	for i in range(100):
+#엘라스틱 서치에서 데이터가 숫자로 시작하면 text가 아닌 long으로 인식, 에러가 나는 것을 방지하기위해 str()함수 사용
 		title = html_title[i].text.strip()
 		melon_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
