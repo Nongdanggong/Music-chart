@@ -21,9 +21,9 @@ all_music, genie_list = genie(all_music)
 all_musics = list_sort(all_music)
 all_musics = genre(all_musics,10)
 
-#for i in all_musics.values():
+#for i in all_musics.items():
 #	print(i)
-print(all_musics,'\n\n')
+#print(all_musics,'\n\n')
 #print(melon_list,'\n\n')
 #print(bugs_list, '\n\n')
 #print(genie_list,'\n\n')
@@ -33,13 +33,13 @@ melon_simil=cos_similarity(all_musics,melon_list,10)
 bugs_simil=cos_similarity(all_musics,bugs_list,10)
 genie_simil=cos_similarity(all_musics,genie_list,10)
 	
-print("melon similarity = > ",melon_simil)
-print("bugs  similarity = > ",bugs_simil)
-print("genie similarity = > ",genie_simil)
+#print("melon similarity = > ",melon_simil)
+#print("bugs  similarity = > ",bugs_simil)
+#print("genie similarity = > ",genie_simil)
 
 # TF_IDF(all_musics)
 all_tf = tf_idf(all_musics, 10)
-print(all_tf) 
+#print('\n\n', all_tf) 
 
 #전체 자료 dictionary화 (elasticsearch를 위한 자료 구조화)
 all_musics = struct_all_music(all_musics, all_tf)
@@ -48,10 +48,20 @@ bugs = struct_bugs(bugs_list, bugs_simil)
 genie = struct_genie(genie_list, genie_simil)
 
 
+#for i in all_musics.items():
+#	print(i)
+#for i in melon.items():
+#	print(i)
+#for i in bugs.items():
+#	print(i)
+#for i in genie.items():
+#	print(i)
+
 #print(all_musics)
 #print(melon)
 #print(bugs)
 #print(genie)
 
 # elasticsearch 자료 생성
-el_create(all_musics, melon, bugs, genie)
+el_create(melon, bugs, genie)
+
