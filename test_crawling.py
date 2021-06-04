@@ -11,7 +11,6 @@ from pkg.similar import *
 from pkg.tf_idf import *
 from pkg.el_create import *
 
-
 all_music = {}
 
 all_music, melon_list = melon()
