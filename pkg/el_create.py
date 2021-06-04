@@ -3,14 +3,15 @@ import sys
 import simplejson
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Index
-from pkg_ytb.ytb import *
+from ytb_pkg.ytb import *
 
 # index music chart - 
 #  1) all_music id 1
 #	{ "title" : [순위합, 빈도, artist, img_url, youtubr_url, genre(가져온것들만), top 5 youtube_id], "popular_genre" : [tf-idf 결과 인기있는 장르 순위 리스트로] }
 #  2) melon id 2
 #	{"list" : "100개의 순위 리스트", "genre" : "각 순위 노래들의 장르", "similarity" : "종합 차트와의 유사도(cosine)"}
-		
+
+
 def struct_all_music(all_music, list):
 	all_music["tf-idf"] = list 
 	count = 0

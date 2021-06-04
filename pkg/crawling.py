@@ -33,10 +33,6 @@ if __name__ == '__main__':
 	for i in range(100):
 		title = html_title[i].text.strip()
 
-#		엘라스틱 서치.. 제목 숫자문제..? XX 아님
-#		if (len(re.findall("\d", title)) != 0):
-#			continue
-		print(i)
 		melon_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
 		img = html_image[i].get('src')
