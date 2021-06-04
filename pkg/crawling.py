@@ -1,4 +1,4 @@
-#usr/bin/python3
+#!/usr/bin/python3
 #-*- coding: utf-8 -*-
 
 import re
@@ -8,10 +8,10 @@ from bs4 import BeautifulSoup
 from flask import Flask, render_template
 from nltk import word_tokenize
 
-def melon():
-#if __name__ == '__main__':
+#def melon():
+if __name__ == '__main__':
 
-#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url]} 형태임.
+#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / youtube url /  장르(뽑아온 것만), (+탑5 youtube_id)]} 형태임.
 	melon={}
 	
 #우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 나타낸것
@@ -30,35 +30,29 @@ def melon():
 	html_image = html_chart.find_all("img")
 	html_genre = html_chart.find_all("tr")
 
-#	numsong = 0
-
 	for i in range(100):
 		title = html_title[i].text.strip()
 
 #		엘라스틱 서치.. 제목 숫자문제..? XX 아님
 #		if (len(re.findall("\d", title)) != 0):
-#			numsong += 1
 #			continue
-
+		print(i)
 		melon_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
-		url_youtube = 'https://www.youtube.com/results?search_query='+title
 		img = html_image[i].get('src')
-		
+		url_youtube = 'https://www.youtube.com/results?search_query='+title
+
 		melon[title] = [i+1, 1, artist, img, url_youtube]
 
-#		print(i)
-#		print(numsong)
+	print(melon)
 
-	return melon, melon_list
+#	return melon, melon_list
 
 
 def bugs(all_music):
 #if __name__ == '__main__':
 
 #앞선 곡의 정보들은 파라미터로 받음 (이건 테스트용 test_crawling 실행할때 주석 제거해주세요)
-#	all_music = {}
-#우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 string으로 나타낸것
 
 	bugs_list=[]
 
