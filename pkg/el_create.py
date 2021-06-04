@@ -3,7 +3,7 @@ import sys
 import simplejson
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Index
-from ytb_pkg.ytb import *
+from pkg.ytb_pkg.ytb import *
 
 # index music chart - 
 #  1) all_music id 1
@@ -17,7 +17,7 @@ def struct_all_music(all_music, list):
 	count = 0
 # top 5 노래에 youtube_id 
 	for i in all_music.keys():
-		all_music[i][6] = youtube_search(i)
+		all_music[i].append(youtube_search(i))
 		count += 1
 		if (count == 5):
 			break
