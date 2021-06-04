@@ -63,5 +63,6 @@ genie = struct_genie(genie_list, genie_simil)
 #print(genie)
 
 # elasticsearch 자료 생성
-el_create(melon, bugs, genie)
+el_create(all_musics, melon, bugs, genie)
+#el_create(melon, bugs, genie)
 

@@ -11,7 +11,7 @@ from nltk import word_tokenize
 def melon():
 #if __name__ == '__main__':
 
-#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url / 장르]} 형태임.
+#기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / 유튜브 url]} 형태임.
 	melon={}
 	
 #우리 사이트와 유사도를 비교하기 위한 각 사이트의 곡 리스트들을 나타낸것
@@ -35,6 +35,7 @@ def melon():
 	for i in range(100):
 		title = html_title[i].text.strip()
 
+#		엘라스틱 서치.. 제목 숫자문제..? XX 아님
 #		if (len(re.findall("\d", title)) != 0):
 #			numsong += 1
 #			continue
@@ -75,11 +76,6 @@ def bugs(all_music):
 
 	for i in range(100):
 		title = html_title[i].text.strip()
-
-#		if (len(re.findall("\d", title)) != 0):
-#			numsong += 1
-#			continue
-
 		bugs_list.append(title)
 		artist = html_artist[i].find('a').text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
@@ -116,11 +112,6 @@ def genie(all_music):
 
 	for i in range(50):
 		title = html_title[i].text.strip()
-
-#		if (len(re.findall("\d", title)) != 0):
-#			numsong += 1
-#			continue
-
 		genie_list.append(title)
 		artist = html_artist[i].text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
@@ -154,11 +145,6 @@ def genie(all_music):
 
 	for i in range(50):
 		title = html_title[i].text.strip()
-
-#		if (len(re.findall("\d", title)) != 0):
-#			numsong += 1
-#			continue
-
 		genie_list.append(title)
 		artist = html_artist[i].text.strip()
 		url_youtube = 'https://www.youtube.com/results?search_query='+title
