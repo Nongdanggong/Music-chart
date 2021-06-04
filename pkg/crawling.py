@@ -199,6 +199,8 @@ def genre(all_list,num):
 		for i in range(len(genre2)):
 			if(genre2[i]=='장르'):
 				genre = genre2[i+1]
+				if (genre == 'R'):
+					genre = 'R&B'
 				break
 
 		all_list[key].append(genre)
