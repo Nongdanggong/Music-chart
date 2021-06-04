@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 from flask import Flask, render_template
 from nltk import word_tokenize
 
-#def melon():
-if __name__ == '__main__':
+def melon():
+#if __name__ == '__main__':
 
 #기본 데이터가 될 dictionary {곡 이름 : [순위합 / 아티스트 / 앨범 사진 url / youtube url /  장르(뽑아온 것만), (+탑5 youtube_id)]} 형태임.
 	melon={}
@@ -40,9 +40,9 @@ if __name__ == '__main__':
 
 		melon[title] = [i+1, 1, artist, img, url_youtube]
 
-	print(melon)
+#	print(melon)
 
-#	return melon, melon_list
+	return melon, melon_list
 
 
 def bugs(all_music):

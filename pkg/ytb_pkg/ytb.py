@@ -6,7 +6,7 @@ from oauth2client.tools import argparser
 
 def youtube_search(options):
 #if __name__ == "__main__":
-	DEVELOPER_KEY = "AIzaSyBsX5h-199nvIpGF5W066whkOW36HZOuj4"
+	DEVELOPER_KEY = "AIzaSyA5cMl3melptUMSEb6QmpXkGKQ-18kMd7E"
 	YOUTUBE_API_SERVICE_NAME = "youtube"
 	YOUTUBE_API_VERSION = "v3"
 
