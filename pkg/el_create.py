@@ -4,6 +4,7 @@ import simplejson
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Index
 from pkg.ytb_pkg.ytb import *
+from pkg.ytb_pkg.create_playlist import *
 
 # index music chart - 
 #  1) all_music id 1
@@ -16,12 +17,17 @@ def struct_all_music(all_music, list):
 	all_music["tf-idf"] = list 
 	count = 0
 # top 5 노래에 youtube_id 
+	video_ids = []
 	for i in all_music.keys():
-		all_music[i].append(youtube_search(i))
+		video_id = youtube_search(i)
+		all_music[i].append(video_id)
+		video_ids.append(video_id) # youtube_id만 있는 list 생성
 		count += 1
 		if (count == 5):
 			break
-	
+	create_playlist(video_ids) # youtube playlist 생성
+#	for i in range(5):
+#		print(video_ids[i])
 	return all_music
 
 def struct_melon(melon_list, melon_simil):
