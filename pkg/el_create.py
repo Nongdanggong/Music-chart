@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+
 import sys
 import simplejson
+import json
+import requests
+
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Index
 from pkg.ytb_pkg.ytb import *
@@ -11,7 +15,6 @@ from pkg.ytb_pkg.create_playlist import *
 #	{ "title" : [순위합, 빈도, artist, img_url, youtubr_url, genre(가져온것들만), top 5 youtube_id], "popular_genre" : [tf-idf 결과 인기있는 장르 순위 리스트로] }
 #  2) melon id 2
 #	{"list" : "100개의 순위 리스트", "genre" : "각 순위 노래들의 장르", "similarity" : "종합 차트와의 유사도(cosine)"}
-
 
 def struct_all_music(all_music, list):
 	all_music["tf-idf"] = list 
@@ -54,7 +57,7 @@ def el_create(all_musics, melon, bugs, genie):
 	es_port="9200"
 
 	es = Elasticsearch([{'host':es_host, 'port':es_port}])
-	
+
 # 엘라스틱 서치를 위해 타입을 모두 str으로 바꿈
 
 	dictnum = len(all_musics)
@@ -86,14 +89,13 @@ def el_create(all_musics, melon, bugs, genie):
 
 #		print(type(i))
 
-	print(all_musics["tf-idf"])
+#	print(all_musics["tf-idf"])
 
 	json_am = simplejson.dumps(all_musics, ignore_nan = True)
 	json_me = simplejson.dumps(melon, ignore_nan = True)
 	json_bu = simplejson.dumps(bugs, ignore_nan = True)
 	json_ge = simplejson.dumps(genie, ignore_nan = True)
-
-
+	
 # 해당 데이터들이 이미 존재하면 삭제후 다시 생성
 
 	if es.indices.exists(index="all_musics"):
@@ -109,10 +111,24 @@ def el_create(all_musics, melon, bugs, genie):
 		es.indices.delete(index="genie")
 
 
-	es.create(index='all_musics', doc_type='all_musics', id=1, body=json_am)
-	es.create(index='melon', doc_type='melon', id=2, body=json_me)
-	es.create(index='bugs', doc_type='bugs', id=3, body=json_bu)
-	es.create(index='genie', doc_type='genie', id=4, body=json_ge)
+	res = es.create(index='all_musics', doc_type='all_musics', id=1, body=json_am)
+	print(res)
+	res = es.create(index='melon', doc_type='melon', id=2, body=json_me)
+	print(res)
+	res = es.create(index='bugs', doc_type='bugs', id=3, body=json_bu)
+	print(res)
+	res = es.create(index='genie', doc_type='genie', id=4, body=json_ge)
+	print(res)
+
+# elasticsearch 상의 데이터 가져오기
+	response = requests.get("http://localhost:9200/all_musics/all_musics/1") 
+	res_json = response.json()
+	print(res_json)
+	
+# json 파일 형태로 저장하기
+	with open('file_am.json', 'w', encoding='utf-8') as file:
+		json.dump(res_json, file, ensure_ascii=False, indent='\t')
+	
 
 	return
 
