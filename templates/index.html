@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Chart</title>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+
+	<!-- 각자 필요한 json 파일-->
+	<script src="./rank.json" type="text/javascript"></script>
+	<script src="./similar.json" type="text/javascript"></script>
+	<script src="./genre.json" type ="text/javascript"></script>
+</head>
+<body>
+	<p style="color:blue;font-size:300%;text-align:center;"> --뮤직 차트--</p>
+	<h3>
+	<script language="JavaScript">
+		let ranks = JSON.parse(rank);
+
+		document.write("순위/ /타이틀/ /가수/ /장르");
+		document.write("<br/>");
+		
+		for (var i = 0; i < 4; i++) {
+			document.write((i + 1)+". ");
+			document.write(ranks[i].title);
+			document.write("/	/");
+			document.write(ranks[i].singer);
+			document.write("/	/");
+			document.write(ranks[i].genre);
+			document.write("<br/>");
+			document.write("<hr />");
+		}
+	</script>
+	</h3>	
+	<!-- 유사도 보여주는 부분-->
+	<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+	<script language="JavaScript">
+		let sim = JSON.parse(similar);
+	$(function() {
+		 
+		var chart = {
+		type: 'bar'
+  		 };
+  		 var title = {
+     		 text: '사이트 별 유사도'   
+  		 };
+  		 var subtitle = {
+ 		 text: '상위 10개곡' 
+  		 };
+  		 var xAxis = {
+    		 categories: ['Melon', 'Bugs', 'Genie'],
+     		 title: {
+       			 text: null
+     			 }
+  		 };
+		 var yAxis = {
+     		 min: 0,
+     		 title: {
+        		 text: null,
+      			 align: 'high'
+     			 },
+     		 labels: {
+    		 	overflow: 'justify'
+     			 }
+  		 };
+  		 var tooltip = {
+     			 valueSuffix: null 
+  		 };
+  		 var plotOptions = {
+     			 bar: {
+        			 dataLabels: {
+           				 enabled: true
+        			 }
+     			 },
+	 	 	series: {
+	    			stacking: 'normal'
+	 		 }
+  		 };
+  		 var legend = {
+     			 layout: 'vertical',
+     			 align: 'right',
+     			 verticalAlign: 'top',
+     			 x: -40,
+     			 y: 100,
+      			 floating: true,
+     			 borderWidth: 1,
+     			 backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+     			 shadow: true
+  		 };
+  		 var credits = {
+     			 enabled: false
+  		 };
+   
+ 		 var series= [{
+        		 name: '유사도',
+           		 data: [sim[0].melon, sim[1].bugs, sim[2].genie]
+       		 }];
+      
+   		var json = {};   
+  		json.chart = chart; 
+  		json.title = title;   
+  		json.subtitle = subtitle; 
+  		json.tooltip = tooltip;
+   		json.xAxis = xAxis;
+   		json.yAxis = yAxis;  
+   		json.series = series;
+   		json.plotOptions = plotOptions;
+   		json.legend = legend;
+   		json.credits = credits;
+   		$('#container').highcharts(json);
+  
+	});
+	</script>
+
+	<hr />
+	<p style="color:black;font-size:300%;text-align:center;"> --요즘 유행하는 장르는?--</p>	
+	<p style="color:gold;font-size:300%;text-align:center;"> 
+	
+	<script language="JavaScript">
+		let gen = JSON.parse(genre);
+		document.write("1위: ");
+		document.write(gen[0].genre);
+		document.write("<br/>");	
+	</script>
+	</p>
+	
+	<p style="color:black;font-size:300%;text-align:center;"> 
+	
+	<script language="JavaScript">
+		for (var i = 1; i < 5; i++) {
+			document.write((i + 1)+"위: ");
+			document.write(gen[i].genre);
+			document.write("<br/>");	
+		}
+	</script>
+	</p>
+	
+</body>
+</html>
