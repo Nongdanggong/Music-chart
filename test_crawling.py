@@ -10,6 +10,7 @@ from pkg.list_sort import *
 from pkg.similar import *
 from pkg.tf_idf import *
 from pkg.el_create import *
+from pkg.create_jsons import *
 
 all_music = {}
 
@@ -31,7 +32,11 @@ all_musics = genre(all_musics,10)
 melon_simil=cos_similarity(all_musics,melon_list,10)
 bugs_simil=cos_similarity(all_musics,bugs_list,10)
 genie_simil=cos_similarity(all_musics,genie_list,10)
-	
+
+similars = {1:{"melon":melon_simil}, 2:{"bugs":bugs_simil}, 3:{"genie":genie_simil}}
+with open('./templates/similars.json', 'w', encoding='utf-8') as f:
+    json.dump(similars, f, indent="\t") # /templates에 similars.json  파일생성
+
 #print("melon similarity = > ",melon_simil)
 #print("bugs  similarity = > ",bugs_simil)
 #print("genie similarity = > ",genie_simil)
@@ -64,4 +69,6 @@ genie = struct_genie(genie_list, genie_simil)
 # elasticsearch 자료 생성
 el_create(all_musics, melon, bugs, genie)
 #el_create(melon, bugs, genie)
+
+create_jsons() # /templates에 ranks.json, genres.json 파일생성
 
