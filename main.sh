@@ -7,6 +7,8 @@
 pip3 install apiclient
 pip3 install oauth2client
 
+./bin.elasticsearch -d
+
 chmod +x app.py
 ./app.py --listen-port=8899
 
