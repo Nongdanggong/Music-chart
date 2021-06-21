@@ -1,722 +1,674 @@
-{
-	"1": {
-		"title": "\ub124 \uc798\ubabb\uc774\uc57c (Feat. GRAY)",
-		"singer": "\uc720\uacb8 (YUGYEOM)"
-	},
-	"2": {
-		"title": "\uce58\ub9db\ubc14\ub78c (Chi Mat Ba Ram)",
-		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4"
-	},
-	"3": {
-		"title": "Butter",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"4": {
+ranks = '[
+	{
 		"title": "Next Level",
 		"singer": "aespa"
 	},
-	"5": {
+	{
+		"title": "\uce58\ub9db\ubc14\ub78c (Chi Mat Ba Ram)",
+		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4"
+	},
+	{
+		"title": "Butter",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
 		"title": "\ud5e4\ud508 \uc6b0\uc5f0",
 		"singer": "\ud5e4\uc774\uc988 (Heize)"
 	},
-	"6": {
+	{
 		"title": "Alcohol-Free",
 		"singer": "TWICE (\ud2b8\uc640\uc774\uc2a4)"
 	},
-	"7": {
+	{
 		"title": "Dun Dun Dance",
 		"singer": "\uc624\ub9c8\uc774\uac78 (OH MY GIRL)"
 	},
-	"8": {
-		"title": "\ube44\uc640 \ub2f9\uc2e0",
-		"singer": "\uc774\ubb34\uc9c4"
-	},
-	"9": {
-		"title": "Peaches (feat. Daniel Caesar, Giveon)",
-		"singer": "Justin Bieber(\uc800\uc2a4\ud2f4 \ube44\ubc84)"
-	},
-	"10": {
-		"title": "\uc548\ub155 (Hello)",
-		"singer": "\uc870\uc774 (JOY)"
-	},
-	"11": {
+	{
 		"title": "Peaches (Feat. Daniel Caesar & Giveon)",
 		"singer": "Justin Bieber"
 	},
-	"12": {
-		"title": "Dynamite",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	{
+		"title": "\ube44\uc640 \ub2f9\uc2e0",
+		"singer": "\uc774\ubb34\uc9c4"
 	},
-	"13": {
-		"title": "Pool Party (Feat. \uc774\ucc2c of DKB)",
-		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4(Brave Girls)"
-	},
-	"14": {
-		"title": "HERO",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"15": {
+	{
 		"title": "\ub864\ub9b0 (Rollin')",
 		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4"
 	},
-	"16": {
+	{
+		"title": "\uc548\ub155 (Hello)",
+		"singer": "\uc870\uc774 (JOY)"
+	},
+	{
 		"title": "ASAP",
 		"singer": "STAYC(\uc2a4\ud14c\uc774\uc528)"
 	},
-	"17": {
-		"title": "\ub2e4\uc2dc \uc0ac\ub791\ud55c\ub2e4\uba74 (\uae40\ud544 Ver.)",
-		"singer": "\uc784\uc601\uc6c5"
+	{
+		"title": "Peaches (feat. Daniel Caesar, Giveon)",
+		"singer": "Justin Bieber(\uc800\uc2a4\ud2f4 \ube44\ubc84)"
 	},
-	"18": {
-		"title": "\ube44\uac00 \ub0b4\ub9ac\uae30 \uc804\uc5d0",
-		"singer": "\ud5c8\uac01"
-	},
-	"19": {
-		"title": "\uc78a\uc5b4\uc57c \ud55c\ub2e4\ub294 \ub9c8\uc74c\uc73c\ub85c",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"20": {
+	{
 		"title": "\ub77c\uc77c\ub77d",
 		"singer": "\uc544\uc774\uc720"
 	},
-	"21": {
-		"title": "Heaven's Cloud",
-		"singer": "\uc138\ube10\ud2f4(SEVENTEEN)"
-	},
-	"22": {
-		"title": "Kiss Me More (feat. SZA)",
-		"singer": "Doja Cat(\ub3c4\uc790 \ucea3)"
-	},
-	"23": {
-		"title": "Anyone",
-		"singer": "\uc138\ube10\ud2f4(SEVENTEEN)"
-	},
-	"24": {
-		"title": "\uc0ac\uc774\ub80c Remix (Feat. UNEDUCATED KID, Paul Blanco)",
-		"singer": "\ud638\ubbf8\ub4e4"
-	},
-	"25": {
+	{
 		"title": "\uc6b4\uc804\ub9cc\ud574 (We Ride)",
 		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4"
 	},
-	"26": {
-		"title": "\ucd94\uc801\uc774\ub294 \uc5ec\ub984 \ube44\uac00 \ub418\uc5b4",
-		"singer": "\uc7a5\ubc94\uc900"
+	{
+		"title": "Dynamite",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
 	},
-	"27": {
-		"title": "\ubc14\ubcf4\uac19\uc9c0\ub9cc",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"28": {
-		"title": "\uc2e0\ud638\ub4f1",
-		"singer": "\uc774\ubb34\uc9c4"
-	},
-	"29": {
-		"title": "\ubbf8\uc6cc\uc694",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"30": {
-		"title": "\ub098 \ud63c\uc790 \uc5ec\ub984 (Summer by myself)",
-		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4(Brave Girls)"
-	},
-	"31": {
-		"title": "\uacc4\ub2e8\ub9d0\uace0 \uc5d8\ub9ac\ubca0\uc774\ud130",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"32": {
-		"title": "\ub0b4\uc0ac\ub78c",
-		"singer": "SG \uc6cc\ub108\ube44"
-	},
-	"33": {
-		"title": "\uc18c\ub098\uae30",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"34": {
+	{
 		"title": "Celebrity",
 		"singer": "\uc544\uc774\uc720"
 	},
-	"35": {
-		"title": "Black Mamba",
-		"singer": "aespa"
+	{
+		"title": "\ud5c8\ub9ac\ucda4",
+		"singer": "\uc624\ubc18 (OVAN)"
 	},
-	"36": {
-		"title": "\ub2f9\uc2e0",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"37": {
-		"title": "Timeless",
-		"singer": "SG \uc6cc\ub108\ube44"
-	},
-	"38": {
-		"title": "\ub530\ub77c\ub530\ub77c",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"39": {
-		"title": "\uc88b\uc744\ud150\ub370 (If Only) (Feat. \ud3f4\ud0b4)",
-		"singer": "\uc870\uc774 (JOY)"
-	},
-	"40": {
-		"title": "Ready to love",
-		"singer": "\uc138\ube10\ud2f4"
-	},
-	"41": {
-		"title": "\uc544\uc8fc NICE",
-		"singer": "\uc138\ube10\ud2f4 (SEVENTEEN)"
-	},
-	"42": {
+	{
 		"title": "\uc0c1\uc0c1\ub354\ud558\uae30",
 		"singer": "\ub77c\ubd90 (LABOUM)"
 	},
-	"43": {
-		"title": "\ub0b4 \ub9c8\uc74c \ubcc4\uacfc \uac19\uc774",
-		"singer": "\uc784\uc601\uc6c5"
+	{
+		"title": "\uc0ac\uc774\ub80c Remix (Feat. UNEDUCATED KID, Paul Blanco)",
+		"singer": "\ud638\ubbf8\ub4e4"
 	},
-	"44": {
-		"title": "Loving You Girl (feat. Hkeem)",
-		"singer": "Peder Elias"
-	},
-	"45": {
-		"title": "Savage Love (Laxed - Siren Beat) (BTS Remix)",
-		"singer": "Jawsh 685"
-	},
-	"46": {
-		"title": "\uc791\uc740 \uac83\ub4e4\uc744 \uc704\ud55c \uc2dc (Boy With Luv) (Feat. Halsey)",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"47": {
-		"title": "Leave The Door Open",
-		"singer": "Bruno Mars(\ube0c\ub8e8\ub178 \ub9c8\uc2a4)"
-	},
-	"48": {
-		"title": "\ucd94\uc5b5\uc740 \ub9cc\ub0a8\ubcf4\ub2e4 \uc774\ubcc4\uc5d0 \ub0a8\uc544",
-		"singer": "\uc815\ub3d9\ud558"
-	},
-	"49": {
-		"title": "\ubc24\ud558\ub298\uc758 \ubcc4\uc744(2020)",
-		"singer": "\uacbd\uc11c"
-	},
-	"50": {
-		"title": "Life Goes On",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"51": {
-		"title": "VVS (Feat. JUSTHIS) (Prod. GroovyRoom)",
-		"singer": "\ubbf8\ub780\uc774 (Mirani)"
-	},
-	"52": {
-		"title": "Lovesick Girls",
-		"singer": "BLACKPINK"
-	},
-	"53": {
-		"title": "\uc774\uc81c \ub098\ub9cc \ubbff\uc5b4\uc694",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"54": {
-		"title": "Dolphin",
-		"singer": "\uc624\ub9c8\uc774\uac78 (OH MY GIRL)"
-	},
-	"55": {
-		"title": "\uba5c\ub85c\ub514",
-		"singer": "ASH ISLAND"
-	},
-	"56": {
-		"title": "\ub0b4 \uc190\uc744 \uc7a1\uc544",
-		"singer": "\uc544\uc774\uc720"
-	},
-	"57": {
-		"title": "\ub9c8.\ud53c.\uc544. In the morning",
-		"singer": "ITZY (\uc788\uc9c0)"
-	},
-	"58": {
-		"title": "\ubc1d\uac8c \ube5b\ub098\ub294 \ubcc4\uc774 \ub418\uc5b4 \ube44\ucdb0\uc904\uac8c",
-		"singer": "\uc1a1\uc774\ud55c"
-	},
-	"59": {
-		"title": "\ubd04\ub0a0",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"60": {
+	{
 		"title": "\uc0ac\uc774\ub80c Remix (Feat. UNEDUCATED KID & Paul Blanco)",
 		"singer": "\ud638\ubbf8\ub4e4"
 	},
-	"61": {
-		"title": "Off My Face",
-		"singer": "Justin Bieber"
+	{
+		"title": "Timeless",
+		"singer": "SG \uc6cc\ub108\ube44"
 	},
-	"62": {
-		"title": "On The Ground",
-		"singer": "\ub85c\uc81c (ROS\u00c9)"
+	{
+		"title": "\uc2e0\ud638\ub4f1",
+		"singer": "\uc774\ubb34\uc9c4"
 	},
-	"63": {
-		"title": "GAM3 BO1",
-		"singer": "\uc138\ube10\ud2f4(SEVENTEEN)"
+	{
+		"title": "\ub9c8.\ud53c.\uc544. In the morning",
+		"singer": "ITZY (\uc788\uc9c0)"
 	},
-	"64": {
-		"title": "\uc5d0\uc787(Prod.&Feat. SUGA of BTS)",
-		"singer": "\uc544\uc774\uc720"
+	{
+		"title": "\ucd94\uc801\uc774\ub294 \uc5ec\ub984 \ube44\uac00 \ub418\uc5b4",
+		"singer": "\uc7a5\ubc94\uc900"
 	},
-	"65": {
+	{
+		"title": "Black Mamba",
+		"singer": "aespa"
+	},
+	{
 		"title": "\ub0b4 \uc785\uc220 \ub530\ub73b\ud55c \ucee4\ud53c\ucc98\ub7fc",
 		"singer": "\uccad\ud558"
 	},
-	"66": {
-		"title": "Beautiful Mistakes",
-		"singer": "Maroon 5(\ub9c8\ub8ec \ud30c\uc774\ube0c)"
-	},
-	"67": {
-		"title": "ON",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"68": {
-		"title": "\uc5b4\ub5bb\uac8c \uc774\ubcc4\uae4c\uc9c0 \uc0ac\ub791\ud558\uaca0\uc5b4, \ub110 \uc0ac\ub791\ud558\ub294 \uac70\uc9c0",
-		"singer": "AKMU (\uc545\ub3d9\ubba4\uc9c0\uc158)"
-	},
-	"69": {
-		"title": "\uc544\ub85c\ud558",
-		"singer": "\uc870\uc815\uc11d"
-	},
-	"70": {
-		"title": "\ub098\ubcf4\ub2e4 \ub354 \uc0ac\ub791\ud574\uc694",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"71": {
-		"title": "METEOR",
-		"singer": "\ucc3d\ubaa8 (CHANGMO)"
-	},
-	"72": {
-		"title": "\uc624\ub298\ub530\ub77c \ub354 \ubbf8\uc6b4 \uadf8\ub300\uac00",
-		"singer": "\uc804\uc0c1\uadfc"
-	},
-	"73": {
-		"title": "Wave",
-		"singer": "\uc138\ube10\ud2f4(SEVENTEEN)"
-	},
-	"74": {
-		"title": "IDOL",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"75": {
-		"title": "\ub2e4\uc815\ud788 \ub0b4 \uc774\ub984\uc744 \ubd80\ub974\uba74",
-		"singer": "\uacbd\uc11c\uc608\uc9c0"
-	},
-	"76": {
-		"title": "FEVER (\ud1a0\uc694\uc77c \ubc24\uc758 \uc5f4\uae30)",
-		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4(Brave Girls)"
-	},
-	"77": {
-		"title": "WE GO",
-		"singer": "\ud504\ub85c\ubbf8\uc2a4\ub098\uc778"
-	},
-	"78": {
-		"title": "parachute",
-		"singer": "John K"
-	},
-	"79": {
-		"title": "\ub9cc\uac1c (Prod. \uc2e0\uc9c0\ud6c4)",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"80": {
-		"title": "\uc624\ub798\ub41c \ub178\ub798",
-		"singer": "\uc2a4\ud0e0\ub529 \uc5d0\uadf8"
-	},
-	"81": {
-		"title": "\uac19\uc740 \uafc8, \uac19\uc740 \ub9d8, \uac19\uc740 \ubc24",
-		"singer": "\uc138\ube10\ud2f4(SEVENTEEN)"
-	},
-	"82": {
-		"title": "Coin",
-		"singer": "\uc544\uc774\uc720"
-	},
-	"83": {
-		"title": "riBBon",
-		"singer": "\ubc40\ubc40 (BamBam)"
-	},
-	"84": {
-		"title": "Je T\u2032aime",
+	{
+		"title": "\uc88b\uc744\ud150\ub370 (If Only) (Feat. \ud3f4\ud0b4)",
 		"singer": "\uc870\uc774 (JOY)"
 	},
-	"85": {
-		"title": "\ub098\ub791 \uac19\uc774 \uac78\uc744\ub798 (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X \uc801\uc7ac)",
-		"singer": "\uc801\uc7ac"
-	},
-	"86": {
-		"title": "Save Your Tears (Remix)",
-		"singer": "The Weeknd(\uc704\ucf04\ub4dc)"
-	},
-	"87": {
-		"title": "FAKE LOVE",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"88": {
-		"title": "\ubcc4\ube5b \uac19\uc740 \ub098\uc758 \uc0ac\ub791\uc544",
-		"singer": "\uc784\uc601\uc6c5"
-	},
-	"89": {
-		"title": "\ub77c\ub77c\ub77c",
-		"singer": "SG \uc6cc\ub108\ube44"
-	},
-	"90": {
-		"title": "\ub0b4\uc0ac\ub78c: Partner For Life",
-		"singer": "SG\uc6cc\ub108\ube44"
-	},
-	"91": {
-		"title": "\ucde8\uae30\ub97c \ube4c\ub824 (\ucde8\ud5a5\uc800\uaca9 \uadf8\ub140 X \uc0b0\ub4e4)",
-		"singer": "\uc0b0\ub4e4"
-	},
-	"92": {
-		"title": "\uc5b4\ud478 (Ah puh)",
+	{
+		"title": "\ub0b4 \uc190\uc744 \uc7a1\uc544",
 		"singer": "\uc544\uc774\uc720"
 	},
-	"93": {
-		"title": "\ub108\uc758 \ubc88\ud638\ub97c \ub204\ub974\uace0 (Prod. \uc601\ud654\ucc98\ub7fc)",
-		"singer": "#\uc548\ub155"
+	{
+		"title": "\ub0b4\uc0ac\ub78c",
+		"singer": "SG \uc6cc\ub108\ube44"
 	},
-	"94": {
-		"title": "\ud560\ubb34\ub2c8",
-		"singer": "\uae40\ud638\uc911"
+	{
+		"title": "Loving You Girl (feat. Hkeem)",
+		"singer": "Peder Elias"
 	},
-	"95": {
-		"title": "Memories",
-		"singer": "Maroon 5"
+	{
+		"title": "Kiss Me More (feat. SZA)",
+		"singer": "Doja Cat(\ub3c4\uc790 \ucea3)"
 	},
-	"96": {
-		"title": "I NEED U",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	{
+		"title": "Savage Love (Laxed - Siren Beat) (BTS Remix)",
+		"singer": "Jawsh 685"
 	},
-	"97": {
-		"title": "At My Worst",
-		"singer": "Pink Sweat$"
+	{
+		"title": "\uba5c\ub85c\ub514",
+		"singer": "ASH ISLAND"
 	},
-	"98": {
-		"title": "\ud754\ub4e4\ub9ac\ub294 \uaf43\ub4e4 \uc18d\uc5d0\uc11c \ub124 \uc0f4\ud478\ud5a5\uc774 \ub290\uaef4\uc9c4\uac70\uc57c",
-		"singer": "\uc7a5\ubc94\uc900"
+	{
+		"title": "\ub098 \ud63c\uc790 \uc5ec\ub984 (Summer by myself)",
+		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4(Brave Girls)"
 	},
-	"99": {
-		"title": "\uc7a0\uc774 \uc624\uc9c8 \uc54a\ub124\uc694",
-		"singer": "\uc7a5\ubc94\uc900"
+	{
+		"title": "HERO",
+		"singer": "\uc784\uc601\uc6c5"
 	},
-	"100": {
-		"title": "\ubd88\ud0c0\uc624\ub974\ub124 (FIRE)",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	{
+		"title": "Ready to love",
+		"singer": "\uc138\ube10\ud2f4"
 	},
-	"101": {
-		"title": "\uc5b4\ub5bb\uac8c \uc9c0\ub0b4 (Prod. By VAN.C)",
-		"singer": "\uc624\ubc18 (OVAN)"
-	},
-	"102": {
-		"title": "LOVE DAY (2021) (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X \uc591\uc694\uc12d, \uc815\uc740\uc9c0)",
-		"singer": "\uc591\uc694\uc12d"
-	},
-	"103": {
-		"title": "\uc0ac\uc2e4 \ub098\ub294 (Feat.\uc804\uac74\ud638)",
-		"singer": "\uacbd\uc11c\uc608\uc9c0"
-	},
-	"104": {
-		"title": "\uc0b4\uc558\uc18c",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"105": {
-		"title": "\ubaa8\ub4e0 \ub0a0, \ubaa8\ub4e0 \uc21c\uac04 (Every day, Every Moment)",
-		"singer": "\ud3f4\ud0b4"
-	},
-	"106": {
+	{
 		"title": "\uc6b0\ub9ac\uc9d1",
 		"singer": "2PM"
 	},
-	"107": {
-		"title": "\uace0\ub9d9\uc18c",
-		"singer": "\uae40\ud638\uc911"
+	{
+		"title": "FEVER (\ud1a0\uc694\uc77c \ubc24\uc758 \uc5f4\uae30)",
+		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4(Brave Girls)"
 	},
-	"108": {
-		"title": "Blueming",
-		"singer": "\uc544\uc774\uc720"
-	},
-	"109": {
-		"title": "\uc624\ub298\ub3c4 \ube5b\ub098\ub294 \ub108\uc5d0\uac8c (To You My Light) (Feat.\uc774\ub77c\uc628)",
-		"singer": "\ub9c8\ud06c\ud23d (MAKTUB)"
-	},
-	"110": {
-		"title": "2002",
-		"singer": "Anne-Marie"
-	},
-	"111": {
-		"title": "\uc774\ub807\uac8c \uc88b\uc544\ud574 \ubcf8 \uc801\uc774 \uc5c6\uc5b4\uc694",
-		"singer": "CHEEZE (\uce58\uc988)"
-	},
-	"112": {
-		"title": "\uc544\ubb34\ub3c4 \uc7a0\ub4e4\uc9c0 \ub9c8\ub77c (Nessun Dorma)",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"113": {
-		"title": "\uc0b4\uc9dd \uc124\ub81c\uc5b4 (Nonstop)",
-		"singer": "\uc624\ub9c8\uc774\uac78 (OH MY GIRL)"
-	},
-	"114": {
-		"title": "\ub10c \ub0b4\uaebc\uc57c",
-		"singer": "\uacbd\uc11c"
-	},
-	"115": {
-		"title": "\ub2a6\uc740 \ubc24 \ub108\uc758 \uc9d1 \uc55e \uace8\ubaa9\uae38\uc5d0\uc11c",
-		"singer": "\ub178\uc744"
-	},
-	"116": {
-		"title": "\ud53c \ub540 \ub208\ubb3c",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"117": {
-		"title": "\uc18c\uc6b0\uc8fc (Mikrokosmos)",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"118": {
-		"title": "Leave Before You Love Me",
-		"singer": "Marshmello(\ub9c8\uc2dc\uba5c\ub85c)"
-	},
-	"119": {
-		"title": "\uc0b4\ub2e4\uac00",
-		"singer": "SG \uc6cc\ub108\ube44"
-	},
-	"120": {
-		"title": "12:45 (Stripped)",
-		"singer": "Etham"
-	},
-	"121": {
-		"title": "\uadf8\ub0e5 \uc548\uc544\ub2ec\ub780 \ub9d0\uc57c",
-		"singer": "\ub2e4\ube44\uce58"
-	},
-	"122": {
-		"title": "\uadf8\ub0a0\uc5d0 \ub098\ub294 \ub9d8\uc774 \ud3b8\ud588\uc744\uae4c",
-		"singer": "\uc774\uc608\uc900"
-	},
-	"123": {
-		"title": "\ud798\ub4e0 \uac74 \uc0ac\ub791\uc774 \uc544\ub2c8\ub2e4",
-		"singer": "\uc784\ucc3d\uc815"
-	},
-	"124": {
-		"title": "How You Like That",
-		"singer": "BLACKPINK"
-	},
-	"125": {
-		"title": "Like 1999",
-		"singer": "Valley"
-	},
-	"126": {
-		"title": "\ud1f4\uadfc\uae38",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"127": {
-		"title": "\uc11c\uc6b8\uc758 \uc7a0 \ubabb \uc774\ub8e8\ub294 \ubc24 (Feat. \uc774\uc218\ud604)",
-		"singer": "10CM"
-	},
-	"128": {
-		"title": "\uae34 \ubc24 (Feat. \uae30\ub9ac\ubcf4\uc774)",
-		"singer": "Seori"
-	},
-	"129": {
-		"title": "\uae34 \ubc24 (feat. \uae30\ub9ac\ubcf4\uc774)",
-		"singer": "Seori"
-	},
-	"130": {
-		"title": "Dance Monkey",
-		"singer": "Tones And I"
-	},
-	"131": {
-		"title": "\uc560\uc778\uc774 \ub418\uc5b4\uc904\uac8c\uc694 (Prod. by \uc54c\uace0\ubcf4\ub2c8 & \ud63c\uc218\uc0c1\ud0dc)",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"132": {
-		"title": "\ub108\uc758 \ubc1c\uac78\uc74c\uc5d0 \ube5b\uc744 \ube44\ucdb0\uc904\uac8c (Prod. \uc870\uc601\uc218)",
-		"singer": "\ucf00\uc774\uc2dc (Kassy)"
-	},
-	"133": {
-		"title": "\uc6b0\uc0b0\uc774 \uc5c6\uc5b4\uc694",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"134": {
-		"title": "Happy Birthday To You",
-		"singer": "\uc870\uc774 (JOY)"
-	},
-	"135": {
-		"title": "\ub0a8\uc740 \uac83\uc740 \ub2f9\uc2e0\ubfd0",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"136": {
-		"title": "\ub9c8\uc74c\uc744 \ub4dc\ub824\uc694",
-		"singer": "\uc544\uc774\uc720"
-	},
-	"137": {
-		"title": "Love poem",
-		"singer": "\uc544\uc774\uc720"
-	},
-	"138": {
-		"title": "DNA",
-		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
-	},
-	"139": {
-		"title": "Paris In The Rain",
-		"singer": "Lauv"
-	},
-	"140": {
-		"title": "\ucc9c\ub144\uc758 \uc0ac\ub791",
-		"singer": "\uae40\ud638\uc911"
-	},
-	"141": {
-		"title": "I Love U",
-		"singer": "\uc131\uc2dc\uacbd"
-	},
-	"142": {
-		"title": "\ub108\ub97c \ub9cc\ub098",
-		"singer": "\ud3f4\ud0b4"
-	},
-	"143": {
-		"title": "If You Love Me (Feat. \uc8fc\ud5cc (\ubaac\uc2a4\ud0c0\uc5d1\uc2a4))",
-		"singer": "NS \uc724\uc9c0"
-	},
-	"144": {
-		"title": "\uc774 \ubc24\uc744 \ube4c\ub824 \ub9d0\ud574\uc694 (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X 10CM)",
-		"singer": "10CM"
-	},
-	"145": {
-		"title": "\ub0b4 \ub9c8\uc74c\uc774 \uc6c0\ucc14\ud588\ub358 \uc21c\uac04 (\ucde8\ud5a5\uc800\uaca9 \uadf8\ub140 X \uaddc\ud604)",
-		"singer": "\uaddc\ud604 (KYUHYUN)"
-	},
-	"146": {
-		"title": "\uc0ac\uc774\ub80c",
-		"singer": "\ud638\ubbf8\ub4e4"
-	},
-	"147": {
-		"title": "12 : 45 (Stripped)",
-		"singer": "etham"
-	},
-	"148": {
-		"title": "When We Disco (Duet with \uc120\ubbf8)",
-		"singer": "\ubc15\uc9c4\uc601"
-	},
-	"149": {
-		"title": "\uc544\uc774\uc640 \ub098\uc758 \ubc14\ub2e4",
-		"singer": "\uc544\uc774\uc720"
-	},
-	"150": {
-		"title": "\uccb4\ub150",
-		"singer": "\uc815\uc0c1\ub3d9\uae30 (\uae40\uc815\uc218, \uc815\uae30\uc11d, \uc774\ub3d9\ud718, \uc774\uc0c1\uc774)"
-	},
-	"151": {
-		"title": "\ubc24\ud558\ub298\uc758 \ubcc4\uc744 (2020)",
-		"singer": "\uacbd\uc11c"
-	},
-	"152": {
-		"title": "\uc2dc\uc791",
-		"singer": "\uac00\ud638 (Gaho)"
-	},
-	"153": {
-		"title": "Downtown Baby",
-		"singer": "\ube14\ub8e8 (BLOO)"
-	},
-	"154": {
-		"title": "\ub9db (Hot Sauce)",
-		"singer": "NCT DREAM"
-	},
-	"155": {
-		"title": "\uc6b0\ub9ac \uc65c \ud5e4\uc5b4\uc838\uc57c \ud574",
-		"singer": "\uc2e0\uc608\uc601"
-	},
-	"156": {
-		"title": "\ucc98\uc74c\ucc98\ub7fc (Feat. \uac1c\ub9ac)",
-		"singer": "\ud5e4\uc774\uc988(Heize)"
-	},
-	"157": {
-		"title": "\uace0\ubc31 (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X \ud5c8\uac01)",
-		"singer": "\ud5c8\uac01"
-	},
-	"158": {
-		"title": "\ud568\uaed8 \ud588\ub294\ub370 \uc774\ubcc4\uc740 \ub098 \ud63c\uc790\uc778 \uac70\uc57c",
-		"singer": "\uc18c\uc815 (\ub808\uc774\ub514\uc2a4 \ucf54\ub4dc)"
-	},
-	"159": {
-		"title": "Day By Day",
-		"singer": "\uc870\uc774 (JOY)"
-	},
-	"160": {
+	{
 		"title": "Don't fight the feeling",
 		"singer": "EXO"
 	},
-	"161": {
-		"title": "\uc6b0\ub9b0 \uc5b4\uca4c\ub2e4 \ud5e4\uc5b4\uc9c4 \uac78\uae4c",
-		"singer": "\ud5c8\uac01"
+	{
+		"title": "\ub2e4\uc2dc \uc0ac\ub791\ud55c\ub2e4\uba74 (\uae40\ud544 Ver.)",
+		"singer": "\uc784\uc601\uc6c5"
 	},
-	"162": {
-		"title": "Don't Start Now",
-		"singer": "Dua Lipa"
+	{
+		"title": "\ucd94\uc5b5\uc740 \ub9cc\ub0a8\ubcf4\ub2e4 \uc774\ubcc4\uc5d0 \ub0a8\uc544",
+		"singer": "\uc815\ub3d9\ud558"
 	},
-	"163": {
-		"title": "\uac10\uae30 (Feat. \ucc3d\ubaa8)",
-		"singer": "\ud5e4\uc774\uc988(Heize)"
+	{
+		"title": "Off My Face",
+		"singer": "Justin Bieber"
 	},
-	"164": {
-		"title": "\ubc24\ud3b8\uc9c0",
-		"singer": "\uc544\uc774\uc720(IU)"
+	{
+		"title": "\uac19\uc740 \uafc8, \uac19\uc740 \ub9d8, \uac19\uc740 \ubc24",
+		"singer": "\uc138\ube10\ud2f4 (SEVENTEEN)"
 	},
-	"165": {
-		"title": "\uae30\ub2e4\ub9b4\uac8c",
-		"singer": "\ud558\ub3d9\uade0"
+	{
+		"title": "GAM3 BO1",
+		"singer": "\uc138\ube10\ud2f4 (SEVENTEEN)"
 	},
-	"166": {
-		"title": "Maniac",
-		"singer": "Conan Gray"
+	{
+		"title": "VVS (Feat. JUSTHIS) (Prod. GroovyRoom)",
+		"singer": "\ubbf8\ub780\uc774 (Mirani)"
 	},
-	"167": {
-		"title": "Ashes",
-		"singer": "Stellar"
+	{
+		"title": "\uc78a\uc5b4\uc57c \ud55c\ub2e4\ub294 \ub9c8\uc74c\uc73c\ub85c",
+		"singer": "\uc784\uc601\uc6c5"
 	},
-	"168": {
-		"title": "\ub108\uc758 \ubc88\ud638\ub97c \ub204\ub974\uace0 (Prod. by \uc601\ud654\ucc98\ub7fc)",
+	{
+		"title": "\uc791\uc740 \uac83\ub4e4\uc744 \uc704\ud55c \uc2dc (Boy With Luv) (Feat. Halsey)",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "Blueming",
+		"singer": "\uc544\uc774\uc720"
+	},
+	{
+		"title": "Pool Party (Feat. \uc774\ucc2c of DKB)",
+		"singer": "\ube0c\ub808\uc774\ube0c\uac78\uc2a4(Brave Girls)"
+	},
+	{
+		"title": "Coin",
+		"singer": "\uc544\uc774\uc720"
+	},
+	{
+		"title": "Save Your Tears (Remix)",
+		"singer": "The Weeknd(\uc704\ucf04\ub4dc)"
+	},
+	{
+		"title": "Wave",
+		"singer": "\uc138\ube10\ud2f4 (SEVENTEEN)"
+	},
+	{
+		"title": "\uc5d0\uc787(Prod.&Feat. SUGA of BTS)",
+		"singer": "\uc544\uc774\uc720"
+	},
+	{
+		"title": "\ub77c\ub77c\ub77c",
+		"singer": "SG \uc6cc\ub108\ube44"
+	},
+	{
+		"title": "At My Worst",
+		"singer": "Pink Sweat$"
+	},
+	{
+		"title": "\uc544\uc8fc NICE",
+		"singer": "\uc138\ube10\ud2f4 (SEVENTEEN)"
+	},
+	{
+		"title": "Dolphin",
+		"singer": "\uc624\ub9c8\uc774\uac78 (OH MY GIRL)"
+	},
+	{
+		"title": "\ubc1d\uac8c \ube5b\ub098\ub294 \ubcc4\uc774 \ub418\uc5b4 \ube44\ucdb0\uc904\uac8c",
+		"singer": "\uc1a1\uc774\ud55c"
+	},
+	{
+		"title": "\ub2e4\uc815\ud788 \ub0b4 \uc774\ub984\uc744 \ubd80\ub974\uba74",
+		"singer": "\uacbd\uc11c\uc608\uc9c0"
+	},
+	{
+		"title": "\uc5b4\ud478 (Ah puh)",
+		"singer": "\uc544\uc774\uc720"
+	},
+	{
+		"title": "LOVE DAY (2021) (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X \uc591\uc694\uc12d, \uc815\uc740\uc9c0)",
+		"singer": "\uc591\uc694\uc12d"
+	},
+	{
+		"title": "\uc774\uc81c \ub098\ub9cc \ubbff\uc5b4\uc694",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "\ubbf8\uc6cc\uc694",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "Lovesick Girls",
+		"singer": "BLACKPINK"
+	},
+	{
+		"title": "Life Goes On",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\ubc24\ud558\ub298\uc758 \ubcc4\uc744(2020)",
+		"singer": "\uacbd\uc11c"
+	},
+	{
+		"title": "Je T\u2032aime",
+		"singer": "\uc870\uc774 (JOY)"
+	},
+	{
+		"title": "\uacc4\ub2e8\ub9d0\uace0 \uc5d8\ub9ac\ubca0\uc774\ud130",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "Heaven's Cloud",
+		"singer": "\uc138\ube10\ud2f4(SEVENTEEN)"
+	},
+	{
+		"title": "\ud754\ub4e4\ub9ac\ub294 \uaf43\ub4e4 \uc18d\uc5d0\uc11c \ub124 \uc0f4\ud478\ud5a5\uc774 \ub290\uaef4\uc9c4\uac70\uc57c",
+		"singer": "\uc7a5\ubc94\uc900"
+	},
+	{
+		"title": "On The Ground",
+		"singer": "\ub85c\uc81c (ROS\u00c9)"
+	},
+	{
+		"title": "Beautiful Mistakes",
+		"singer": "Maroon 5(\ub9c8\ub8ec \ud30c\uc774\ube0c)"
+	},
+	{
+		"title": "\ubc14\ubcf4\uac19\uc9c0\ub9cc",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "\ubd04\ub0a0",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\ub108\uc758 \ubc88\ud638\ub97c \ub204\ub974\uace0 (Prod. \uc601\ud654\ucc98\ub7fc)",
 		"singer": "#\uc548\ub155"
 	},
-	"169": {
-		"title": "\uac70\uc9d3\ub9d0\uc774\ub77c\ub3c4 \ud574\uc11c \ub110 \ubcf4\uace0\uc2f6\uc5b4",
-		"singer": "\ubc31\uc9c0\uc601"
+	{
+		"title": "\uc18c\ub098\uae30",
+		"singer": "\uc784\uc601\uc6c5"
 	},
-	"170": {
-		"title": "Winner",
-		"singer": "\uae40\uc724\uc544"
+	{
+		"title": "\ubc24\ud558\ub298\uc758 \ubcc4\uc744 (2020)",
+		"singer": "\uacbd\uc11c"
 	},
-	"171": {
-		"title": "\ub0b4\uc77c\uc774 \uc624\uba74 (Feat. \uae30\ub9ac\ubcf4\uc774, BIG Naughty (\uc11c\ub3d9\ud604))",
-		"singer": "\ub9b4\ubcf4\uc774 (lIlBOI)"
+	{
+		"title": "\uc7a0\uc774 \uc624\uc9c8 \uc54a\ub124\uc694",
+		"singer": "\uc7a5\ubc94\uc900"
 	},
-	"172": {
-		"title": "\uace0\ub798 (Dive Into You)",
-		"singer": "NCT DREAM"
+	{
+		"title": "\uc624\ub298\ub530\ub77c \ub354 \ubbf8\uc6b4 \uadf8\ub300\uac00",
+		"singer": "\uc804\uc0c1\uadfc"
 	},
-	"173": {
-		"title": "\uc5d0\uc787 (Prod. & Feat. SUGA of BTS)",
-		"singer": "\uc544\uc774\uc720 (IU)"
+	{
+		"title": "Anyone",
+		"singer": "\uc138\ube10\ud2f4(SEVENTEEN)"
 	},
-	"174": {
-		"title": "\ube44\ubc00\uc758 \ud654\uc6d0",
-		"singer": "\uc544\uc774\uc720(IU)"
+	{
+		"title": "WE GO",
+		"singer": "\ud504\ub85c\ubbf8\uc2a4\ub098\uc778"
 	},
-	"175": {
-		"title": "\uc548\ub155",
-		"singer": "\ud3f4\ud0b4"
-	},
-	"176": {
-		"title": "\ub9cc\uc57d\uc5d0",
-		"singer": "M.O.M (\ubcc4\ub8e8\uc9c0, \uac15\ucc3d\ubaa8, \ubc15\uc7ac\uc815, \uc6d0\uc288\ud0c0\uc778)"
-	},
-	"177": {
-		"title": "\ub108\uc758 \ubaa8\ub4e0 \uc21c\uac04",
-		"singer": "\uc131\uc2dc\uacbd"
-	},
-	"178": {
+	{
 		"title": "VVS (Feat. JUSTHIS) (Prod. by GroovyRoom)",
 		"singer": "\ubbf8\ub780\uc774 (Mirani) & \uba3c\uce58\ub9e8 (MUNCHMAN) & Khundi Panda & \uba38\uc26c\ubca0\ub188 (MUSHVENOM)"
 	},
-	"179": {
+	{
+		"title": "Day By Day",
+		"singer": "\uc870\uc774 (JOY)"
+	},
+	{
+		"title": "\ucde8\uae30\ub97c \ube4c\ub824 (\ucde8\ud5a5\uc800\uaca9 \uadf8\ub140 X \uc0b0\ub4e4)",
+		"singer": "\uc0b0\ub4e4"
+	},
+	{
+		"title": "\uccb4\ub150",
+		"singer": "\uc815\uc0c1\ub3d9\uae30 (\uae40\uc815\uc218, \uc815\uae30\uc11d, \uc774\ub3d9\ud718, \uc774\uc0c1\uc774)"
+	},
+	{
+		"title": "2002",
+		"singer": "Anne-Marie"
+	},
+	{
+		"title": "\ub530\ub77c\ub530\ub77c",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "\uc5b4\ub5bb\uac8c \uc774\ubcc4\uae4c\uc9c0 \uc0ac\ub791\ud558\uaca0\uc5b4, \ub110 \uc0ac\ub791\ud558\ub294 \uac70\uc9c0",
+		"singer": "AKMU (\uc545\ub3d9\ubba4\uc9c0\uc158)"
+	},
+	{
+		"title": "\uc5b4\ub5bb\uac8c \uc9c0\ub0b4 (Prod. By VAN.C)",
+		"singer": "\uc624\ubc18 (OVAN)"
+	},
+	{
+		"title": "\ub2f9\uc2e0",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "\ub098\ub791 \uac19\uc774 \uac78\uc744\ub798 (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X \uc801\uc7ac)",
+		"singer": "\uc801\uc7ac"
+	},
+	{
+		"title": "\ubcc4\ube5b \uac19\uc740 \ub098\uc758 \uc0ac\ub791\uc544",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "\ub0b4 \ub9c8\uc74c \ubcc4\uacfc \uac19\uc774",
+		"singer": "\uc784\uc601\uc6c5"
+	},
+	{
+		"title": "\uc624\ub798\ub41c \ub178\ub798",
+		"singer": "\uc2a4\ud0e0\ub529 \uc5d0\uadf8"
+	},
+	{
+		"title": "\ub0b4\uc0ac\ub78c: Partner For Life",
+		"singer": "SG\uc6cc\ub108\ube44"
+	},
+	{
+		"title": "\uc0ac\uc2e4 \ub098\ub294 (Feat.\uc804\uac74\ud638)",
+		"singer": "\uacbd\uc11c\uc608\uc9c0"
+	},
+	{
+		"title": "\uc624\ub298\ub3c4 \ube5b\ub098\ub294 \ub108\uc5d0\uac8c (To You My Light) (Feat.\uc774\ub77c\uc628)",
+		"singer": "\ub9c8\ud06c\ud23d (MAKTUB)"
+	},
+	{
+		"title": "Leave The Door Open",
+		"singer": "Bruno Mars(\ube0c\ub8e8\ub178 \ub9c8\uc2a4)"
+	},
+	{
+		"title": "\ub2a6\uc740 \ubc24 \ub108\uc758 \uc9d1 \uc55e \uace8\ubaa9\uae38\uc5d0\uc11c",
+		"singer": "\ub178\uc744"
+	},
+	{
+		"title": "\uc5d0\uc787 (Prod. & Feat. SUGA of BTS)",
+		"singer": "\uc544\uc774\uc720 (IU)"
+	},
+	{
+		"title": "\uc544\ub85c\ud558",
+		"singer": "\uc870\uc815\uc11d"
+	},
+	{
+		"title": "METEOR",
+		"singer": "\ucc3d\ubaa8 (CHANGMO)"
+	},
+	{
+		"title": "\uc774\ub807\uac8c \uc88b\uc544\ud574 \ubcf8 \uc801\uc774 \uc5c6\uc5b4\uc694",
+		"singer": "CHEEZE (\uce58\uc988)"
+	},
+	{
+		"title": "\ubc24\ud3b8\uc9c0",
+		"singer": "\uc544\uc774\uc720(IU)"
+	},
+	{
+		"title": "\ucc98\uc74c\ucc98\ub7fc (Feat. \uac1c\ub9ac)",
+		"singer": "\ud5e4\uc774\uc988(Heize)"
+	},
+	{
+		"title": "12 : 45 (Stripped)",
+		"singer": "etham"
+	},
+	{
+		"title": "\ud798\ub4e0 \uac74 \uc0ac\ub791\uc774 \uc544\ub2c8\ub2e4",
+		"singer": "\uc784\ucc3d\uc815"
+	},
+	{
+		"title": "\uadf8\ub7f4\ub54c\ub9c8\ub2e4 (Be There For You)",
+		"singer": "\uc870\uc774 (JOY)"
+	},
+	{
+		"title": "\uadf8\ub0a0\uc5d0 \ub098\ub294 \ub9d8\uc774 \ud3b8\ud588\uc744\uae4c",
+		"singer": "\uc774\uc608\uc900"
+	},
+	{
+		"title": "How You Like That",
+		"singer": "BLACKPINK"
+	},
+	{
+		"title": "12:45 (Stripped)",
+		"singer": "Etham"
+	},
+	{
+		"title": "DNA",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\ubaa8\ub4e0 \ub0a0, \ubaa8\ub4e0 \uc21c\uac04 (Every day, Every Moment)",
+		"singer": "\ud3f4\ud0b4"
+	},
+	{
+		"title": "Dance Monkey",
+		"singer": "Tones And I"
+	},
+	{
+		"title": "\uadf8\ub0e5 \uc548\uc544\ub2ec\ub780 \ub9d0\uc57c",
+		"singer": "\ub2e4\ube44\uce58"
+	},
+	{
+		"title": "\ub108\uc758 \ubc1c\uac78\uc74c\uc5d0 \ube5b\uc744 \ube44\ucdb0\uc904\uac8c (Prod. \uc870\uc601\uc218)",
+		"singer": "\ucf00\uc774\uc2dc (Kassy)"
+	},
+	{
+		"title": "parachute",
+		"singer": "John K"
+	},
+	{
+		"title": "\uc0b4\uc9dd \uc124\ub81c\uc5b4 (Nonstop)",
+		"singer": "\uc624\ub9c8\uc774\uac78 (OH MY GIRL)"
+	},
+	{
+		"title": "\ube44\uac00 \ub0b4\ub9ac\uae30 \uc804\uc5d0",
+		"singer": "\ud5c8\uac01"
+	},
+	{
+		"title": "If You Love Me (Feat. \uc8fc\ud5cc (\ubaac\uc2a4\ud0c0\uc5d1\uc2a4))",
+		"singer": "NS \uc724\uc9c0"
+	},
+	{
+		"title": "\ub9c8\uc74c\uc744 \ub4dc\ub824\uc694",
+		"singer": "\uc544\uc774\uc720"
+	},
+	{
+		"title": "Memories",
+		"singer": "Maroon 5"
+	},
+	{
+		"title": "I Love U",
+		"singer": "\uc131\uc2dc\uacbd"
+	},
+	{
+		"title": "Love poem",
+		"singer": "\uc544\uc774\uc720"
+	},
+	{
+		"title": "ON",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\ub108\ub97c \ub9cc\ub098",
+		"singer": "\ud3f4\ud0b4"
+	},
+	{
+		"title": "IDOL",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\uc774 \ubc24\uc744 \ube4c\ub824 \ub9d0\ud574\uc694 (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X 10CM)",
+		"singer": "10CM"
+	},
+	{
+		"title": "Paris In The Rain",
+		"singer": "Lauv"
+	},
+	{
+		"title": "Leave Before You Love Me",
+		"singer": "Marshmello(\ub9c8\uc2dc\uba5c\ub85c)"
+	},
+	{
+		"title": "\uc18c\uc6b0\uc8fc (Mikrokosmos)",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\uc11c\uc6b8\uc758 \uc7a0 \ubabb \uc774\ub8e8\ub294 \ubc24 (Feat. \uc774\uc218\ud604)",
+		"singer": "10CM"
+	},
+	{
+		"title": "\uc0ac\uc774\ub80c",
+		"singer": "\ud638\ubbf8\ub4e4"
+	},
+	{
+		"title": "\ub0b4 \ub9c8\uc74c\uc774 \uc6c0\ucc14\ud588\ub358 \uc21c\uac04 (\ucde8\ud5a5\uc800\uaca9 \uadf8\ub140 X \uaddc\ud604)",
+		"singer": "\uaddc\ud604 (KYUHYUN)"
+	},
+	{
+		"title": "\ub9db (Hot Sauce)",
+		"singer": "NCT DREAM"
+	},
+	{
+		"title": "When We Disco (Duet with \uc120\ubbf8)",
+		"singer": "\ubc15\uc9c4\uc601"
+	},
+	{
+		"title": "\uc0b4\ub2e4\uac00",
+		"singer": "SG \uc6cc\ub108\ube44"
+	},
+	{
+		"title": "Viva La Vida",
+		"singer": "Coldplay(\ucf5c\ub4dc\ud50c\ub808\uc774)"
+	},
+	{
+		"title": "\uc6b0\ub9b0 \uc5b4\uca4c\ub2e4 \ud5e4\uc5b4\uc9c4 \uac78\uae4c",
+		"singer": "\ud5c8\uac01"
+	},
+	{
+		"title": "\uc544\uc774\uc640 \ub098\uc758 \ubc14\ub2e4",
+		"singer": "\uc544\uc774\uc720"
+	},
+	{
+		"title": "\ub0b4\uc0ac\ub78c : Partner For Life",
+		"singer": "SG\uc6cc\ub108\ube44"
+	},
+	{
+		"title": "\uc2dc\uc791",
+		"singer": "\uac00\ud638 (Gaho)"
+	},
+	{
+		"title": "Ashes",
+		"singer": "Stellar"
+	},
+	{
+		"title": "Like 1999",
+		"singer": "Valley"
+	},
+	{
+		"title": "\uace0\ubc31 (\ubc14\ub978\uc5f0\uc560 \uae38\uc7a1\uc774 X \ud5c8\uac01)",
+		"singer": "\ud5c8\uac01"
+	},
+	{
+		"title": "\uc6b0\ub9ac \uc65c \ud5e4\uc5b4\uc838\uc57c \ud574",
+		"singer": "\uc2e0\uc608\uc601"
+	},
+	{
+		"title": "Don't Start Now",
+		"singer": "Dua Lipa"
+	},
+	{
+		"title": "Downtown Baby",
+		"singer": "\ube14\ub8e8 (BLOO)"
+	},
+	{
+		"title": "\uae30\ub2e4\ub9b4\uac8c",
+		"singer": "\ud558\ub3d9\uade0"
+	},
+	{
+		"title": "Little Bit of Love",
+		"singer": "Tom Grennan(\ud1b0 \uadf8\ub808\ub10c)"
+	},
+	{
+		"title": "\ud568\uaed8 \ud588\ub294\ub370 \uc774\ubcc4\uc740 \ub098 \ud63c\uc790\uc778 \uac70\uc57c",
+		"singer": "\uc18c\uc815 (\ub808\uc774\ub514\uc2a4 \ucf54\ub4dc)"
+	},
+	{
+		"title": "Maniac",
+		"singer": "Conan Gray"
+	},
+	{
+		"title": "HEAT",
+		"singer": "\ub9b4\ubcf4\uc774(lIlBOI)"
+	},
+	{
+		"title": "\ub9cc\uc57d\uc5d0",
+		"singer": "M.O.M (\ubcc4\ub8e8\uc9c0, \uac15\ucc3d\ubaa8, \ubc15\uc7ac\uc815, \uc6d0\uc288\ud0c0\uc778)"
+	},
+	{
 		"title": "\ubd04 \uc548\ub155 \ubd04",
 		"singer": "\uc544\uc774\uc720"
 	},
-	"180": {
+	{
+		"title": "\ubd88\ud0c0\uc624\ub974\ub124 (FIRE)",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\uc548\ub155",
+		"singer": "\ud3f4\ud0b4"
+	},
+	{
+		"title": "\uac70\uc9d3\ub9d0\uc774\ub77c\ub3c4 \ud574\uc11c \ub110 \ubcf4\uace0\uc2f6\uc5b4",
+		"singer": "\ubc31\uc9c0\uc601"
+	},
+	{
+		"title": "\uac10\uae30 (Feat. \ucc3d\ubaa8)",
+		"singer": "\ud5e4\uc774\uc988(Heize)"
+	},
+	{
+		"title": "FAKE LOVE",
+		"singer": "\ubc29\ud0c4\uc18c\ub144\ub2e8"
+	},
+	{
+		"title": "\ub3c5(Poison)",
+		"singer": "\ud551\ud06c\ud310\ud0c0\uc9c0"
+	},
+	{
+		"title": "\ub108\uc758 \ubaa8\ub4e0 \uc21c\uac04",
+		"singer": "\uc131\uc2dc\uacbd"
+	},
+	{
+		"title": "All of My Love",
+		"singer": "\ub2e4\ube44\uce58"
+	},
+	{
+		"title": "\ub0b4\uc77c\uc774 \uc624\uba74 (Feat. \uae30\ub9ac\ubcf4\uc774, BIG Naughty (\uc11c\ub3d9\ud604))",
+		"singer": "\ub9b4\ubcf4\uc774 (lIlBOI)"
+	},
+	{
+		"title": "\uc5b4\ub5bb\uac8c \uc9c0\ub0b4 (Prod. by VAN.C)",
+		"singer": "\uc624\ubc18 (OVAN)"
+	},
+	{
+		"title": "Happy Birthday To You",
+		"singer": "\uc870\uc774 (JOY)"
+	},
+	{
+		"title": "\ubc8c\uc368\uc77c\ub144",
+		"singer": "\ubc18\ud558\ub098 & MJ (\uc368\ub2c8\uc0ac\uc774\ub4dc)"
+	},
+	{
 		"title": "\uc11c\uba74\uc5ed\uc5d0\uc11c",
 		"singer": "\uc21c\uc21c\ud76c"
 	}
-}
+]';

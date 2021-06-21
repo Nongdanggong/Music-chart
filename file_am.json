@@ -7,17 +7,17 @@
 	"_primary_term": 1,
 	"found": true,
 	"_source": {
-		"네 잘못이야 (Feat. GRAY)": [
+		"Next Level": [
+			"1.6666666666666667",
 			"1",
-			"1",
-			"유겸 (YUGYEOM)",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/092/818/82092818_1623908989817_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=네 잘못이야 (Feat. GRAY)",
-			"R&B",
-			"VOx3OKP3nAE"
+			"aespa",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/09/232/10609232_20210517155130_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Next Level",
+			"댄스",
+			"4TWR90KJl84"
 		],
 		"치맛바람 (Chi Mat Ba Ram)": [
-			"2.6666666666666665",
+			"2.0",
 			"2",
 			"브레이브걸스",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/31/055/10631055_20210617140538_500.jpg/melon/resize/120/quality/80/optimize",
@@ -26,26 +26,17 @@
 			"e70PkoJhQYM"
 		],
 		"Butter": [
-			"3.3333333333333335",
+			"4.0",
 			"3",
 			"방탄소년단",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/12/483/10612483_20210521111412_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=Butter",
 			"댄스",
-			"WMweEpGlu_U"
-		],
-		"Next Level": [
-			"3.6666666666666665",
-			"4",
-			"aespa",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/09/232/10609232_20210517155130_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Next Level",
-			"댄스",
-			"IMpXNQ-MLT4"
+			"i9GZHNhalxg"
 		],
 		"헤픈 우연": [
-			"6.0",
-			"5",
+			"5.666666666666667",
+			"4",
 			"헤이즈 (Heize)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/11/845/10611845_20210520170350_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=헤픈 우연",
@@ -53,20 +44,29 @@
 			"8GPAW4dMxsY"
 		],
 		"Alcohol-Free": [
-			"7.333333333333333",
-			"6",
+			"6.0",
+			"5",
 			"TWICE (트와이스)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/23/687/10623687_20210611104446_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=Alcohol-Free",
-			"댄스"
+			"댄스",
+			"XA2YEHn-A8Q"
 		],
 		"Dun Dun Dance": [
-			"9.666666666666666",
-			"7",
+			"6.666666666666667",
+			"6",
 			"오마이걸 (OH MY GIRL)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/04/729/10604729_20210510143932_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=Dun Dun Dance",
 			"댄스"
+		],
+		"Peaches (Feat. Daniel Caesar & Giveon)": [
+			"9.0",
+			"7",
+			"Justin Bieber",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/80/103/10580103_20210319132819_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Peaches (Feat. Daniel Caesar & Giveon)",
+			"POP"
 		],
 		"비와 당신": [
 			"9.666666666666666",
@@ -76,1216 +76,1132 @@
 			"https://www.youtube.com/results?search_query=비와 당신",
 			"록/메탈"
 		],
-		"Peaches (feat. Daniel Caesar, Giveon)": [
-			"14",
+		"롤린 (Rollin')": [
+			"10.333333333333334",
 			"9",
-			"Justin Bieber(저스틴 비버)",
-			"https://image.bugsm.co.kr/album/images/50/151758/15175845.jpg?version=20210416161002.0",
-			"https://www.youtube.com/results?search_query=Peaches (feat. Daniel Caesar, Giveon)",
-			"POP"
+			"브레이브걸스",
+			"https://cdnimg.melon.co.kr/cm2/album/images/100/43/575/10043575_20210302112520_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=롤린 (Rollin')",
+			"댄스"
 		],
 		"안녕 (Hello)": [
-			"14.333333333333334",
+			"10.666666666666666",
 			"10",
 			"조이 (JOY)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/14/899/10614899_20210531150225_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=안녕 (Hello)",
 			"록/메탈"
 		],
-		"Peaches (Feat. Daniel Caesar & Giveon)": [
-			"14.5",
-			"11",
-			"Justin Bieber",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/80/103/10580103_20210319132819_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Peaches (Feat. Daniel Caesar & Giveon)"
-		],
-		"Dynamite": [
-			"15.0",
-			"12",
-			"방탄소년단",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/79/150/10479150_20200918102847_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Dynamite"
-		],
-		"Pool Party (Feat. 이찬 of DKB)": [
-			"16",
-			"13",
-			"브레이브걸스(Brave Girls)",
-			"https://image.bugsm.co.kr/album/images/50/40491/4049180.jpg?version=20210618114603.0",
-			"https://www.youtube.com/results?search_query=Pool Party (Feat. 이찬 of DKB)"
-		],
-		"HERO": [
-			"16",
-			"14",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/712/450/81712450_1604455590863_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=HERO"
-		],
-		"롤린 (Rollin')": [
-			"18.666666666666668",
-			"15",
-			"브레이브걸스",
-			"https://cdnimg.melon.co.kr/cm2/album/images/100/43/575/10043575_20210302112520_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=롤린 (Rollin')"
-		],
 		"ASAP": [
-			"19.0",
-			"16",
+			"11.333333333333334",
+			"11",
 			"STAYC(스테이씨)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/89/127/10589127_20210407175809_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=ASAP"
 		],
-		"다시 사랑한다면 (김필 Ver.)": [
-			"20",
-			"17",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/060/528/82060528_1621908802015_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=다시 사랑한다면 (김필 Ver.)"
-		],
-		"비가 내리기 전에": [
-			"20.5",
-			"18",
-			"허각",
-			"https://image.bugsm.co.kr/album/images/50/40496/4049620.jpg?version=20210620180025.0",
-			"https://www.youtube.com/results?search_query=비가 내리기 전에"
-		],
-		"잊어야 한다는 마음으로": [
-			"22",
-			"19",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/039/030/82039030_1620623733524_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=잊어야 한다는 마음으로"
+		"Peaches (feat. Daniel Caesar, Giveon)": [
+			"13",
+			"12",
+			"Justin Bieber(저스틴 비버)",
+			"https://image.bugsm.co.kr/album/images/50/151758/15175845.jpg?version=20210416161002.0",
+			"https://www.youtube.com/results?search_query=Peaches (feat. Daniel Caesar, Giveon)"
 		],
 		"라일락": [
-			"22.0",
-			"20",
+			"14.333333333333334",
+			"13",
 			"아이유",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=라일락"
 		],
-		"Heaven's Cloud": [
-			"22.5",
-			"21",
-			"세븐틴(SEVENTEEN)",
-			"https://image.bugsm.co.kr/album/images/50/204038/20403807.jpg?version=20210619002421.0",
-			"https://www.youtube.com/results?search_query=Heaven's Cloud"
-		],
-		"Kiss Me More (feat. SZA)": [
-			"23",
-			"22",
-			"Doja Cat(도자 캣)",
-			"https://image.bugsm.co.kr/album/images/50/152867/15286790.jpg?version=20210422160501.0",
-			"https://www.youtube.com/results?search_query=Kiss Me More (feat. SZA)"
-		],
-		"Anyone": [
-			"23.5",
-			"23",
-			"세븐틴(SEVENTEEN)",
-			"https://image.bugsm.co.kr/album/images/50/204038/20403807.jpg?version=20210619002421.0",
-			"https://www.youtube.com/results?search_query=Anyone"
-		],
-		"사이렌 Remix (Feat. UNEDUCATED KID, Paul Blanco)": [
-			"24.0",
-			"24",
-			"호미들",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/80/227/10580227_20210319163608_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=사이렌 Remix (Feat. UNEDUCATED KID, Paul Blanco)"
-		],
 		"운전만해 (We Ride)": [
-			"24.333333333333332",
-			"25",
+			"14.666666666666666",
+			"14",
 			"브레이브걸스",
 			"https://cdnimg.melon.co.kr/cm2/album/images/104/76/623/10476623_20200814143410_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=운전만해 (We Ride)"
 		],
-		"추적이는 여름 비가 되어": [
-			"24.666666666666668",
-			"26",
-			"장범준",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/25/851/10625851_20210611140742_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=추적이는 여름 비가 되어"
-		],
-		"바보같지만": [
-			"25",
-			"27",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/005/425/82005425_1618882141926_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=바보같지만"
-		],
-		"신호등": [
-			"25.666666666666668",
-			"28",
-			"이무진",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/07/796/10607796_20210513201807_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=신호등"
-		],
-		"미워요": [
-			"26",
-			"29",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/857/864/80857864_1470619426495_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=미워요"
-		],
-		"나 혼자 여름 (Summer by myself)": [
-			"27",
-			"30",
-			"브레이브걸스(Brave Girls)",
-			"https://image.bugsm.co.kr/album/images/50/40491/4049180.jpg?version=20210618063203.0",
-			"https://www.youtube.com/results?search_query=나 혼자 여름 (Summer by myself)"
-		],
-		"계단말고 엘리베이터": [
-			"27",
-			"31",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/095/517/81095517_1534733107067_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=계단말고 엘리베이터"
-		],
-		"내사람": [
-			"28",
-			"32",
-			"SG 워너비",
-			"https://cdnimg.melon.co.kr/cm/album/images/003/32/658/332658_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=내사람"
-		],
-		"소나기": [
-			"28",
-			"33",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/857/864/80857864_1470619426495_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=소나기"
+		"Dynamite": [
+			"15.0",
+			"15",
+			"방탄소년단",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/79/150/10479150_20200918102847_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Dynamite"
 		],
 		"Celebrity": [
-			"28.0",
-			"34",
+			"17.666666666666668",
+			"16",
 			"아이유",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=Celebrity"
 		],
-		"Black Mamba": [
-			"29",
-			"35",
-			"aespa",
-			"https://image.bugsm.co.kr/album/images/50/203611/20361192.jpg?version=20201126173950.0",
-			"https://www.youtube.com/results?search_query=Black Mamba"
-		],
-		"당신": [
-			"29",
-			"36",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/050/568/82050568_1621303059110_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=당신"
-		],
-		"Timeless": [
-			"29.666666666666668",
-			"37",
-			"SG 워너비",
-			"https://cdnimg.melon.co.kr/cm/album/images/003/99/659/399659_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Timeless"
-		],
-		"따라따라": [
-			"31",
-			"38",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/909/768/80909768_1483322602024_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=따라따라"
-		],
-		"좋을텐데 (If Only) (Feat. 폴킴)": [
-			"31",
-			"39",
-			"조이 (JOY)",
-			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
-			"https://www.youtube.com/results?search_query=좋을텐데 (If Only) (Feat. 폴킴)"
-		],
-		"Ready to love": [
-			"31.333333333333332",
-			"40",
-			"세븐틴",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/32/044/10632044_20210618114846_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Ready to love"
-		],
-		"아주 NICE": [
-			"32",
-			"41",
-			"세븐틴 (SEVENTEEN)",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/839/512/80839512_1467554077824_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=아주 NICE"
+		"허리춤": [
+			"18.5",
+			"17",
+			"오반 (OVAN)",
+			"https://image.bugsm.co.kr/album/images/50/40502/4050200.jpg?version=20210621180003.0",
+			"https://www.youtube.com/results?search_query=허리춤"
 		],
 		"상상더하기": [
-			"32.2",
-			"42",
+			"19.4",
+			"18",
 			"라붐 (LABOUM)",
 			"https://cdnimg.melon.co.kr/cm/album/images/026/77/681/2677681_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=상상더하기"
 		],
-		"내 마음 별과 같이": [
-			"33",
-			"43",
-			"임영웅",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/026/688/82026688_1620090247186_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=내 마음 별과 같이"
+		"사이렌 Remix (Feat. UNEDUCATED KID, Paul Blanco)": [
+			"21.5",
+			"19",
+			"호미들",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/80/227/10580227_20210319163608_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=사이렌 Remix (Feat. UNEDUCATED KID, Paul Blanco)"
 		],
-		"Loving You Girl (feat. Hkeem)": [
-			"34",
-			"44",
-			"Peder Elias",
-			"https://image.bugsm.co.kr/album/images/50/154178/15417837.jpg?version=20210601181552.0",
-			"https://www.youtube.com/results?search_query=Loving You Girl (feat. Hkeem)"
+		"사이렌 Remix (Feat. UNEDUCATED KID & Paul Blanco)": [
+			"24",
+			"20",
+			"호미들",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/953/909/81953909_1616136514994_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=사이렌 Remix (Feat. UNEDUCATED KID & Paul Blanco)"
 		],
-		"Savage Love (Laxed - Siren Beat) (BTS Remix)": [
-			"35.333333333333336",
-			"45",
-			"Jawsh 685",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/98/123/10498123_20201002094556_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Savage Love (Laxed - Siren Beat) (BTS Remix)"
+		"Timeless": [
+			"24.0",
+			"21",
+			"SG 워너비",
+			"https://cdnimg.melon.co.kr/cm/album/images/003/99/659/399659_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Timeless"
 		],
-		"작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)": [
-			"35.666666666666664",
-			"46",
-			"방탄소년단",
-			"https://cdnimg.melon.co.kr/cm/album/images/102/73/641/10273641_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)"
-		],
-		"Leave The Door Open": [
-			"39",
-			"47",
-			"Bruno Mars(브루노 마스)",
-			"https://image.bugsm.co.kr/album/images/50/40329/4032926.jpg?version=20210311120043.0",
-			"https://www.youtube.com/results?search_query=Leave The Door Open"
-		],
-		"추억은 만남보다 이별에 남아": [
-			"39",
-			"48",
-			"정동하",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/56/610/10556610_20210129172644_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=추억은 만남보다 이별에 남아"
-		],
-		"밤하늘의 별을(2020)": [
-			"39.5",
-			"49",
-			"경서",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/18/234/10518234_20210216102853_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=밤하늘의 별을(2020)"
-		],
-		"Life Goes On": [
-			"39.666666666666664",
-			"50",
-			"방탄소년단",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/21/521/10521521_20201120112220_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Life Goes On"
-		],
-		"VVS (Feat. JUSTHIS) (Prod. GroovyRoom)": [
-			"40",
-			"51",
-			"미란이 (Mirani)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/21/601/10521601_20201120125511_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=VVS (Feat. JUSTHIS) (Prod. GroovyRoom)"
-		],
-		"Lovesick Girls": [
-			"40.0",
-			"52",
-			"BLACKPINK",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/98/032/10498032_20200929122954_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Lovesick Girls"
-		],
-		"이제 나만 믿어요": [
-			"40.5",
-			"53",
-			"임영웅",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/12/319/10412319_20200403103006_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=이제 나만 믿어요"
-		],
-		"Dolphin": [
-			"41.0",
-			"54",
-			"오마이걸 (OH MY GIRL)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/23/289/10423289_20200427153909_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Dolphin"
-		],
-		"멜로디": [
-			"41.0",
-			"55",
-			"ASH ISLAND",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/70/193/10570193_20210225111143_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=멜로디"
-		],
-		"내 손을 잡아": [
-			"41.333333333333336",
-			"56",
-			"아이유",
-			"https://cdnimg.melon.co.kr/cm/album/images/012/86/252/1286252_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=내 손을 잡아"
+		"신호등": [
+			"24.0",
+			"22",
+			"이무진",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/07/796/10607796_20210513201807_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=신호등"
 		],
 		"마.피.아. In the morning": [
-			"43.0",
-			"57",
+			"24.666666666666668",
+			"23",
 			"ITZY (있지)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/00/760/10600760_20210429213541_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=마.피.아. In the morning"
 		],
+		"추적이는 여름 비가 되어": [
+			"25.333333333333332",
+			"24",
+			"장범준",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/25/851/10625851_20210611140742_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=추적이는 여름 비가 되어"
+		],
+		"Black Mamba": [
+			"27",
+			"25",
+			"aespa",
+			"https://image.bugsm.co.kr/album/images/50/203611/20361192.jpg?version=20201126173950.0",
+			"https://www.youtube.com/results?search_query=Black Mamba"
+		],
+		"내 입술 따뜻한 커피처럼": [
+			"27.5",
+			"26",
+			"청하",
+			"https://image.bugsm.co.kr/album/images/50/204014/20401457.jpg?version=20210610002945.0",
+			"https://www.youtube.com/results?search_query=내 입술 따뜻한 커피처럼"
+		],
+		"좋을텐데 (If Only) (Feat. 폴킴)": [
+			"28",
+			"27",
+			"조이 (JOY)",
+			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
+			"https://www.youtube.com/results?search_query=좋을텐데 (If Only) (Feat. 폴킴)"
+		],
+		"내 손을 잡아": [
+			"28.0",
+			"28",
+			"아이유",
+			"https://cdnimg.melon.co.kr/cm/album/images/012/86/252/1286252_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=내 손을 잡아"
+		],
+		"내사람": [
+			"29",
+			"29",
+			"SG 워너비",
+			"https://cdnimg.melon.co.kr/cm/album/images/003/32/658/332658_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=내사람"
+		],
+		"Loving You Girl (feat. Hkeem)": [
+			"30",
+			"30",
+			"Peder Elias",
+			"https://image.bugsm.co.kr/album/images/50/154178/15417837.jpg?version=20210601181552.0",
+			"https://www.youtube.com/results?search_query=Loving You Girl (feat. Hkeem)"
+		],
+		"Kiss Me More (feat. SZA)": [
+			"31",
+			"31",
+			"Doja Cat(도자 캣)",
+			"https://image.bugsm.co.kr/album/images/50/152867/15286790.jpg?version=20210422160501.0",
+			"https://www.youtube.com/results?search_query=Kiss Me More (feat. SZA)"
+		],
+		"Savage Love (Laxed - Siren Beat) (BTS Remix)": [
+			"31.0",
+			"32",
+			"Jawsh 685",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/98/123/10498123_20201002094556_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Savage Love (Laxed - Siren Beat) (BTS Remix)"
+		],
+		"멜로디": [
+			"31.666666666666668",
+			"33",
+			"ASH ISLAND",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/70/193/10570193_20210225111143_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=멜로디"
+		],
+		"나 혼자 여름 (Summer by myself)": [
+			"33",
+			"34",
+			"브레이브걸스(Brave Girls)",
+			"https://image.bugsm.co.kr/album/images/50/40491/4049180.jpg?version=20210618063203.0",
+			"https://www.youtube.com/results?search_query=나 혼자 여름 (Summer by myself)"
+		],
+		"HERO": [
+			"33",
+			"35",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/712/450/81712450_1604455590863_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=HERO"
+		],
+		"Ready to love": [
+			"33.666666666666664",
+			"36",
+			"세븐틴",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/32/044/10632044_20210618114846_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Ready to love"
+		],
+		"우리집": [
+			"34",
+			"37",
+			"2PM",
+			"https://image.bugsm.co.kr/album/images/50/5106/510688.jpg?version=20190402041640.0",
+			"https://www.youtube.com/results?search_query=우리집"
+		],
+		"FEVER (토요일 밤의 열기)": [
+			"36",
+			"38",
+			"브레이브걸스(Brave Girls)",
+			"https://image.bugsm.co.kr/album/images/50/40491/4049180.jpg?version=20210618063203.0",
+			"https://www.youtube.com/results?search_query=FEVER (토요일 밤의 열기)"
+		],
+		"Don't fight the feeling": [
+			"39",
+			"39",
+			"EXO",
+			"https://image.bugsm.co.kr/album/images/50/204012/20401216.jpg?version=20210608002227.0",
+			"https://www.youtube.com/results?search_query=Don't fight the feeling"
+		],
+		"다시 사랑한다면 (김필 Ver.)": [
+			"39",
+			"40",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/060/528/82060528_1621908802015_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=다시 사랑한다면 (김필 Ver.)"
+		],
+		"추억은 만남보다 이별에 남아": [
+			"39",
+			"41",
+			"정동하",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/56/610/10556610_20210129172644_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=추억은 만남보다 이별에 남아"
+		],
+		"Off My Face": [
+			"39.0",
+			"42",
+			"Justin Bieber",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/80/103/10580103_20210319132819_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Off My Face"
+		],
+		"같은 꿈, 같은 맘, 같은 밤": [
+			"40",
+			"43",
+			"세븐틴 (SEVENTEEN)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/099/219/82099219_1623985228172_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=같은 꿈, 같은 맘, 같은 밤"
+		],
+		"GAM3 BO1": [
+			"41",
+			"44",
+			"세븐틴 (SEVENTEEN)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/099/219/82099219_1623985228172_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=GAM3 BO1"
+		],
+		"VVS (Feat. JUSTHIS) (Prod. GroovyRoom)": [
+			"42",
+			"45",
+			"미란이 (Mirani)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/21/601/10521601_20201120125511_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=VVS (Feat. JUSTHIS) (Prod. GroovyRoom)"
+		],
+		"잊어야 한다는 마음으로": [
+			"42",
+			"46",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/039/030/82039030_1620623733524_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=잊어야 한다는 마음으로"
+		],
+		"작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)": [
+			"42.333333333333336",
+			"47",
+			"방탄소년단",
+			"https://cdnimg.melon.co.kr/cm/album/images/102/73/641/10273641_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)"
+		],
+		"Blueming": [
+			"42.333333333333336",
+			"48",
+			"아이유",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/46/650/10346650_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Blueming"
+		],
+		"Pool Party (Feat. 이찬 of DKB)": [
+			"43.5",
+			"49",
+			"브레이브걸스(Brave Girls)",
+			"https://image.bugsm.co.kr/album/images/50/40491/4049180.jpg?version=20210618114603.0",
+			"https://www.youtube.com/results?search_query=Pool Party (Feat. 이찬 of DKB)"
+		],
+		"Coin": [
+			"43.666666666666664",
+			"50",
+			"아이유",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Coin"
+		],
+		"Save Your Tears (Remix)": [
+			"44",
+			"51",
+			"The Weeknd(위켄드)",
+			"https://image.bugsm.co.kr/album/images/50/153970/15397087.jpg?version=20210510162000.0",
+			"https://www.youtube.com/results?search_query=Save Your Tears (Remix)"
+		],
+		"Wave": [
+			"44",
+			"52",
+			"세븐틴 (SEVENTEEN)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/099/219/82099219_1623985228172_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=Wave"
+		],
+		"에잇(Prod.&Feat. SUGA of BTS)": [
+			"44.0",
+			"53",
+			"아이유",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/26/648/10426648_20200506153340_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=에잇(Prod.&Feat. SUGA of BTS)"
+		],
+		"라라라": [
+			"44.0",
+			"54",
+			"SG 워너비",
+			"https://cdnimg.melon.co.kr/cm/album/images/003/76/502/376502_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=라라라"
+		],
+		"At My Worst": [
+			"45.0",
+			"55",
+			"Pink Sweat$",
+			"https://image.bugsm.co.kr/album/images/50/9686/968619.jpg?version=20201013160513.0",
+			"https://www.youtube.com/results?search_query=At My Worst"
+		],
+		"아주 NICE": [
+			"46",
+			"56",
+			"세븐틴 (SEVENTEEN)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/839/512/80839512_1467554077824_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=아주 NICE"
+		],
+		"Dolphin": [
+			"46.333333333333336",
+			"57",
+			"오마이걸 (OH MY GIRL)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/23/289/10423289_20200427153909_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Dolphin"
+		],
 		"밝게 빛나는 별이 되어 비춰줄게": [
-			"43.333333333333336",
+			"47.0",
 			"58",
 			"송이한",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/40/298/10540298_20201229150823_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=밝게 빛나는 별이 되어 비춰줄게"
 		],
-		"봄날": [
-			"43.666666666666664",
-			"59",
-			"방탄소년단",
-			"https://cdnimg.melon.co.kr/cm/album/images/100/37/969/10037969_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=봄날"
-		],
-		"사이렌 Remix (Feat. UNEDUCATED KID & Paul Blanco)": [
-			"45",
-			"60",
-			"호미들",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/953/909/81953909_1616136514994_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=사이렌 Remix (Feat. UNEDUCATED KID & Paul Blanco)"
-		],
-		"Off My Face": [
-			"45.0",
-			"61",
-			"Justin Bieber",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/80/103/10580103_20210319132819_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Off My Face"
-		],
-		"On The Ground": [
-			"46.5",
-			"62",
-			"로제 (ROSÉ)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/76/966/10576966_20210312112253_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=On The Ground"
-		],
-		"GAM3 BO1": [
-			"47.0",
-			"63",
-			"세븐틴(SEVENTEEN)",
-			"https://image.bugsm.co.kr/album/images/50/204038/20403807.jpg?version=20210619002421.0",
-			"https://www.youtube.com/results?search_query=GAM3 BO1"
-		],
-		"에잇(Prod.&Feat. SUGA of BTS)": [
-			"47.5",
-			"64",
-			"아이유",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/26/648/10426648_20200506153340_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=에잇(Prod.&Feat. SUGA of BTS)"
-		],
-		"내 입술 따뜻한 커피처럼": [
-			"47.5",
-			"65",
-			"청하",
-			"https://image.bugsm.co.kr/album/images/50/204014/20401457.jpg?version=20210610002945.0",
-			"https://www.youtube.com/results?search_query=내 입술 따뜻한 커피처럼"
-		],
-		"Beautiful Mistakes": [
-			"48",
-			"66",
-			"Maroon 5(마룬 파이브)",
-			"https://image.bugsm.co.kr/album/images/50/151044/15104495.jpg?version=20210330150835.0",
-			"https://www.youtube.com/results?search_query=Beautiful Mistakes"
-		],
-		"ON": [
-			"49",
-			"67",
-			"방탄소년단",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/346/144/81346144_1582270692650_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=ON"
-		],
-		"어떻게 이별까지 사랑하겠어, 널 사랑하는 거지": [
-			"49.0",
-			"68",
-			"AKMU (악동뮤지션)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/31/947/10331947_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=어떻게 이별까지 사랑하겠어, 널 사랑하는 거지"
-		],
-		"아로하": [
-			"51",
-			"69",
-			"조정석",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/09/054/10409054_20200326163459_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=아로하"
-		],
-		"나보다 더 사랑해요": [
-			"52",
-			"70",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/429/838/81429838_1588039805171_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=나보다 더 사랑해요"
-		],
-		"METEOR": [
-			"52",
-			"71",
-			"창모 (CHANGMO)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/59/162/10359162_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=METEOR"
-		],
-		"오늘따라 더 미운 그대가": [
-			"52.0",
-			"72",
-			"전상근",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/26/157/10626157_20210611165757_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=오늘따라 더 미운 그대가"
-		],
-		"Wave": [
-			"52.5",
-			"73",
-			"세븐틴(SEVENTEEN)",
-			"https://image.bugsm.co.kr/album/images/50/204038/20403807.jpg?version=20210619002421.0",
-			"https://www.youtube.com/results?search_query=Wave"
-		],
-		"IDOL": [
-			"53",
-			"74",
-			"방탄소년단",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/097/317/81097317_1535093690215_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=IDOL"
-		],
 		"다정히 내 이름을 부르면": [
-			"53.333333333333336",
-			"75",
+			"48.0",
+			"59",
 			"경서예지",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/10/525/10610525_20210518143433_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=다정히 내 이름을 부르면"
 		],
-		"FEVER (토요일 밤의 열기)": [
-			"54",
-			"76",
-			"브레이브걸스(Brave Girls)",
-			"https://image.bugsm.co.kr/album/images/50/40491/4049180.jpg?version=20210618063203.0",
-			"https://www.youtube.com/results?search_query=FEVER (토요일 밤의 열기)"
-		],
-		"WE GO": [
-			"54.5",
-			"77",
-			"프로미스나인",
-			"https://image.bugsm.co.kr/album/images/50/203973/20397338.jpg?version=20210518002913.0",
-			"https://www.youtube.com/results?search_query=WE GO"
-		],
-		"parachute": [
-			"55",
-			"78",
-			"John K",
-			"https://image.bugsm.co.kr/album/images/50/149170/14917009.jpg?version=20210619115704.0",
-			"https://www.youtube.com/results?search_query=parachute"
-		],
-		"만개 (Prod. 신지후)": [
-			"55",
-			"79",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/561/948/81561948_1599205978578_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=만개 (Prod. 신지후)"
-		],
-		"오래된 노래": [
-			"55",
-			"80",
-			"스탠딩 에그",
-			"https://cdnimg.melon.co.kr/cm/album/images/021/48/596/2148596_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=오래된 노래"
-		],
-		"같은 꿈, 같은 맘, 같은 밤": [
-			"55.0",
-			"81",
-			"세븐틴(SEVENTEEN)",
-			"https://image.bugsm.co.kr/album/images/50/204038/20403807.jpg?version=20210619002421.0",
-			"https://www.youtube.com/results?search_query=같은 꿈, 같은 맘, 같은 밤"
-		],
-		"Coin": [
-			"55.666666666666664",
-			"82",
-			"아이유",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Coin"
-		],
-		"riBBon": [
-			"56",
-			"83",
-			"뱀뱀 (BamBam)",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/092/783/82092783_1623735196060_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=riBBon"
-		],
-		"Je T′aime": [
-			"56",
-			"84",
-			"조이 (JOY)",
-			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
-			"https://www.youtube.com/results?search_query=Je T′aime"
-		],
-		"나랑 같이 걸을래 (바른연애 길잡이 X 적재)": [
-			"56.5",
-			"85",
-			"적재",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/07/546/10507546_20201022162417_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=나랑 같이 걸을래 (바른연애 길잡이 X 적재)"
-		],
-		"Save Your Tears (Remix)": [
-			"57",
-			"86",
-			"The Weeknd(위켄드)",
-			"https://image.bugsm.co.kr/album/images/50/153970/15397087.jpg?version=20210510162000.0",
-			"https://www.youtube.com/results?search_query=Save Your Tears (Remix)"
-		],
-		"FAKE LOVE": [
-			"57",
-			"87",
-			"방탄소년단",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/066/390/81066390_1526628038300_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=FAKE LOVE"
-		],
-		"별빛 같은 나의 사랑아": [
-			"57.5",
-			"88",
-			"임영웅",
-			"https://image.bugsm.co.kr/album/images/50/40333/4033380.jpg?version=20210421043008.0",
-			"https://www.youtube.com/results?search_query=별빛 같은 나의 사랑아"
-		],
-		"라라라": [
-			"57.666666666666664",
-			"89",
-			"SG 워너비",
-			"https://cdnimg.melon.co.kr/cm/album/images/003/76/502/376502_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=라라라"
-		],
-		"내사람: Partner For Life": [
-			"58",
-			"90",
-			"SG워너비",
-			"https://image.bugsm.co.kr/album/images/50/80172/8017275.jpg?version=20210420101341.0",
-			"https://www.youtube.com/results?search_query=내사람: Partner For Life"
-		],
-		"취기를 빌려 (취향저격 그녀 X 산들)": [
-			"58.0",
-			"91",
-			"산들",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/63/600/10463600_20200720152905_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=취기를 빌려 (취향저격 그녀 X 산들)"
-		],
 		"어푸 (Ah puh)": [
-			"58.0",
-			"92",
+			"48.0",
+			"60",
 			"아이유",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=어푸 (Ah puh)"
 		],
-		"너의 번호를 누르고 (Prod. 영화처럼)": [
-			"59",
-			"93",
-			"#안녕",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/59/126/10359126_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=너의 번호를 누르고 (Prod. 영화처럼)"
-		],
-		"할무니": [
-			"59",
-			"94",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/479/868/81479868_1592550219007_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=할무니"
-		],
-		"Memories": [
-			"60",
-			"95",
-			"Maroon 5",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/30/593/10330593_20210611111519_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Memories"
-		],
-		"I NEED U": [
-			"60",
-			"96",
-			"방탄소년단",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/569/990/80569990_1430214479182_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=I NEED U"
-		],
-		"At My Worst": [
-			"60.5",
-			"97",
-			"Pink Sweat$",
-			"https://image.bugsm.co.kr/album/images/50/9686/968619.jpg?version=20201013160513.0",
-			"https://www.youtube.com/results?search_query=At My Worst"
-		],
-		"흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야": [
-			"61.5",
-			"98",
-			"장범준",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/20/500/10320500_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야"
-		],
-		"잠이 오질 않네요": [
-			"61.666666666666664",
-			"99",
-			"장범준",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/08/266/10508266_20201023171236_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=잠이 오질 않네요"
-		],
-		"불타오르네 (FIRE)": [
-			"62",
-			"100",
-			"방탄소년단",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/811/375/80811375_1462112568884_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=불타오르네 (FIRE)"
-		],
-		"어떻게 지내 (Prod. By VAN.C)": [
-			"62",
-			"101",
-			"오반 (OVAN)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/99/190/10399190_20200305151138_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=어떻게 지내 (Prod. By VAN.C)"
-		],
 		"LOVE DAY (2021) (바른연애 길잡이 X 양요섭, 정은지)": [
-			"62.0",
-			"102",
+			"48.0",
+			"61",
 			"양요섭",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/73/486/10573486_20210304202053_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=LOVE DAY (2021) (바른연애 길잡이 X 양요섭, 정은지)"
 		],
-		"사실 나는 (Feat.전건호)": [
+		"이제 나만 믿어요": [
+			"49.0",
+			"62",
+			"임영웅",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/12/319/10412319_20200403103006_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=이제 나만 믿어요"
+		],
+		"미워요": [
+			"50",
 			"63",
-			"103",
-			"경서예지",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/16/034/10416034_20200410161209_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=사실 나는 (Feat.전건호)"
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/857/864/80857864_1470619426495_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=미워요"
 		],
-		"살았소": [
-			"63",
-			"104",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/565/705/81565705_1599708678301_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=살았소"
-		],
-		"모든 날, 모든 순간 (Every day, Every Moment)": [
-			"63.333333333333336",
-			"105",
-			"폴킴",
-			"https://cdnimg.melon.co.kr/cm/album/images/101/49/492/10149492_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=모든 날, 모든 순간 (Every day, Every Moment)"
-		],
-		"우리집": [
+		"Lovesick Girls": [
+			"50.333333333333336",
 			"64",
-			"106",
-			"2PM",
-			"https://image.bugsm.co.kr/album/images/50/5106/510688.jpg?version=20190402041640.0",
-			"https://www.youtube.com/results?search_query=우리집"
-		],
-		"고맙소": [
-			"64",
-			"107",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/388/783/81388783_1584065968502_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=고맙소"
-		],
-		"Blueming": [
-			"64.0",
-			"108",
-			"아이유",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/46/650/10346650_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Blueming"
-		],
-		"오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)": [
-			"65",
-			"109",
-			"마크툽 (MAKTUB)",
-			"https://cdnimg.melon.co.kr/cm/album/images/102/94/603/10294603_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)"
-		],
-		"2002": [
-			"65.5",
-			"110",
-			"Anne-Marie",
-			"https://cdnimg.melon.co.kr/cm/album/images/101/37/250/10137250_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=2002"
-		],
-		"이렇게 좋아해 본 적이 없어요": [
-			"66",
-			"111",
-			"CHEEZE (치즈)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/77/197/10577197_20210312160109_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=이렇게 좋아해 본 적이 없어요"
-		],
-		"아무도 잠들지 마라 (Nessun Dorma)": [
-			"66",
-			"112",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/779/440/81779440_1607586315733_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=아무도 잠들지 마라 (Nessun Dorma)"
-		],
-		"살짝 설렜어 (Nonstop)": [
-			"66.0",
-			"113",
-			"오마이걸 (OH MY GIRL)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/23/289/10423289_20200427153909_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=살짝 설렜어 (Nonstop)"
-		],
-		"넌 내꺼야": [
-			"66.5",
-			"114",
-			"경서",
-			"https://image.bugsm.co.kr/album/images/50/40496/4049600.jpg?version=20210620180003.0",
-			"https://www.youtube.com/results?search_query=넌 내꺼야"
-		],
-		"늦은 밤 너의 집 앞 골목길에서": [
-			"67",
-			"115",
-			"노을",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/48/811/10348811_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=늦은 밤 너의 집 앞 골목길에서"
-		],
-		"피 땀 눈물": [
-			"67",
-			"116",
-			"방탄소년단",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/881/231/80881231_1475838248573_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=피 땀 눈물"
-		],
-		"소우주 (Mikrokosmos)": [
-			"67.5",
-			"117",
-			"방탄소년단",
-			"https://image.bugsm.co.kr/album/images/50/202460/20246036.jpg?version=20210428040432.0",
-			"https://www.youtube.com/results?search_query=소우주 (Mikrokosmos)"
-		],
-		"Leave Before You Love Me": [
-			"68",
-			"118",
-			"Marshmello(마시멜로)",
-			"https://image.bugsm.co.kr/album/images/50/155224/15522489.jpg?version=20210609011443.0",
-			"https://www.youtube.com/results?search_query=Leave Before You Love Me"
-		],
-		"살다가": [
-			"68",
-			"119",
-			"SG 워너비",
-			"https://cdnimg.melon.co.kr/cm/album/images/000/50/578/50578_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=살다가"
-		],
-		"12:45 (Stripped)": [
-			"68.0",
-			"120",
-			"Etham",
-			"https://cdnimg.melon.co.kr/cm/album/images/102/35/362/10235362_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=12:45 (Stripped)"
-		],
-		"그냥 안아달란 말야": [
-			"68.0",
-			"121",
-			"다비치",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/90/812/10590812_20210412110756_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=그냥 안아달란 말야"
-		],
-		"그날에 나는 맘이 편했을까": [
-			"68.5",
-			"122",
-			"이예준",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/27/955/10527955_20201202190217_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=그날에 나는 맘이 편했을까"
-		],
-		"힘든 건 사랑이 아니다": [
-			"69",
-			"123",
-			"임창정",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/05/118/10505118_20201019112710_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=힘든 건 사랑이 아니다"
-		],
-		"How You Like That": [
-			"70",
-			"124",
 			"BLACKPINK",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/51/566/10451566_20200626114914_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=How You Like That"
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/98/032/10498032_20200929122954_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Lovesick Girls"
 		],
-		"Like 1999": [
-			"70",
-			"125",
-			"Valley",
-			"https://image.bugsm.co.kr/album/images/50/150635/15063574.jpg?version=20210601162001.0",
-			"https://www.youtube.com/results?search_query=Like 1999"
+		"Life Goes On": [
+			"50.333333333333336",
+			"65",
+			"방탄소년단",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/21/521/10521521_20201120112220_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Life Goes On"
 		],
-		"퇴근길": [
-			"70",
-			"126",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/561/948/81561948_1599205978578_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=퇴근길"
+		"밤하늘의 별을(2020)": [
+			"50.5",
+			"66",
+			"경서",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/18/234/10518234_20210216102853_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=밤하늘의 별을(2020)"
 		],
-		"서울의 잠 못 이루는 밤 (Feat. 이수현)": [
-			"70.5",
-			"127",
-			"10CM",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/06/892/10606892_20210513100549_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=서울의 잠 못 이루는 밤 (Feat. 이수현)"
-		],
-		"긴 밤 (Feat. 기리보이)": [
-			"71",
-			"128",
-			"Seori",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/084/216/82084216_1623287282349_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=긴 밤 (Feat. 기리보이)"
-		],
-		"긴 밤 (feat. 기리보이)": [
-			"72",
-			"129",
-			"Seori",
-			"https://image.bugsm.co.kr/album/images/50/40473/4047364.jpg?version=20210611005952.0",
-			"https://www.youtube.com/results?search_query=긴 밤 (feat. 기리보이)"
-		],
-		"Dance Monkey": [
-			"72",
-			"130",
-			"Tones And I",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/16/394/10316394_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Dance Monkey"
-		],
-		"애인이 되어줄게요 (Prod. by 알고보니 & 혼수상태)": [
-			"73",
-			"131",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/561/948/81561948_1599205978578_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=애인이 되어줄게요 (Prod. by 알고보니 & 혼수상태)"
-		],
-		"너의 발걸음에 빛을 비춰줄게 (Prod. 조영수)": [
-			"73",
-			"132",
-			"케이시 (Kassy)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/98/763/10598763_20210427122744_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=너의 발걸음에 빛을 비춰줄게 (Prod. 조영수)"
-		],
-		"우산이 없어요": [
-			"74",
-			"133",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/561/948/81561948_1599205978578_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=우산이 없어요"
-		],
-		"Happy Birthday To You": [
-			"74",
-			"134",
+		"Je T′aime": [
+			"51",
+			"67",
 			"조이 (JOY)",
 			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
-			"https://www.youtube.com/results?search_query=Happy Birthday To You"
+			"https://www.youtube.com/results?search_query=Je T′aime"
 		],
-		"남은 것은 당신뿐": [
-			"75",
-			"135",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/603/934/81603934_1601018993516_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=남은 것은 당신뿐"
+		"계단말고 엘리베이터": [
+			"54",
+			"68",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/095/517/81095517_1534733107067_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=계단말고 엘리베이터"
 		],
-		"마음을 드려요": [
-			"75",
-			"136",
-			"아이유",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/88/744/10388744_20200214175740_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=마음을 드려요"
+		"Heaven's Cloud": [
+			"54.0",
+			"69",
+			"세븐틴(SEVENTEEN)",
+			"https://image.bugsm.co.kr/album/images/50/204038/20403807.jpg?version=20210619002421.0",
+			"https://www.youtube.com/results?search_query=Heaven's Cloud"
 		],
-		"Love poem": [
-			"76",
-			"137",
-			"아이유",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/46/650/10346650_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Love poem"
+		"흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야": [
+			"54.0",
+			"70",
+			"장범준",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/20/500/10320500_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야"
 		],
-		"DNA": [
-			"76.5",
-			"138",
+		"On The Ground": [
+			"54.666666666666664",
+			"71",
+			"로제 (ROSÉ)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/76/966/10576966_20210312112253_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=On The Ground"
+		],
+		"Beautiful Mistakes": [
+			"56",
+			"72",
+			"Maroon 5(마룬 파이브)",
+			"https://image.bugsm.co.kr/album/images/50/151044/15104495.jpg?version=20210330150835.0",
+			"https://www.youtube.com/results?search_query=Beautiful Mistakes"
+		],
+		"바보같지만": [
+			"56",
+			"73",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/005/425/82005425_1618882141926_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=바보같지만"
+		],
+		"봄날": [
+			"56.0",
+			"74",
 			"방탄소년단",
-			"https://image.bugsm.co.kr/album/images/50/201198/20119819.jpg?version=20210428040329.0",
-			"https://www.youtube.com/results?search_query=DNA"
+			"https://cdnimg.melon.co.kr/cm/album/images/100/37/969/10037969_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=봄날"
 		],
-		"Paris In The Rain": [
-			"78",
-			"139",
-			"Lauv",
-			"https://cdnimg.melon.co.kr/cm/album/images/102/09/752/10209752_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Paris In The Rain"
+		"너의 번호를 누르고 (Prod. 영화처럼)": [
+			"57",
+			"75",
+			"#안녕",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/59/126/10359126_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=너의 번호를 누르고 (Prod. 영화처럼)"
 		],
-		"천년의 사랑": [
-			"79",
-			"140",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/493/891/81493891_1593741943792_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=천년의 사랑"
-		],
-		"I Love U": [
-			"79",
-			"141",
-			"성시경",
-			"https://image.bugsm.co.kr/album/images/50/40455/4045502.jpg?version=20210524141747.0",
-			"https://www.youtube.com/results?search_query=I Love U"
-		],
-		"너를 만나": [
-			"79",
-			"142",
-			"폴킴",
-			"https://cdnimg.melon.co.kr/cm/album/images/102/17/134/10217134_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=너를 만나"
-		],
-		"If You Love Me (Feat. 주헌 (몬스타엑스))": [
-			"79.0",
-			"143",
-			"NS 윤지",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/12/888/10612888_20210521150219_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=If You Love Me (Feat. 주헌 (몬스타엑스))"
-		],
-		"이 밤을 빌려 말해요 (바른연애 길잡이 X 10CM)": [
-			"79.5",
-			"144",
-			"10CM",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/52/055/10552055_20210122153304_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=이 밤을 빌려 말해요 (바른연애 길잡이 X 10CM)"
-		],
-		"내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)": [
-			"81",
-			"145",
-			"규현 (KYUHYUN)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/78/925/10478925_20200820171048_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)"
-		],
-		"사이렌": [
-			"81",
-			"146",
-			"호미들",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/441/146/81441146_1589523963092_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=사이렌"
-		],
-		"12 : 45 (Stripped)": [
-			"82",
-			"147",
-			"etham",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/120/367/81120367_1541482589342_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=12 : 45 (Stripped)"
-		],
-		"When We Disco (Duet with 선미)": [
-			"82",
-			"148",
-			"박진영",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/75/061/10475061_20200812120927_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=When We Disco (Duet with 선미)"
-		],
-		"아이와 나의 바다": [
-			"82.5",
-			"149",
-			"아이유",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=아이와 나의 바다"
-		],
-		"체념": [
-			"82.66666666666667",
-			"150",
-			"정상동기 (김정수, 정기석, 이동휘, 이상이)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/13/163/10613163_20210521172906_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=체념"
+		"소나기": [
+			"57",
+			"76",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/857/864/80857864_1470619426495_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=소나기"
 		],
 		"밤하늘의 별을 (2020)": [
-			"83",
-			"151",
+			"58",
+			"77",
 			"경서",
 			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/731/300/81731300_1613455604854_1_140x140.JPG/dims/resize/Q_80,0",
 			"https://www.youtube.com/results?search_query=밤하늘의 별을 (2020)"
 		],
-		"시작": [
-			"86",
-			"152",
-			"가호 (Gaho)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/81/712/10381712_20200131110358_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=시작"
+		"잠이 오질 않네요": [
+			"58.0",
+			"78",
+			"장범준",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/08/266/10508266_20201023171236_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=잠이 오질 않네요"
 		],
-		"Downtown Baby": [
-			"87",
-			"153",
-			"블루 (BLOO)",
-			"https://cdnimg.melon.co.kr/cm/album/images/101/17/789/10117789_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Downtown Baby"
+		"오늘따라 더 미운 그대가": [
+			"58.333333333333336",
+			"79",
+			"전상근",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/26/157/10626157_20210611165757_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=오늘따라 더 미운 그대가"
 		],
-		"맛 (Hot Sauce)": [
-			"87.66666666666667",
-			"154",
-			"NCT DREAM",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/02/760/10602760_20210510153709_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=맛 (Hot Sauce)"
+		"Anyone": [
+			"58.5",
+			"80",
+			"세븐틴(SEVENTEEN)",
+			"https://image.bugsm.co.kr/album/images/50/204038/20403807.jpg?version=20210619002421.0",
+			"https://www.youtube.com/results?search_query=Anyone"
 		],
-		"우리 왜 헤어져야 해": [
-			"88",
-			"155",
-			"신예영",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/53/881/10353881_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=우리 왜 헤어져야 해"
-		],
-		"처음처럼 (Feat. 개리)": [
-			"88",
-			"156",
-			"헤이즈(Heize)",
-			"https://image.bugsm.co.kr/album/images/50/203977/20397734.jpg?version=20210521002943.0",
-			"https://www.youtube.com/results?search_query=처음처럼 (Feat. 개리)"
-		],
-		"고백 (바른연애 길잡이 X 허각)": [
-			"88.0",
-			"157",
-			"허각",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/59/322/10559322_20210204121013_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=고백 (바른연애 길잡이 X 허각)"
-		],
-		"함께 했는데 이별은 나 혼자인 거야": [
-			"89",
-			"158",
-			"소정 (레이디스 코드)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/66/182/10566182_20210218105811_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=함께 했는데 이별은 나 혼자인 거야"
-		],
-		"Day By Day": [
-			"89",
-			"159",
-			"조이 (JOY)",
-			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
-			"https://www.youtube.com/results?search_query=Day By Day"
-		],
-		"Don't fight the feeling": [
-			"89.0",
-			"160",
-			"EXO",
-			"https://image.bugsm.co.kr/album/images/50/204012/20401216.jpg?version=20210608002227.0",
-			"https://www.youtube.com/results?search_query=Don't fight the feeling"
-		],
-		"우린 어쩌다 헤어진 걸까": [
-			"89.0",
-			"161",
-			"허각",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/39/679/10539679_20201228153155_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=우린 어쩌다 헤어진 걸까"
-		],
-		"Don't Start Now": [
-			"90",
-			"162",
-			"Dua Lipa",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/45/880/10345880_20200326181909_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Don't Start Now"
-		],
-		"감기 (Feat. 창모)": [
-			"90",
-			"163",
-			"헤이즈(Heize)",
-			"https://image.bugsm.co.kr/album/images/50/203977/20397734.jpg?version=20210521002943.0",
-			"https://www.youtube.com/results?search_query=감기 (Feat. 창모)"
-		],
-		"밤편지": [
-			"91",
-			"164",
-			"아이유(IU)",
-			"https://image.bugsm.co.kr/album/images/50/200890/20089092.jpg?version=20210421044106.0",
-			"https://www.youtube.com/results?search_query=밤편지"
-		],
-		"기다릴게": [
-			"91",
-			"165",
-			"하동균",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/96/629/10596629_20210422104238_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=기다릴게"
-		],
-		"Maniac": [
-			"92",
-			"166",
-			"Conan Gray",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/43/276/10343276_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=Maniac"
-		],
-		"Ashes": [
-			"92",
-			"167",
-			"Stellar",
-			"https://image.bugsm.co.kr/album/images/50/147036/14703657.jpg?version=20210316084309.0",
-			"https://www.youtube.com/results?search_query=Ashes"
-		],
-		"너의 번호를 누르고 (Prod. by 영화처럼)": [
-			"93",
-			"168",
-			"#안녕",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/321/702/81321702_1575013843097_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=너의 번호를 누르고 (Prod. by 영화처럼)"
-		],
-		"거짓말이라도 해서 널 보고싶어": [
-			"93",
-			"169",
-			"백지영",
-			"https://cdnimg.melon.co.kr/cm2/album/images/104/60/544/10460544_20200714151651_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=거짓말이라도 해서 널 보고싶어"
-		],
-		"Winner": [
-			"94",
-			"170",
-			"김윤아",
-			"https://image.bugsm.co.kr/album/images/50/204039/20403909.jpg?version=20210620180025.0",
-			"https://www.youtube.com/results?search_query=Winner"
-		],
-		"내일이 오면 (Feat. 기리보이, BIG Naughty (서동현))": [
-			"94",
-			"171",
-			"릴보이 (lIlBOI)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/29/161/10529161_20201204130014_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=내일이 오면 (Feat. 기리보이, BIG Naughty (서동현))"
-		],
-		"고래 (Dive Into You)": [
-			"95",
-			"172",
-			"NCT DREAM",
-			"https://image.bugsm.co.kr/album/images/50/40438/4043860.jpg?version=20210512174012.0",
-			"https://www.youtube.com/results?search_query=고래 (Dive Into You)"
-		],
-		"에잇 (Prod. & Feat. SUGA of BTS)": [
-			"96",
-			"173",
-			"아이유 (IU)",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/434/107/81434107_1588747979387_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=에잇 (Prod. & Feat. SUGA of BTS)"
-		],
-		"비밀의 화원": [
-			"96",
-			"174",
-			"아이유(IU)",
-			"https://image.bugsm.co.kr/album/images/50/201196/20119646.jpg?version=20210421044346.0",
-			"https://www.youtube.com/results?search_query=비밀의 화원"
-		],
-		"안녕": [
-			"96",
-			"175",
-			"폴킴",
-			"https://cdnimg.melon.co.kr/cm2/album/images/103/17/137/10317137_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=안녕"
-		],
-		"만약에": [
-			"97",
-			"176",
-			"M.O.M (별루지, 강창모, 박재정, 원슈타인)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/13/163/10613163_20210521172906_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=만약에"
-		],
-		"너의 모든 순간": [
-			"98",
-			"177",
-			"성시경",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/401/547/80401547_1392172764399_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=너의 모든 순간"
+		"WE GO": [
+			"58.5",
+			"81",
+			"프로미스나인",
+			"https://image.bugsm.co.kr/album/images/50/203973/20397338.jpg?version=20210518002913.0",
+			"https://www.youtube.com/results?search_query=WE GO"
 		],
 		"VVS (Feat. JUSTHIS) (Prod. by GroovyRoom)": [
-			"99",
-			"178",
+			"59",
+			"82",
 			"미란이 (Mirani) & 먼치맨 (MUNCHMAN) & Khundi Panda & 머쉬베놈 (MUSHVENOM)",
 			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/743/752/81743752_1605852404684_1_140x140.JPG/dims/resize/Q_80,0",
 			"https://www.youtube.com/results?search_query=VVS (Feat. JUSTHIS) (Prod. by GroovyRoom)"
 		],
-		"봄 안녕 봄": [
+		"Day By Day": [
+			"59",
+			"83",
+			"조이 (JOY)",
+			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
+			"https://www.youtube.com/results?search_query=Day By Day"
+		],
+		"취기를 빌려 (취향저격 그녀 X 산들)": [
+			"59.666666666666664",
+			"84",
+			"산들",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/63/600/10463600_20200720152905_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=취기를 빌려 (취향저격 그녀 X 산들)"
+		],
+		"체념": [
+			"59.666666666666664",
+			"85",
+			"정상동기 (김정수, 정기석, 이동휘, 이상이)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/13/163/10613163_20210521172906_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=체념"
+		],
+		"2002": [
+			"60.666666666666664",
+			"86",
+			"Anne-Marie",
+			"https://cdnimg.melon.co.kr/cm/album/images/101/37/250/10137250_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=2002"
+		],
+		"따라따라": [
+			"61",
+			"87",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/909/768/80909768_1483322602024_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=따라따라"
+		],
+		"어떻게 이별까지 사랑하겠어, 널 사랑하는 거지": [
+			"61.666666666666664",
+			"88",
+			"AKMU (악동뮤지션)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/31/947/10331947_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=어떻게 이별까지 사랑하겠어, 널 사랑하는 거지"
+		],
+		"어떻게 지내 (Prod. By VAN.C)": [
+			"62",
+			"89",
+			"오반 (OVAN)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/99/190/10399190_20200305151138_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=어떻게 지내 (Prod. By VAN.C)"
+		],
+		"당신": [
+			"62",
+			"90",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/050/568/82050568_1621303059110_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=당신"
+		],
+		"나랑 같이 걸을래 (바른연애 길잡이 X 적재)": [
+			"62.0",
+			"91",
+			"적재",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/07/546/10507546_20201022162417_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=나랑 같이 걸을래 (바른연애 길잡이 X 적재)"
+		],
+		"별빛 같은 나의 사랑아": [
+			"62.5",
+			"92",
+			"임영웅",
+			"https://image.bugsm.co.kr/album/images/50/40333/4033380.jpg?version=20210421043008.0",
+			"https://www.youtube.com/results?search_query=별빛 같은 나의 사랑아"
+		],
+		"내 마음 별과 같이": [
+			"63",
+			"93",
+			"임영웅",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/026/688/82026688_1620090247186_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=내 마음 별과 같이"
+		],
+		"오래된 노래": [
+			"63.5",
+			"94",
+			"스탠딩 에그",
+			"https://cdnimg.melon.co.kr/cm/album/images/021/48/596/2148596_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=오래된 노래"
+		],
+		"내사람: Partner For Life": [
+			"64",
+			"95",
+			"SG워너비",
+			"https://image.bugsm.co.kr/album/images/50/80172/8017275.jpg?version=20210420101341.0",
+			"https://www.youtube.com/results?search_query=내사람: Partner For Life"
+		],
+		"사실 나는 (Feat.전건호)": [
+			"64",
+			"96",
+			"경서예지",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/16/034/10416034_20200410161209_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=사실 나는 (Feat.전건호)"
+		],
+		"오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)": [
+			"65",
+			"97",
+			"마크툽 (MAKTUB)",
+			"https://cdnimg.melon.co.kr/cm/album/images/102/94/603/10294603_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)"
+		],
+		"Leave The Door Open": [
+			"65.5",
+			"98",
+			"Bruno Mars(브루노 마스)",
+			"https://image.bugsm.co.kr/album/images/50/40329/4032926.jpg?version=20210311120043.0",
+			"https://www.youtube.com/results?search_query=Leave The Door Open"
+		],
+		"늦은 밤 너의 집 앞 골목길에서": [
+			"66",
 			"99",
-			"179",
+			"노을",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/48/811/10348811_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=늦은 밤 너의 집 앞 골목길에서"
+		],
+		"에잇 (Prod. & Feat. SUGA of BTS)": [
+			"66",
+			"100",
+			"아이유 (IU)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/434/107/81434107_1588747979387_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=에잇 (Prod. & Feat. SUGA of BTS)"
+		],
+		"아로하": [
+			"66.0",
+			"101",
+			"조정석",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/09/054/10409054_20200326163459_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=아로하"
+		],
+		"METEOR": [
+			"66.66666666666667",
+			"102",
+			"창모 (CHANGMO)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/59/162/10359162_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=METEOR"
+		],
+		"이렇게 좋아해 본 적이 없어요": [
+			"67",
+			"103",
+			"CHEEZE (치즈)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/77/197/10577197_20210312160109_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=이렇게 좋아해 본 적이 없어요"
+		],
+		"밤편지": [
+			"67",
+			"104",
+			"아이유(IU)",
+			"https://image.bugsm.co.kr/album/images/50/200890/20089092.jpg?version=20210421044106.0",
+			"https://www.youtube.com/results?search_query=밤편지"
+		],
+		"처음처럼 (Feat. 개리)": [
+			"67.5",
+			"105",
+			"헤이즈(Heize)",
+			"https://image.bugsm.co.kr/album/images/50/203977/20397734.jpg?version=20210521002943.0",
+			"https://www.youtube.com/results?search_query=처음처럼 (Feat. 개리)"
+		],
+		"12 : 45 (Stripped)": [
+			"68",
+			"106",
+			"etham",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/120/367/81120367_1541482589342_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=12 : 45 (Stripped)"
+		],
+		"힘든 건 사랑이 아니다": [
+			"68",
+			"107",
+			"임창정",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/05/118/10505118_20201019112710_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=힘든 건 사랑이 아니다"
+		],
+		"그럴때마다 (Be There For You)": [
+			"68",
+			"108",
+			"조이 (JOY)",
+			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
+			"https://www.youtube.com/results?search_query=그럴때마다 (Be There For You)"
+		],
+		"그날에 나는 맘이 편했을까": [
+			"68.0",
+			"109",
+			"이예준",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/27/955/10527955_20201202190217_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=그날에 나는 맘이 편했을까"
+		],
+		"How You Like That": [
+			"69",
+			"110",
+			"BLACKPINK",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/51/566/10451566_20200626114914_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=How You Like That"
+		],
+		"12:45 (Stripped)": [
+			"69.0",
+			"111",
+			"Etham",
+			"https://cdnimg.melon.co.kr/cm/album/images/102/35/362/10235362_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=12:45 (Stripped)"
+		],
+		"DNA": [
+			"70",
+			"112",
+			"방탄소년단",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/988/228/80988228_1505722039920_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=DNA"
+		],
+		"모든 날, 모든 순간 (Every day, Every Moment)": [
+			"70.66666666666667",
+			"113",
+			"폴킴",
+			"https://cdnimg.melon.co.kr/cm/album/images/101/49/492/10149492_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=모든 날, 모든 순간 (Every day, Every Moment)"
+		],
+		"Dance Monkey": [
+			"71",
+			"114",
+			"Tones And I",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/16/394/10316394_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Dance Monkey"
+		],
+		"그냥 안아달란 말야": [
+			"71.66666666666667",
+			"115",
+			"다비치",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/90/812/10590812_20210412110756_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=그냥 안아달란 말야"
+		],
+		"너의 발걸음에 빛을 비춰줄게 (Prod. 조영수)": [
+			"72",
+			"116",
+			"케이시 (Kassy)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/98/763/10598763_20210427122744_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=너의 발걸음에 빛을 비춰줄게 (Prod. 조영수)"
+		],
+		"parachute": [
+			"72.0",
+			"117",
+			"John K",
+			"https://image.bugsm.co.kr/album/images/50/149170/14917009.jpg?version=20210619115704.0",
+			"https://www.youtube.com/results?search_query=parachute"
+		],
+		"살짝 설렜어 (Nonstop)": [
+			"72.0",
+			"118",
+			"오마이걸 (OH MY GIRL)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/23/289/10423289_20200427153909_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=살짝 설렜어 (Nonstop)"
+		],
+		"비가 내리기 전에": [
+			"73.0",
+			"119",
+			"허각",
+			"https://image.bugsm.co.kr/album/images/50/40496/4049620.jpg?version=20210621063040.0",
+			"https://www.youtube.com/results?search_query=비가 내리기 전에"
+		],
+		"If You Love Me (Feat. 주헌 (몬스타엑스))": [
+			"73.5",
+			"120",
+			"NS 윤지",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/12/888/10612888_20210521150219_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=If You Love Me (Feat. 주헌 (몬스타엑스))"
+		],
+		"마음을 드려요": [
+			"74",
+			"121",
+			"아이유",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/88/744/10388744_20200214175740_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=마음을 드려요"
+		],
+		"Memories": [
+			"75.5",
+			"122",
+			"Maroon 5",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/30/593/10330593_20210611111519_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Memories"
+		],
+		"I Love U": [
+			"76",
+			"123",
+			"성시경",
+			"https://image.bugsm.co.kr/album/images/50/40455/4045502.jpg?version=20210524141747.0",
+			"https://www.youtube.com/results?search_query=I Love U"
+		],
+		"Love poem": [
+			"76",
+			"124",
+			"아이유",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/46/650/10346650_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Love poem"
+		],
+		"ON": [
+			"77",
+			"125",
+			"방탄소년단",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/346/144/81346144_1582270692650_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=ON"
+		],
+		"너를 만나": [
+			"77",
+			"126",
+			"폴킴",
+			"https://cdnimg.melon.co.kr/cm/album/images/102/17/134/10217134_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=너를 만나"
+		],
+		"IDOL": [
+			"78",
+			"127",
+			"방탄소년단",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/097/317/81097317_1535093690215_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=IDOL"
+		],
+		"이 밤을 빌려 말해요 (바른연애 길잡이 X 10CM)": [
+			"78.0",
+			"128",
+			"10CM",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/52/055/10552055_20210122153304_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=이 밤을 빌려 말해요 (바른연애 길잡이 X 10CM)"
+		],
+		"Paris In The Rain": [
+			"79",
+			"129",
+			"Lauv",
+			"https://cdnimg.melon.co.kr/cm/album/images/102/09/752/10209752_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Paris In The Rain"
+		],
+		"Leave Before You Love Me": [
+			"79",
+			"130",
+			"Marshmello(마시멜로)",
+			"https://image.bugsm.co.kr/album/images/50/155224/15522489.jpg?version=20210609011443.0",
+			"https://www.youtube.com/results?search_query=Leave Before You Love Me"
+		],
+		"소우주 (Mikrokosmos)": [
+			"79",
+			"131",
+			"방탄소년단",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/185/967/81185967_1555053086357_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=소우주 (Mikrokosmos)"
+		],
+		"서울의 잠 못 이루는 밤 (Feat. 이수현)": [
+			"79.0",
+			"132",
+			"10CM",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/06/892/10606892_20210513100549_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=서울의 잠 못 이루는 밤 (Feat. 이수현)"
+		],
+		"사이렌": [
+			"79.5",
+			"133",
+			"호미들",
+			"https://image.bugsm.co.kr/album/images/50/203245/20324511.jpg?version=20200712011308.0",
+			"https://www.youtube.com/results?search_query=사이렌"
+		],
+		"내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)": [
+			"80",
+			"134",
+			"규현 (KYUHYUN)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/78/925/10478925_20200820171048_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)"
+		],
+		"맛 (Hot Sauce)": [
+			"80.0",
+			"135",
+			"NCT DREAM",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/02/760/10602760_20210510153709_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=맛 (Hot Sauce)"
+		],
+		"When We Disco (Duet with 선미)": [
+			"82",
+			"136",
+			"박진영",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/75/061/10475061_20200812120927_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=When We Disco (Duet with 선미)"
+		],
+		"살다가": [
+			"83.5",
+			"137",
+			"SG 워너비",
+			"https://cdnimg.melon.co.kr/cm/album/images/000/50/578/50578_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=살다가"
+		],
+		"Viva La Vida": [
+			"84",
+			"138",
+			"Coldplay(콜드플레이)",
+			"https://image.bugsm.co.kr/album/images/50/1560/156033.jpg?version=20190515004111.0",
+			"https://www.youtube.com/results?search_query=Viva La Vida"
+		],
+		"우린 어쩌다 헤어진 걸까": [
+			"84",
+			"139",
+			"허각",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/39/679/10539679_20201228153155_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=우린 어쩌다 헤어진 걸까"
+		],
+		"아이와 나의 바다": [
+			"84.0",
+			"140",
+			"아이유",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=아이와 나의 바다"
+		],
+		"내사람 : Partner For Life": [
+			"85",
+			"141",
+			"SG워너비",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/038/366/423/38366423_1404897593989_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=내사람 : Partner For Life"
+		],
+		"시작": [
+			"85",
+			"142",
+			"가호 (Gaho)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/81/712/10381712_20200131110358_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=시작"
+		],
+		"Ashes": [
+			"85.0",
+			"143",
+			"Stellar",
+			"https://image.bugsm.co.kr/album/images/50/147036/14703657.jpg?version=20210316084309.0",
+			"https://www.youtube.com/results?search_query=Ashes"
+		],
+		"Like 1999": [
+			"86",
+			"144",
+			"Valley",
+			"https://image.bugsm.co.kr/album/images/50/150635/15063574.jpg?version=20210601162001.0",
+			"https://www.youtube.com/results?search_query=Like 1999"
+		],
+		"고백 (바른연애 길잡이 X 허각)": [
+			"86",
+			"145",
+			"허각",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/59/322/10559322_20210204121013_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=고백 (바른연애 길잡이 X 허각)"
+		],
+		"우리 왜 헤어져야 해": [
+			"87",
+			"146",
+			"신예영",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/53/881/10353881_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=우리 왜 헤어져야 해"
+		],
+		"Don't Start Now": [
+			"88",
+			"147",
+			"Dua Lipa",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/45/880/10345880_20200326181909_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Don't Start Now"
+		],
+		"Downtown Baby": [
+			"89",
+			"148",
+			"블루 (BLOO)",
+			"https://cdnimg.melon.co.kr/cm/album/images/101/17/789/10117789_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Downtown Baby"
+		],
+		"기다릴게": [
+			"90",
+			"149",
+			"하동균",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/96/629/10596629_20210422104238_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=기다릴게"
+		],
+		"Little Bit of Love": [
+			"91",
+			"150",
+			"Tom Grennan(톰 그레넌)",
+			"https://image.bugsm.co.kr/album/images/50/149561/14956187.jpg?version=20210510102700.0",
+			"https://www.youtube.com/results?search_query=Little Bit of Love"
+		],
+		"함께 했는데 이별은 나 혼자인 거야": [
+			"91",
+			"151",
+			"소정 (레이디스 코드)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/66/182/10566182_20210218105811_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=함께 했는데 이별은 나 혼자인 거야"
+		],
+		"Maniac": [
+			"92",
+			"152",
+			"Conan Gray",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/43/276/10343276_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=Maniac"
+		],
+		"HEAT": [
+			"92",
+			"153",
+			"릴보이(lIlBOI)",
+			"https://image.bugsm.co.kr/album/images/50/204029/20402917.jpg?version=20210621162217.0",
+			"https://www.youtube.com/results?search_query=HEAT"
+		],
+		"만약에": [
+			"92.0",
+			"154",
+			"M.O.M (별루지, 강창모, 박재정, 원슈타인)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/13/163/10613163_20210521172906_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=만약에"
+		],
+		"봄 안녕 봄": [
+			"93",
+			"155",
 			"아이유",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/54/246/10554246_20210325161233_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=봄 안녕 봄"
 		],
+		"불타오르네 (FIRE)": [
+			"94",
+			"156",
+			"방탄소년단",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/811/375/80811375_1462112568884_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=불타오르네 (FIRE)"
+		],
+		"안녕": [
+			"94",
+			"157",
+			"폴킴",
+			"https://cdnimg.melon.co.kr/cm2/album/images/103/17/137/10317137_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=안녕"
+		],
+		"거짓말이라도 해서 널 보고싶어": [
+			"95",
+			"158",
+			"백지영",
+			"https://cdnimg.melon.co.kr/cm2/album/images/104/60/544/10460544_20200714151651_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=거짓말이라도 해서 널 보고싶어"
+		],
+		"감기 (Feat. 창모)": [
+			"95",
+			"159",
+			"헤이즈(Heize)",
+			"https://image.bugsm.co.kr/album/images/50/203977/20397734.jpg?version=20210521002943.0",
+			"https://www.youtube.com/results?search_query=감기 (Feat. 창모)"
+		],
+		"FAKE LOVE": [
+			"96",
+			"160",
+			"방탄소년단",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/066/390/81066390_1526628038300_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=FAKE LOVE"
+		],
+		"독(Poison)": [
+			"96",
+			"161",
+			"핑크판타지",
+			"https://image.bugsm.co.kr/album/images/50/40502/4050240.jpg?version=20210621180006.0",
+			"https://www.youtube.com/results?search_query=독(Poison)"
+		],
+		"너의 모든 순간": [
+			"97",
+			"162",
+			"성시경",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/401/547/80401547_1392172764399_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=너의 모든 순간"
+		],
+		"All of My Love": [
+			"98",
+			"163",
+			"다비치",
+			"https://image.bugsm.co.kr/album/images/50/204019/20401996.jpg?version=20210617003203.0",
+			"https://www.youtube.com/results?search_query=All of My Love"
+		],
+		"내일이 오면 (Feat. 기리보이, BIG Naughty (서동현))": [
+			"99",
+			"164",
+			"릴보이 (lIlBOI)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/29/161/10529161_20201204130014_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=내일이 오면 (Feat. 기리보이, BIG Naughty (서동현))"
+		],
+		"어떻게 지내 (Prod. by VAN.C)": [
+			"99",
+			"165",
+			"오반 (OVAN)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/379/985/81379985_1583393846510_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=어떻게 지내 (Prod. by VAN.C)"
+		],
+		"Happy Birthday To You": [
+			"99",
+			"166",
+			"조이 (JOY)",
+			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
+			"https://www.youtube.com/results?search_query=Happy Birthday To You"
+		],
+		"벌써일년": [
+			"100",
+			"167",
+			"반하나 & MJ (써니사이드)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/067/386/82067386_1622176771517_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=벌써일년"
+		],
 		"서면역에서": [
 			"100",
-			"180",
+			"168",
 			"순순희",
 			"https://cdnimg.melon.co.kr/cm2/album/images/104/25/277/10425277_20200504103213_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=서면역에서"
 		],
 		"tf-idf": [
-			"댄스 --> 0.5",
-			"R&B --> 0.2",
+			"댄스 --> 0.6",
 			"록/메탈 --> 0.2",
+			"R&B --> 0.1",
 			"POP --> 0.1"
 		]
 	}

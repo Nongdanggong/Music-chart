@@ -33,9 +33,15 @@ melon_simil=cos_similarity(all_musics,melon_list,10)
 bugs_simil=cos_similarity(all_musics,bugs_list,10)
 genie_simil=cos_similarity(all_musics,genie_list,10)
 
-similars = {1:{"melon":melon_simil}, 2:{"bugs":bugs_simil}, 3:{"genie":genie_simil}}
+similars = [{"melon":melon_simil}, {"bugs":bugs_simil}, {"genie":genie_simil}]
 with open('./templates/similars.json', 'w', encoding='utf-8') as f:
+    f.write("similars = '")
+f.close()
+with open('./templates/similars.json', 'a', encoding='utf-8') as f:
     json.dump(similars, f, indent="\t") # /templates에 similars.json  파일생성
+with open('./templates/similars.json', 'a', encoding='utf-8') as f:
+    f.write("';")
+f.close()
 
 #print("melon similarity = > ",melon_simil)
 #print("bugs  similarity = > ",bugs_simil)
