@@ -20,7 +20,7 @@ def cos_similarity(all_list,one_list,number):
                                 value = 1
                 v_one.append(value)
                 i += 1
-                if (i==101):
+                if (i > number):
                         break
 
         #print(v_all)

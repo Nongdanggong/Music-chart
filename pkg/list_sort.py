@@ -15,5 +15,6 @@ def list_sort(all_music):
                 list[key][1] = i
                 i += 1
 
+
         return list
 

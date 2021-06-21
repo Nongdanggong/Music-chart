@@ -1,0 +1,33 @@
+<html>
+<head>
+	<script type="text/javascript" src="./rank.json"></script>
+	<script type="text/javascript" src="./similar.json"></script>
+	<script type="text/javascript" src="./genre.json"></script>
+
+</head>
+<body>
+	<script language="JavaScript">
+	
+		let ranks = JSON.parse(rank);
+		for (var i = 0; i < 4; i++) {
+                        document.write((i + 1)+". ");
+                        document.write(ranks[i].title);
+                        document.write("        ");
+                        document.write(ranks[i].singer);
+                        document.write("        ");
+                        document.write(ranks[i].genre);
+                        document.write("<br/>");
+                        document.write("<hr />");
+                }
+
+		let sim = JSON.parse(similar);
+		document.write(sim[0].melon);
+		document.write("<br/>");
+		document.write(sim[1].bugs);		
+		
+		let gen = JSON.parse(genre);
+		document.write(gen[0].genre);
+		document.write(gen[0].ratio * 100);
+	</script>
+</body>
+</html>
