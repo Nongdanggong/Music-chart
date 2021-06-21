@@ -29,7 +29,7 @@ def create_jsons():
         f.write(data)
     f.close()
     with open('./templates/ranks.json', 'a', encoding='utf-8') as f:
-        json.dump(ranks, f, indent="\t")
+        json.dump(ranks, f)
     with open('./templates/ranks.json', 'a', encoding='utf-8') as f:
         data = "';"
         f.write(data)
@@ -40,7 +40,7 @@ def create_jsons():
         f.write(data)
     f.close()
     with open('./templates/genres.json', 'a', encoding='utf-8') as f:
-        json.dump(genres, f, indent="\t")
+        json.dump(genres, f)
     with open('./templates/genres.json', 'a', encoding='utf-8') as f:
         data = "';"
         f.write(data)

@@ -38,7 +38,7 @@ with open('./templates/similars.json', 'w', encoding='utf-8') as f:
     f.write("similars = '")
 f.close()
 with open('./templates/similars.json', 'a', encoding='utf-8') as f:
-    json.dump(similars, f, indent="\t") # /templates에 similars.json  파일생성
+    json.dump(similars, f) # /templates에 similars.json  파일생성
 with open('./templates/similars.json', 'a', encoding='utf-8') as f:
     f.write("';")
 f.close()
