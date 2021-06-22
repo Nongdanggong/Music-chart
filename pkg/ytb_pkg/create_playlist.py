@@ -92,5 +92,5 @@ def create_playlist(playlist):
 
 	print("New playlist id: %s" % playlistID)
 	content="playlistID = '[{"+"playlistID"+":"+playlistID+"}]';"
-	with open('./templates/playlistID.json', 'w', encoding='utf-8') as f:
+	with open('./static/playlistID.json', 'w', encoding='utf-8') as f:
 		json.dump(content, f)

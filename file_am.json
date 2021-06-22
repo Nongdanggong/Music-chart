@@ -113,19 +113,19 @@
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/80/103/10580103_20210319132819_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=Peaches (Feat. Daniel Caesar & Giveon)"
 		],
-		"같은 꿈, 같은 맘, 같은 밤": [
-			"18",
-			"14",
-			"세븐틴 (SEVENTEEN)",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/099/219/82099219_1623985228172_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=같은 꿈, 같은 맘, 같은 밤"
-		],
 		"신호등": [
-			"18.0",
-			"15",
+			"17.666666666666668",
+			"14",
 			"이무진",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/07/796/10607796_20210513201807_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=신호등"
+		],
+		"같은 꿈, 같은 맘, 같은 밤": [
+			"18",
+			"15",
+			"세븐틴 (SEVENTEEN)",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/099/219/82099219_1623985228172_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=같은 꿈, 같은 맘, 같은 밤"
 		],
 		"Dynamite": [
 			"18.333333333333332",
@@ -359,7 +359,7 @@
 			"https://www.youtube.com/results?search_query=밝게 빛나는 별이 되어 비춰줄게"
 		],
 		"허리춤": [
-			"37.666666666666664",
+			"38.0",
 			"49",
 			"오반 (OVAN)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/32/920/10632920_20210621135204_500.jpg/melon/resize/120/quality/80/optimize",
@@ -407,19 +407,19 @@
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/18/234/10518234_20210216102853_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=밤하늘의 별을(2020)"
 		],
-		"On The Ground": [
-			"41.5",
-			"56",
-			"로제 (ROSÉ)",
-			"https://cdnimg.melon.co.kr/cm2/album/images/105/76/966/10576966_20210312112253_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=On The Ground"
-		],
 		"좋을텐데 (If Only) (Feat. 폴킴)": [
 			"42",
-			"57",
+			"56",
 			"조이 (JOY)",
 			"https://image.bugsm.co.kr/album/images/50/203988/20398895.jpg?version=20210608004102.0",
 			"https://www.youtube.com/results?search_query=좋을텐데 (If Only) (Feat. 폴킴)"
+		],
+		"On The Ground": [
+			"42.0",
+			"57",
+			"로제 (ROSÉ)",
+			"https://cdnimg.melon.co.kr/cm2/album/images/105/76/966/10576966_20210312112253_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=On The Ground"
 		],
 		"Dolphin": [
 			"42.5",
@@ -652,33 +652,33 @@
 			"https://cdnimg.melon.co.kr/cm2/album/images/103/30/593/10330593_20210611111519_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=Memories"
 		],
-		"오늘따라 더 미운 그대가": [
-			"59.666666666666664",
-			"91",
-			"전상근",
-			"https://cdnimg.melon.co.kr/cm2/album/images/106/26/157/10626157_20210611165757_500.jpg/melon/resize/120/quality/80/optimize",
-			"https://www.youtube.com/results?search_query=오늘따라 더 미운 그대가"
-		],
 		"Leave Before You Love Me": [
 			"60",
-			"92",
+			"91",
 			"Marshmello(마시멜로)",
 			"https://image.bugsm.co.kr/album/images/50/155224/15522489.jpg?version=20210609011443.0",
 			"https://www.youtube.com/results?search_query=Leave Before You Love Me"
 		],
 		"아무도 잠들지 마라 (Nessun Dorma)": [
 			"60",
-			"93",
+			"92",
 			"김호중",
 			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/779/440/81779440_1607586315733_1_140x140.JPG/dims/resize/Q_80,0",
 			"https://www.youtube.com/results?search_query=아무도 잠들지 마라 (Nessun Dorma)"
 		],
 		"어떻게 지내 (Prod. By VAN.C)": [
 			"60",
-			"94",
+			"93",
 			"오반 (OVAN)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/103/99/190/10399190_20200305151138_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=어떻게 지내 (Prod. By VAN.C)"
+		],
+		"오늘따라 더 미운 그대가": [
+			"60.0",
+			"94",
+			"전상근",
+			"https://cdnimg.melon.co.kr/cm2/album/images/106/26/157/10626157_20210611165757_500.jpg/melon/resize/120/quality/80/optimize",
+			"https://www.youtube.com/results?search_query=오늘따라 더 미운 그대가"
 		],
 		"봄날": [
 			"60.333333333333336",
@@ -708,19 +708,19 @@
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/07/546/10507546_20201022162417_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=나랑 같이 걸을래 (바른연애 길잡이 X 적재)"
 		],
-		"고맙소": [
-			"63",
-			"99",
-			"김호중",
-			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/388/783/81388783_1584065968502_1_140x140.JPG/dims/resize/Q_80,0",
-			"https://www.youtube.com/results?search_query=고맙소"
-		],
 		"오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)": [
-			"63",
-			"100",
+			"62",
+			"99",
 			"마크툽 (MAKTUB)",
 			"https://cdnimg.melon.co.kr/cm/album/images/102/94/603/10294603_500.jpg/melon/resize/120/quality/80/optimize",
 			"https://www.youtube.com/results?search_query=오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)"
+		],
+		"고맙소": [
+			"63",
+			"100",
+			"김호중",
+			"//image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/388/783/81388783_1584065968502_1_140x140.JPG/dims/resize/Q_80,0",
+			"https://www.youtube.com/results?search_query=고맙소"
 		],
 		"parachute": [
 			"64",
@@ -856,7 +856,7 @@
 			"https://www.youtube.com/results?search_query=취기를 빌려 (취향저격 그녀 X 산들)"
 		],
 		"체념": [
-			"69.66666666666667",
+			"69.33333333333333",
 			"120",
 			"정상동기 (김정수, 정기석, 이동휘, 이상이)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/13/163/10613163_20210521172906_500.jpg/melon/resize/120/quality/80/optimize",
@@ -877,7 +877,7 @@
 			"https://www.youtube.com/results?search_query=불타오르네 (FIRE)"
 		],
 		"서울의 잠 못 이루는 밤 (Feat. 이수현)": [
-			"70.5",
+			"70.0",
 			"123",
 			"10CM",
 			"https://cdnimg.melon.co.kr/cm2/album/images/106/06/892/10606892_20210513100549_500.jpg/melon/resize/120/quality/80/optimize",
@@ -1234,7 +1234,7 @@
 			"https://www.youtube.com/results?search_query=비도 오고 그래서 (Feat. 신용재)"
 		],
 		"내일이 오면 (Feat. 기리보이, BIG Naughty (서동현))": [
-			"97",
+			"98",
 			"174",
 			"릴보이 (lIlBOI)",
 			"https://cdnimg.melon.co.kr/cm2/album/images/105/29/161/10529161_20201204130014_500.jpg/melon/resize/120/quality/80/optimize",
@@ -1262,9 +1262,11 @@
 			"https://www.youtube.com/results?search_query=Day By Day"
 		],
 		"tf-idf": [
-			"댄스 --> 0.7142857142857143",
-			"R&B --> 0.14285714285714285",
-			"록/메탈 --> 0.14285714285714285"
+			"댄스 --> 0.5",
+			"성인가요 --> 0.2",
+			"R&B --> 0.1",
+			"록/메탈 --> 0.1",
+			"POP --> 0.1"
 		]
 	}
 }
