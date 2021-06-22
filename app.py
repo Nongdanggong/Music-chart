@@ -3,6 +3,7 @@
 
 import argparse
 import subprocess
+import json
 from flask import Flask, jsonify
 from flask import render_template
 from flask import request
@@ -15,10 +16,6 @@ app = Flask(__name__)
 def index():
 	return render_template('index.html')
 
-
-
-
-
 if __name__ == '__main__':
 	try:
 		parser = argparse.ArgumentParser(description="")
@@ -28,7 +25,7 @@ if __name__ == '__main__':
 	except Exception as e:
 		print('Error: %s' % str(e))
 
-ipaddr="127.0.0.1"
-print ("Starting the service with ip_addr="+ipaddr)
+	ipaddr="127.0.0.1"
+	print ("Starting the service with ip_addr="+ipaddr)
 
-app.run(debug=False, host=ipaddr, port=int(listen_port))
+	app.run(debug=False, host=ipaddr, port=int(listen_port))

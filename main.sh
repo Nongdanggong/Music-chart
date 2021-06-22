@@ -10,6 +10,6 @@ pip3 install oauth2client
 chmod +x app.py
 ./app.py --listen-port=8899
 
-firefox http://127.0.0.1:8899/
+#firefox http://127.0.0.1:8899/
 
 

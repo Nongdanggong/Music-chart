@@ -162,13 +162,7 @@ def genre(all_list,num):
 		
 		repeat += 1
 
-<<<<<<< HEAD
-		#url = u'https://www.melon.com/search/song/index.htm?q=%s&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form' % key 
-		url = u'https://www.genie.co.kr/search/searchSong?query=%s&Coll=' % key
-
-=======
 		url = u'https://www.melon.com/search/total/index.htm?q=%s&section=&linkOrText=T&ipath=srch_form' % key
->>>>>>> 0327772ddd65b470597d0df510af5eb1af2aa43f
 		header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
 		req = requests.get(url, headers = header) 
 		html = BeautifulSoup(req.content, "html.parser")
@@ -184,18 +178,6 @@ def genre(all_list,num):
 
 		numbers = re.findall("\d+", idnum_string)
 
-<<<<<<< HEAD
-#               제목에 숫자가 있는 경우 idnum을 잘못 인식하여 에러가 나는 것을 방지
-    
-                for i in numbers:
-                        inti = int(i)
-                        if (inti > 100000):
-                                idnum = i 
-                                break
-
-                url_genre = 'https://www.melon.com/song/detail.htm?songId='+idnum
-
-=======
 		# 제목에 숫자가 있는 경우 idnum을 잘못 인식하여 에러가 나는 것을 방지
 		for i in numbers:
 			inti = int(i)
@@ -203,12 +185,7 @@ def genre(all_list,num):
 				idnum = i 
 				break
 
-<<<<<<< HEAD
-		url_genre = 'https://www.melon.com/song/detail.htm?songId='+numbers[0]
->>>>>>> 0327772ddd65b470597d0df510af5eb1af2aa43f
-=======
 		url_genre = 'https://www.melon.com/song/detail.htm?songId='+idnum
->>>>>>> 0def660359bceb88a9a8f1808ad08927be6684da
 		req_genre = requests.get(url_genre, headers = header) 
 
 		html = BeautifulSoup(req_genre.content, "html.parser")
