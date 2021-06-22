@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+import json
 import argparse
 import subprocess
 from flask import Flask, jsonify
@@ -11,12 +12,16 @@ from pkg.crawling import *
 
 app = Flask(__name__)
 
+with open('./templates/rank.json', 'r') as rk:
+	data_rk = rk.read()
+with open('./templates/similars.json', 'r') as sm:
+	data_sm = sm.read()
+with open('./templates/genres.json','r') as gr:
+	data_gr = gr.read()
+
 @app.route('/')
 def index():
 	return render_template('index.html')
-
-
-
 
 
 if __name__ == '__main__':
