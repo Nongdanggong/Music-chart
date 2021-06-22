@@ -28,7 +28,7 @@ def struct_all_music(all_music, list):
 		count += 1
 		if (count == 5):
 			break
-	create_playlist(video_ids) # youtube playlist 생성
+#	create_playlist(video_ids) # youtube playlist 생성
 #	for i in range(5):
 #		print(video_ids[i])
 	return all_music
