@@ -4,6 +4,7 @@ import httplib2
 import os
 import sys
 import time
+import json
 
 from apiclient.discovery import build
 from apiclient.errors import HttpError
@@ -16,7 +17,7 @@ def create_playlist(playlist):
 
 	now = time.strftime('%Y년 %m월 %d일 %H시 %M분 %S초의 플레이리스트입니다.', time.localtime(time.time()))
 
-	CLIENT_SECRETS_FILE = "client_secret_618132862859-pg0888qteqt3pca62dhop7a80a0d2get.apps.googleusercontent.com.json" # youtube account of shulphur31@gmail.com
+	CLIENT_SECRETS_FILE = "client_secret_889441568964-7edmll9mihlcle8k0rok3og1to9c9dfd.apps.googleusercontent.com.json" # youtube account of shulphur31@gmail.com
 
 	# This variable defines a message to display if the CLIENT_SECRETS_FILE is
 	# missing.
@@ -90,3 +91,6 @@ def create_playlist(playlist):
 		).execute()
 
 	print("New playlist id: %s" % playlistID)
+	content="playlistID = '[{"+"playlistID"+":"+playlistID+"}]';"
+	with open('./templates/playlistID.json', 'w', encoding='utf-8') as f:
+		json.dump(content, f)

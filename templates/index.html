@@ -4,6 +4,7 @@
 	<title>Music Chart</title>
 	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://www.youtube.com/iframe_api"></script>	
 
 	<!-- 각자 필요한 json 파일-->
 	<script src="../static/ranks.json" type="text/javascript"></script>
@@ -19,14 +20,18 @@
 
 	<p style="color:black;font-size:200%;text-align:center;"> Melon, Bugs, Genie 3개 사이트에서의 평균 순위입니다.</p>
 
-	<h2>
+	<h1>
 	<script language="JavaScript">
 		let rank = JSON.parse(ranks);
 
-		document.write("순위/ /타이틀/ /가수/ /장르");
+		document.write("앨범아트/ /순위/ /타이틀/ /가수");
 		document.write("<br/>");
 		
 		for (var i = 0; i < rank.length; i++) {
+			document.write("<img src=\"");
+			document.write(rank[i].img);
+			document.write("\" style=\"width: 60px; height:auto;\">");
+
 			document.write((i + 1)+". ");
 			document.write(rank[i].title);
 			document.write("/	/");
@@ -35,7 +40,7 @@
 			document.write("<hr />");
 		}
 	</script>
-	</h2>	
+	</h1>	
 	<!-- 유사도 보여주는 부분-->
 	<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
 	<script language="JavaScript">
@@ -138,6 +143,8 @@
 		}
 	</script>
 	</p>
+	
+
 	
 </body>
 </html>
