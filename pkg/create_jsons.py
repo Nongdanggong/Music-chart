@@ -23,7 +23,7 @@ def create_jsons():
     k = 0
     for i in json_data['_source'].keys():
         if i == "tf-idf":
-            for k in range(4):
+            for k in range(len(json_data['_source'][i])):
                 genre = {"genre" : json_data['_source'][i][k].split(' --> ')[0], "ratio" : json_data['_source'][i][k].split(' --> ')[1]}
                 genres.append(genre)
             break

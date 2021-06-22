@@ -11,7 +11,7 @@ pip3 install google-api-python-client
 chmod +x app.py
 nohup ./app.py --listen-port=8899 &
 
-sleep 5
+sleep 2
 
 firefox http://127.0.0.1:8899/
 
