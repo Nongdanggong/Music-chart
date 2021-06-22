@@ -6,35 +6,38 @@
 	<script src="http://code.highcharts.com/highcharts.js"></script>
 
 	<!-- 각자 필요한 json 파일-->
-	<script src="./rank.json" type="text/javascript"></script>
-	<script src="./similar.json" type="text/javascript"></script>
-	<script src="./genre.json" type ="text/javascript"></script>
+	<script src="./ranks.json" type="text/javascript"></script>
+	<script src="./similars.json" type="text/javascript"></script>
+	<script src="./genres.json" type ="text/javascript"></script>
 </head>
 <body>
 	<p style="color:blue;font-size:300%;text-align:center;"> --뮤직 차트--</p>
-	<h3>
+	<p style="color:black;font-size:200%;text-align:center;"> 요즘 유행하는 노래를 한 눈에!</p>
+	<br/>
+	<hr />
+	<p style="color:black;font-size:200%;text-align:center;"> Melon, Bugs, Genie 3개 사이트에서의 평균 순위입니다.</p>
+
+	<h2>
 	<script language="JavaScript">
-		let ranks = JSON.parse(rank);
+		let rank = JSON.parse(ranks);
 
 		document.write("순위/ /타이틀/ /가수/ /장르");
 		document.write("<br/>");
 		
-		for (var i = 0; i < 4; i++) {
+		for (var i = 0; i < rank.length; i++) {
 			document.write((i + 1)+". ");
-			document.write(ranks[i].title);
+			document.write(rank[i].title);
 			document.write("/	/");
-			document.write(ranks[i].singer);
-			document.write("/	/");
-			document.write(ranks[i].genre);
+			document.write(rank[i].singer);
 			document.write("<br/>");
 			document.write("<hr />");
 		}
 	</script>
-	</h3>	
+	</h2>	
 	<!-- 유사도 보여주는 부분-->
 	<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
 	<script language="JavaScript">
-		let sim = JSON.parse(similar);
+		let sim = JSON.parse(similars);
 	$(function() {
 		 
 		var chart = {
@@ -116,7 +119,7 @@
 	<p style="color:gold;font-size:300%;text-align:center;"> 
 	
 	<script language="JavaScript">
-		let gen = JSON.parse(genre);
+		let gen = JSON.parse(genres);
 		document.write("1위: ");
 		document.write(gen[0].genre);
 		document.write("<br/>");	
@@ -126,7 +129,7 @@
 	<p style="color:black;font-size:300%;text-align:center;"> 
 	
 	<script language="JavaScript">
-		for (var i = 1; i < 5; i++) {
+		for (var i = 1; i < gen.length; i++) {
 			document.write((i + 1)+"위: ");
 			document.write(gen[i].genre);
 			document.write("<br/>");	

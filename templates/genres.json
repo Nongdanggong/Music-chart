@@ -1,18 +1,1 @@
-{
-	"1": {
-		"genre": "\ub304\uc2a4",
-		"ratio": "0.5"
-	},
-	"2": {
-		"genre": "R&B",
-		"ratio": "0.2"
-	},
-	"3": {
-		"genre": "\ub85d/\uba54\ud0c8",
-		"ratio": "0.2"
-	},
-	"4": {
-		"genre": "POP",
-		"ratio": "0.1"
-	}
-}
+genres = '[{"genre": "\ub304\uc2a4", "ratio": "0.6"}, {"genre": "\ub85d/\uba54\ud0c8", "ratio": "0.2"}, {"genre": "R&B", "ratio": "0.1"}, {"genre": "POP", "ratio": "0.1"}]';
