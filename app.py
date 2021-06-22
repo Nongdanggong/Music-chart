@@ -26,6 +26,7 @@ def input():
 
 @app.route('/chart')
 def index():
+	value=int(request.args.get('input'))
 	all_music = {}
 
 	all_music, melon_list = melon()
@@ -33,12 +34,12 @@ def index():
 	all_music, genie_list = genie(all_music)
 	#위 10개까지만 장르가 등록됩니다. (test용)
 	all_musics = list_sort(all_music)
-	all_musics = genre(all_musics,10)
+	all_musics = genre(all_musics,value)
 
 	# 순위(number=100) 100까지 유사도 분석
-	melon_simil=cos_similarity(all_musics,melon_list,10)
-	bugs_simil=cos_similarity(all_musics,bugs_list,10)
-	genie_simil=cos_similarity(all_musics,genie_list,10)
+	melon_simil=cos_similarity(all_musics,melon_list,value)
+	bugs_simil=cos_similarity(all_musics,bugs_list,value)
+	genie_simil=cos_similarity(all_musics,genie_list,value)
 
 	similars = [{"melon":melon_simil}, {"bugs":bugs_simil}, {"genie":genie_simil}]
 	with open('./static/similars.json', 'w', encoding='utf-8') as f:
@@ -49,7 +50,6 @@ def index():
 	    f.write("';")
 
 	# TF_IDF(all_musics)
-	value=int(request.args.get('input'))
 	all_tf = tf_idf(all_musics, value)
 	#print('\n\n', all_tf) 
 
@@ -64,7 +64,7 @@ def index():
 	#el_create(melon, bugs, genie)
 
 	create_jsons() # /statics에 ranks.json, genres.json 파일생성
-	return render_template('index.html', rank_length = value)
+	return render_template('index.html', rank_length = value, ID = 'PLPjXscyDGRTC_E0oL1EJX92gIsXMkm0Wy')
 
 if __name__ == '__main__':
 	try:

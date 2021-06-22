@@ -268,3 +268,313 @@ XA2YEHn-A8Q
 127.0.0.1 - - [23/Jun/2021 04:15:06] "GET /static/ranks.json HTTP/1.1" 200 -
 127.0.0.1 - - [23/Jun/2021 04:15:06] "GET /static/similars.json HTTP/1.1" 200 -
 127.0.0.1 - - [23/Jun/2021 04:15:06] "GET /static/genres.json HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jun/2021 04:33:20] "GET / HTTP/1.1" 200 -
+Starting the service with ip_addr=127.0.0.1
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "./app.py", line 81, in <module>
+    app.run(debug=False, host=ipaddr, port=int(listen_port))
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [23/Jun/2021 04:43:09] "GET / HTTP/1.1" 200 -
+[2021-06-23 04:43:31,009] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 53, in index
+    all_tf = tf_idf(all_musics, value)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/tf_idf.py", line 9, in tf_idf
+    if all_list[g][5] not in g_list.keys():
+IndexError: list index out of range
+127.0.0.1 - - [23/Jun/2021 04:43:31] "GET /chart?input=30 HTTP/1.1" 500 -
+Starting the service with ip_addr=127.0.0.1
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "./app.py", line 81, in <module>
+    app.run(debug=False, host=ipaddr, port=int(listen_port))
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [23/Jun/2021 04:44:08] "GET / HTTP/1.1" 200 -
+[2021-06-23 04:44:26,566] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 53, in index
+    all_tf = tf_idf(all_musics, value)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/tf_idf.py", line 9, in tf_idf
+    if all_list[g][5] not in g_list.keys():
+IndexError: list index out of range
+127.0.0.1 - - [23/Jun/2021 04:44:26] "GET /chart?input=20 HTTP/1.1" 500 -
+Starting the service with ip_addr=127.0.0.1
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "./app.py", line 81, in <module>
+    app.run(debug=False, host=ipaddr, port=int(listen_port))
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [23/Jun/2021 07:01:04] "GET / HTTP/1.1" 200 -
+[2021-06-23 07:01:19,082] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 53, in index
+    all_tf = tf_idf(all_musics, value)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/tf_idf.py", line 9, in tf_idf
+    if all_list[g][5] not in g_list.keys():
+IndexError: list index out of range
+127.0.0.1 - - [23/Jun/2021 07:01:19] "GET /chart?input=30 HTTP/1.1" 500 -
+Starting the service with ip_addr=127.0.0.1
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "./app.py", line 81, in <module>
+    app.run(debug=False, host=ipaddr, port=int(listen_port))
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [23/Jun/2021 07:02:09] "GET / HTTP/1.1" 200 -
+[2021-06-23 07:02:24,927] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 53, in index
+    all_tf = tf_idf(all_musics, value)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/tf_idf.py", line 9, in tf_idf
+    if all_list[g][5] not in g_list.keys():
+IndexError: list index out of range
+127.0.0.1 - - [23/Jun/2021 07:02:24] "GET /chart?input=30 HTTP/1.1" 500 -
+[2021-06-23 07:02:54,852] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 57, in index
+    all_musics_d = struct_all_music(all_musics, all_tf)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/el_create.py", line 25, in struct_all_music
+    video_id = youtube_search(i)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/ytb_pkg/ytb.py", line 22, in youtube_search
+    maxResults=1
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/googleapiclient/_helpers.py", line 134, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/googleapiclient/http.py", line 935, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?q=%EC%B9%98%EB%A7%9B%EB%B0%94%EB%9E%8C+%28Chi+Mat+Ba+Ram%29&part=id%2Csnippet&maxResults=1&key=AIzaSyBsX5h-199nvIpGF5W066whkOW36HZOuj4&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+127.0.0.1 - - [23/Jun/2021 07:02:54] "GET /chart?input=5 HTTP/1.1" 500 -
+Starting the service with ip_addr=127.0.0.1
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "./app.py", line 81, in <module>
+    app.run(debug=False, host=ipaddr, port=int(listen_port))
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [23/Jun/2021 07:03:38] "GET / HTTP/1.1" 200 -
+[2021-06-23 07:03:57,770] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 57, in index
+    all_musics_d = struct_all_music(all_musics, all_tf)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/el_create.py", line 25, in struct_all_music
+    video_id = youtube_search(i)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/ytb_pkg/ytb.py", line 22, in youtube_search
+    maxResults=1
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/googleapiclient/_helpers.py", line 134, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/googleapiclient/http.py", line 935, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?q=%EC%B9%98%EB%A7%9B%EB%B0%94%EB%9E%8C+%28Chi+Mat+Ba+Ram%29&part=id%2Csnippet&maxResults=1&key=AIzaSyBsX5h-199nvIpGF5W066whkOW36HZOuj4&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+127.0.0.1 - - [23/Jun/2021 07:03:57] "GET /chart?input=5 HTTP/1.1" 500 -
+Starting the service with ip_addr=127.0.0.1
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "./app.py", line 81, in <module>
+    app.run(debug=False, host=ipaddr, port=int(listen_port))
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 957, in inner
+    fd=fd,
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 781, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.6/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.6/socketserver.py", line 470, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [23/Jun/2021 07:06:47] "GET / HTTP/1.1" 200 -
+[2021-06-23 07:07:00,753] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 53, in index
+    all_tf = tf_idf(all_musics, value)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/tf_idf.py", line 9, in tf_idf
+    if all_list[g][5] not in g_list.keys():
+IndexError: list index out of range
+127.0.0.1 - - [23/Jun/2021 07:07:00] "GET /chart?input=30 HTTP/1.1" 500 -
+127.0.0.1 - - [23/Jun/2021 07:10:35] "GET / HTTP/1.1" 200 -
+[2021-06-23 07:10:58,497] ERROR in app: Exception on /chart [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "./app.py", line 57, in index
+    all_musics_d = struct_all_music(all_musics, all_tf)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/el_create.py", line 25, in struct_all_music
+    video_id = youtube_search(i)
+  File "/home/ubuntu/osp/final/Music-chart/pkg/ytb_pkg/ytb.py", line 22, in youtube_search
+    maxResults=1
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/googleapiclient/_helpers.py", line 134, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/googleapiclient/http.py", line 935, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?q=%EC%B9%98%EB%A7%9B%EB%B0%94%EB%9E%8C+%28Chi+Mat+Ba+Ram%29&part=id%2Csnippet&maxResults=1&key=AIzaSyBsX5h-199nvIpGF5W066whkOW36HZOuj4&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+127.0.0.1 - - [23/Jun/2021 07:10:58] "GET /chart?input=5 HTTP/1.1" 500 -

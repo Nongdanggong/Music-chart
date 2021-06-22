@@ -17,7 +17,7 @@ def create_playlist(playlist):
 
 	now = time.strftime('%Y년 %m월 %d일 %H시 %M분 %S초의 플레이리스트입니다.', time.localtime(time.time()))
 
-	CLIENT_SECRETS_FILE = "client_secret_889441568964-7edmll9mihlcle8k0rok3og1to9c9dfd.apps.googleusercontent.com.json" # youtube account of shulphur31@gmail.com
+	CLIENT_SECRETS_FILE = "client_secret_990410348049-s7b8pfvi4vv7efnhvdigbn9t06nuk3el.apps.googleusercontent.com.json" # youtube account of shulphur31@gmail.com
 
 	# This variable defines a message to display if the CLIENT_SECRETS_FILE is
 	# missing.
@@ -91,6 +91,12 @@ def create_playlist(playlist):
 		).execute()
 
 	print("New playlist id: %s" % playlistID)
-	content="playlistID = '[{"+"playlistID"+":"+playlistID+"}]';"
+	content1="playlistID = '"
+	content2=[{"playlistID":playlistID}]
+	content3="';"
 	with open('./static/playlistID.json', 'w', encoding='utf-8') as f:
-		json.dump(content, f)
+		f.write(content1)
+	with open('./static/playlistID.json', 'a', encoding='utf-8') as f:
+		json.dump(content2, f)
+	with open('./static/playlistID.json', 'a', encoding='utf-8') as f:
+		f.write(content3)

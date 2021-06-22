@@ -20,7 +20,14 @@
 	<p style="color:black;font-size:200%;text-align:center;"> 요즘 유행하는 노래를 한 눈에!</p>
 	<br/>
 	<hr/>
-	
+	<p align="middle">
+	<script>
+		let ID = JSON.parse(playlistID);
+		var url = "https://www.youtube.com/embed/videoseries?list="+ID[0].playlistID;
+		document.write("<iframe width=\"500\" height=\"315\"  src='"+url+"' frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>");
+
+	</script>
+	</p>
 	<hr />
 	<p style="color:black;font-size:200%;text-align:center;"> Melon, Bugs, Genie 3개 사이트에서의 평균 순위입니다.</p>
 
@@ -58,7 +65,7 @@
      		 text: '사이트 별 유사도'   
   		 };
   		 var subtitle = {
- 		 text: '상위 10개곡' 
+ 		 text: '상위 '+rank_length+'개곡' 
   		 };
   		 var xAxis = {
     		 categories: ['Melon', 'Bugs', 'Genie'],
