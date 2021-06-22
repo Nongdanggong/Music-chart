@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script type="text/javascript" src="./rank.json"></script>
+	</head>
+	<body>
+	<script language="JavaScript">
+		let data = JSON.parse(rank);
+		for(var i = 0; i < 4; i++){
+			document.write(data[i].title);
+			document.write(" ");
+			document.write(data[i].singer);
+			document.write("<br/>");
+	</script>
+	</body>
+</html>

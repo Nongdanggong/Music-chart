@@ -1,31 +1,29 @@
 <html>
 <head>
-	<script type="text/javascript" src="./rank.json"></script>
-	<script type="text/javascript" src="./similar.json"></script>
-	<script type="text/javascript" src="./genre.json"></script>
+	<script type="text/javascript" src="./ranks.json"></script>
+	<script type="text/javascript" src="./similars.json"></script>
+	<script type="text/javascript" src="./genres.json"></script>
 
 </head>
 <body>
 	<script language="JavaScript">
 	
-		let ranks = JSON.parse(rank);
+		let rank = JSON.parse(ranks);
 		for (var i = 0; i < 4; i++) {
                         document.write((i + 1)+". ");
-                        document.write(ranks[i].title);
+                        document.write(rank[i].title);
                         document.write("        ");
-                        document.write(ranks[i].singer);
-                        document.write("        ");
-                        document.write(ranks[i].genre);
+                        document.write(rank[i].singer);
                         document.write("<br/>");
                         document.write("<hr />");
                 }
 
-		let sim = JSON.parse(similar);
+		let sim = JSON.parse(similars);
 		document.write(sim[0].melon);
 		document.write("<br/>");
 		document.write(sim[1].bugs);		
 		
-		let gen = JSON.parse(genre);
+		let gen = JSON.parse(genres);
 		document.write(gen[0].genre);
 		document.write(gen[0].ratio * 100);
 	</script>
