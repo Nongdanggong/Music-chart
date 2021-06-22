@@ -10,7 +10,9 @@
 	<script src="../static/ranks.json" type="text/javascript"></script>
 	<script src="../static/similars.json" type="text/javascript"></script>
 	<script src="../static/genres.json" type ="text/javascript"></script>
-	
+	<script>
+		var rank_length  = {{rank_length}}
+	</script>
 </head>
 <body>
 	<p style="color:blue;font-size:300%;text-align:center;"> --뮤직 차트--</p>
@@ -26,7 +28,7 @@
 		document.write("앨범아트/ /순위/ /타이틀/ /가수");
 		document.write("<br/>");
 		
-		for (var i = 0; i < rank.length; i++) {
+		for (var i = 0; i < rank_length; i++) {
 			document.write("<img src=\"");
 			document.write(rank[i].img);
 			document.write("\" style=\"width: 60px; height:auto;\">");
