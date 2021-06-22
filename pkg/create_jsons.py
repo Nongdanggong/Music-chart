@@ -31,31 +31,27 @@ def create_jsons():
         url = json_data['_source'][i][3]
         if 'genie' in url:
             url = "http:"+url
-        save_image(url, json_data['_source'][i][1], i, json_data['_source'][i][2])
+#        save_image(url, json_data['_source'][i][1], i, json_data['_source'][i][2])
         ranks.append(rank)
 
 
 #    print(ranks)
 #    print(genres)
 
-    with open('./templates/ranks.json', 'w', encoding = 'utf-8') as f:
+    with open('./static/ranks.json', 'w', encoding = 'utf-8') as f:
         data = "ranks = '"
         f.write(data)
-    f.close()
-    with open('./templates/ranks.json', 'a', encoding='utf-8') as f:
+    with open('./static/ranks.json', 'a', encoding='utf-8') as f:
         json.dump(ranks, f)
-    with open('./templates/ranks.json', 'a', encoding='utf-8') as f:
+    with open('./static/ranks.json', 'a', encoding='utf-8') as f:
         data = "';"
         f.write(data)
-    f.close()
 
-    with open('./templates/genres.json', 'w', encoding='utf-8') as f:
+    with open('./static/genres.json', 'w', encoding='utf-8') as f:
         data = "genres = '"
         f.write(data)
-    f.close()
-    with open('./templates/genres.json', 'a', encoding='utf-8') as f:
+    with open('./static/genres.json', 'a', encoding='utf-8') as f:
         json.dump(genres, f)
-    with open('./templates/genres.json', 'a', encoding='utf-8') as f:
+    with open('./static/genres.json', 'a', encoding='utf-8') as f:
         data = "';"
         f.write(data)
-    f.close()
