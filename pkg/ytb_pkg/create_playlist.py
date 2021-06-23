@@ -17,7 +17,7 @@ def create_playlist(playlist):
 
 	now = time.strftime('%Y년 %m월 %d일 %H시 %M분 %S초의 플레이리스트입니다.', time.localtime(time.time()))
 
-	CLIENT_SECRETS_FILE = "client_secret_990410348049-s7b8pfvi4vv7efnhvdigbn9t06nuk3el.apps.googleusercontent.com.json" # youtube account of shulphur31@gmail.com
+	CLIENT_SECRETS_FILE = "client_secret_124112801400-9c65k8no2007l4coa7c3hgke0jj60ma5.apps.googleusercontent.com.json" # youtube account of osptesttest4@gmail.com
 
 	# This variable defines a message to display if the CLIENT_SECRETS_FILE is
 	# missing.
