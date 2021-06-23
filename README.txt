@@ -2,7 +2,8 @@
 README::
 1. elasticsearch를 이용하는 프로그램이므로 elasticsearch가 설치되어있는 경로에서 elasticsearch를 먼저 실행시켜주세요.
 2. 현재(2021년 6월 23일 (수) 오후 7시 51분) main.sh는 플라스크(app.py)가 백그라운드로 실행됩니다. main.sh를 실행하고 프로그램을 종료하려면 pid 명령어를 이용해야해요.
-3. 너무 잦은 프로그램 실행은 google과 youtube와 melon에서 id 및 ip 밴을 당할 수 있으니 자제해주세요.
+3. 처음 뜨는 페이지에 숫자를 입력하고 엔터를 눌러주세요.
+4. 너무 잦은 프로그램 실행은 google과 youtube와 melon에서 id 및 ip 밴을 당할 수 있으니 자제해주세요.
 
 "app.py-oauth2.json" 파일은 없어지면 안 되는 파일입니다! 플레이리스트 만들 때 사용돼요!
 - 위 파일이 사라졌을 때 대처법: 1. test_crawling.py 실행 2. 로그인 화면에서 로그인(김민규에게 아이디, 비밀번호 문의)하고 유튜브 이용 승인 3. 생성된 "test_crawling.py-oauth2.json" 파일 이름을 "app.py-oauth2.json"로 변경
