@@ -1,5 +1,5 @@
 # music chart
-README::
+사용설명서:
 1. elasticsearch를 이용하는 프로그램이므로 elasticsearch가 설치되어있는 경로에서 elasticsearch를 먼저 실행시켜주세요.
 2. 현재(2021년 6월 23일 (수) 오후 7시 51분) main.sh는 플라스크(app.py)가 백그라운드로 실행됩니다. main.sh를 실행하고 프로그램을 종료하려면 pid 명령어를 이용해야해요.
 3. 처음 뜨는 페이지에 숫자를 입력하고 엔터를 눌러주세요.
